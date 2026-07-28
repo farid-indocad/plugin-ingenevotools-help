@@ -22,5 +22,17 @@ temp/
 *.swp
 *.swo
 
+# AI & Agent Tools / Configs / Lockfiles
+.agents/
+.claude/
+.gemini/
+.antigravity/
+.cursor/
+.github/copilot/
+.cline/
+.roo/
+skills-lock.json
+*.prompt.md
+
 # Log files
 *.log
