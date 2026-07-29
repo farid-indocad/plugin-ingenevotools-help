@@ -2,49 +2,101 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
   <title>IngenevoTools — Help</title>
   <meta name="description" content="Dokumentasi pengguna untuk plugin BricsCAD IngenevoTools. User documentation for IngenevoTools BricsCAD plugin." />
 
-  <!-- Docsify Dark/Light Theme -->
+  <!-- Docsify v5: Core Theme -->
   <link
     rel="stylesheet"
-    href="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/style.min.css"
-    title="docsify-darklight-theme"
-    type="text/css"
+    href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/core.min.css"
   />
 
-  <!-- Custom overrides -->
+  <!-- Docsify v5: Theme Add-ons -->
+  <!-- Vue theme (accent colors) — loaded before dark mode so dark can override -->
+  <link
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/vue.min.css"
+    data-group="addon"
+    data-sheet="vue"
+  />
+  <!-- Auto dark mode (follows OS preference) -->
+  <link
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css"
+    media="(prefers-color-scheme: dark)"
+    data-group="addon"
+    data-sheet="core-dark-auto"
+    id="theme-dark-auto"
+  />
+  <!-- Manual dark mode (toggled by user, disabled by default) -->
+  <link
+    rel="stylesheet"
+    href="//cdn.jsdelivr.net/npm/docsify@5/dist/themes/addons/core-dark.min.css"
+    data-group="addon"
+    data-sheet="core-dark"
+    id="theme-dark-manual"
+    disabled
+  />
+
+  <!-- Dark/Light toggle button -->
   <style>
-    :root {
-      --base-font-size: 15px;
-      --theme-color: #42b983;
+    .theme-toggle {
+      position: fixed;
+      bottom: 1.5rem;
+      right: 1.5rem;
+      z-index: 999;
+      width: 40px;
+      height: 40px;
+      border: none;
+      border-radius: 50%;
+      background: var(--mono-shade3, #e8e8e8);
+      color: var(--mono-tint3, #333);
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+      transition: background 0.3s, transform 0.2s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
     }
-    /* Sidebar brand */
-    .app-name-link {
-      font-weight: 700 !important;
-      letter-spacing: 0.02em;
+    .theme-toggle:hover {
+      transform: scale(1.1);
     }
-    /* Smooth scroll */
-    html {
-      scroll-behavior: smooth;
+    /* Hide dash (-) prefix on sidebar sub-heading items */
+    .sidebar-nav ul ul a::before,
+    .sidebar-nav li ul a::before,
+    .sidebar-nav .sub-sidebar a::before,
+    .sidebar-nav .app-sub-sidebar a::before,
+    .sidebar-nav ul ul li::before,
+    .sidebar-nav li ul li::before,
+    .sidebar-nav .sub-sidebar li::before,
+    .sidebar-nav .app-sub-sidebar li::before {
+      content: '' !important;
+      display: none !important;
     }
-    /* Command title styling */
-    h1 code {
-      font-size: 1em;
-      background: none;
-      color: inherit;
+    /* Prevent sidebar items from disappearing on collapse toggle */
+    .sidebar-nav > ul > li {
+      display: block !important;
     }
-    /* Screenshot placeholder */
-    .screenshot-placeholder {
-      border: 2px dashed var(--theme-color);
-      border-radius: 8px;
-      padding: 2rem;
-      text-align: center;
-      color: #888;
-      margin: 1rem 0;
+    .sidebar-nav > ul > li.collapse > ul,
+    .sidebar-nav > ul > li.collapsed > ul {
+      display: none !important;
     }
   </style>
+
+  <!-- Apply saved theme preference before page renders -->
+  <script>
+    (function() {
+      var saved = localStorage.getItem('theme-mode');
+      if (saved === 'dark' || saved === 'light') {
+        var auto = document.getElementById('theme-dark-auto');
+        var manual = document.getElementById('theme-dark-manual');
+        if (auto) auto.disabled = true;
+        if (manual) manual.disabled = (saved !== 'dark');
+      }
+    })();
+  </script>
 </head>
 <body>
   <div id="app">Memuat dokumentasi...</div>
@@ -60,10 +112,11 @@
       homepage: 'README.md',
       basePath: window.location.pathname.replace(/\/[^\/]*$/, '/'),
 
-      // Search plugin config
+      // Search plugin config (per-language scope)
       search: {
         maxAge: 86400000,
         paths: 'auto',
+        pathNamespaces: ['/en'],
         placeholder: {
           '/en/': 'Search...',
           '/': 'Cari...',
@@ -76,60 +129,117 @@
         hideOtherSidebarContent: false,
       },
 
-      // Pagination
-      pagination: {
-        previousText: 'Sebelumnya',
-        nextText: 'Selanjutnya',
-        crossChapter: true,
-        crossChapterText: true,
+      // Copy-code plugin config
+      copyCode: {
+        buttonText: 'Copy',
+        errorText: 'Error',
+        successText: 'Copied',
       },
 
-      // Dark/Light theme
-      darklightTheme: {
-        siteFont: 'Source Sans Pro, Helvetica Neue, Arial, sans-serif',
-        defaultTheme: 'dark',
-        themeColor: '#42b983',
-        dark: {
-          accent: '#42b983',
-          toogleBackground: '#ffffff',
-          background: '#1e1e1e',
-          textColor: '#b4b4b4',
-          codeTextColor: '#ffffff',
-          codeBackgroundColor: '#0d1117',
-          borderColor: '#0d1117',
-          blockQuoteColor: '#858585',
-          highlightColor: '#d22778',
-          sidebarSublink: '#b4b4b4',
-          codeTypeColor: '#ffffff',
-          coverBackground: 'linear-gradient(to left bottom, hsl(118, 60%, 30%) 0%, hsl(58, 80%, 40%) 100%)',
-          toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/icons/sun.svg)',
-        },
-        light: {
-          accent: '#42b983',
-          toogleBackground: '#091a28',
-          background: '#ffffff',
-          textColor: '#34495e',
-          codeTextColor: '#525252',
-          codeBackgroundColor: '#f8f8f8',
-          borderColor: 'rgba(0, 0, 0, 0.07)',
-          blockQuoteColor: '#858585',
-          highlightColor: '#d22778',
-          sidebarSublink: '#505d6b',
-          codeTypeColor: '#091a28',
-          coverBackground: 'linear-gradient(to left bottom, hsl(118, 60%, 50%) 0%, hsl(58, 100%, 60%) 100%)',
-          toogleImage: 'url(https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/icons/moon.svg)',
-        },
-      },
+      // Custom plugin: remove dashes + prevent sidebar collapse on re-click
+      plugins: [
+        function(hook, vm) {
+          function removeSubSidebarDashes() {
+            var links = document.querySelectorAll('.sidebar-nav ul ul a, .sidebar-nav .sub-sidebar a, .app-sub-sidebar a, a.section-link');
+            links.forEach(function(el) {
+              var walker = document.createTreeWalker(el, NodeFilter.SHOW_TEXT, null, false);
+              var node = walker.nextNode();
+              if (node && /^[\s\-–—]+/.test(node.nodeValue)) {
+                node.nodeValue = node.nodeValue.replace(/^[\s\-–—]+/, '');
+              }
+            });
+          }
+
+          hook.doneEach(function() {
+            removeSubSidebarDashes();
+          });
+
+          hook.mounted(function() {
+            var sidebar = document.querySelector('.sidebar') || document.querySelector('.sidebar-nav');
+            if (sidebar) {
+              var observer = new MutationObserver(function() {
+                removeSubSidebarDashes();
+              });
+              observer.observe(sidebar, { childList: true, subtree: true });
+            }
+
+            // Toggle sub-headings on re-click, but keep parent item visible
+            document.body.addEventListener('click', function(e) {
+              var link = e.target.closest('.sidebar-nav a[href]');
+              if (!link) return;
+
+              var href = link.getAttribute('href');
+              if (!href) return;
+
+              // Normalize paths for comparison
+              var currentPath = window.location.hash.replace(/^#/, '') || '/';
+              var linkPath = href.replace(/^#/, '');
+
+              // Only handle re-clicks on the already-active link
+              if (currentPath === linkPath || link.classList.contains('active')) {
+                e.stopImmediatePropagation();
+                e.preventDefault();
+
+                // Toggle the nested sub-list (sub-headings) visibility
+                var li = link.closest('li');
+                if (li) {
+                  var subList = li.querySelector('ul');
+                  if (subList) {
+                    var isHidden = subList.style.display === 'none';
+                    subList.style.display = isHidden ? '' : 'none';
+                  }
+                }
+              }
+            }, true); // capture phase — runs BEFORE Docsify's handler
+          });
+        }
+      ]
     };
   </script>
 
-  <!-- Docsify core -->
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <!-- Docsify v5 core -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@5/dist/docsify.min.js"></script>
 
   <!-- Plugins -->
-  <script src="//cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/index.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/docsify@5/dist/plugins/search.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2/dist/docsify-copy-code.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-pagination@2/dist/docsify-pagination.min.js"></script>
+
+  <!-- Dark/Light toggle script -->
+  <script>
+    (function() {
+      var btn = document.createElement('button');
+      btn.className = 'theme-toggle';
+      btn.setAttribute('aria-label', 'Toggle dark/light mode');
+      btn.setAttribute('title', 'Toggle dark/light mode');
+      document.body.appendChild(btn);
+
+      var autoSheet = document.getElementById('theme-dark-auto');
+      var manualSheet = document.getElementById('theme-dark-manual');
+
+      function isDark() {
+        if (!manualSheet.disabled) return true;
+        if (!autoSheet.disabled && window.matchMedia('(prefers-color-scheme: dark)').matches) return true;
+        return false;
+      }
+
+      function updateIcon() {
+        btn.textContent = isDark() ? '☀️' : '🌙';
+      }
+
+      btn.addEventListener('click', function() {
+        autoSheet.disabled = true;  // always override OS preference once user clicks
+        if (isDark()) {
+          manualSheet.disabled = true;
+          localStorage.setItem('theme-mode', 'light');
+        } else {
+          manualSheet.disabled = false;
+          localStorage.setItem('theme-mode', 'dark');
+        }
+        updateIcon();
+      });
+
+      updateIcon();
+    })();
+  </script>
 </body>
 </html>

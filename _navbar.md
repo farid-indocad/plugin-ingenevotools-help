@@ -1,2 +1,3 @@
-- [:indonesia: Bahasa Indonesia](/)
-- [:gb: English](/en/)
+- Languages - ID
+  - [ID Bahasa Indonesia](/)
+  - [EN English](/en/)

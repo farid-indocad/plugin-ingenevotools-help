@@ -30,8 +30,7 @@ Ini biasanya terjadi ketika database gambar diakses dari konteks modeless (seper
 **Gejala:** Beberapa fitur tidak bisa diakses, muncul pesan lisensi kadaluarsa.
 
 **Solusi:**
-1. Jalankan `IVO:LICENSEINFO` untuk mengecek status lisensi
-2. Jalankan `IVO:LICENSE` untuk membuka dialog manajemen lisensi
+1. Jalankan `IVO:LICENSE` untuk mengecek status dan membuka dialog lisensi
 3. Masukkan kode lisensi baru atau perpanjang lisensi yang ada
 
 ---

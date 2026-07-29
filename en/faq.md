@@ -29,8 +29,7 @@ Ensure you are using the latest plugin build with proper transactional locking h
 **Symptom:** Premium features restricted due to license error.
 
 **Solution:**
-1. Run `IVO:LICENSEINFO` to check current status.
-2. Run `IVO:LICENSE` to open the license activation modal.
+1. Run `IVO:LICENSE` to open the license activation modal and check current status.
 
 ---
 

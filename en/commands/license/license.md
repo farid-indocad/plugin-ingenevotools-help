@@ -1,4 +1,4 @@
-﻿# IVO:LICENSE
+# IVO:LICENSE
 
 > Membuka dialog modal aktivasi/manajemen lisensi.
 
@@ -20,5 +20,5 @@
 ## Tips & Notes
 
 > [!NOTE]
-> Beberapa fitur plugin memerlukan lisensi aktif. Gunakan [IVO:LICENSEINFO](commands/license/licenseinfo.md) untuk mengecek status lisensi tanpa membuka dialog.
+> Beberapa fitur plugin memerlukan lisensi aktif. Gunakan dialog lisensi untuk mengecek status atau memasukkan kunci aktivasi.
 
