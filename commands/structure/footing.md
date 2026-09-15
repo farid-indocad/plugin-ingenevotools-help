@@ -14,10 +14,12 @@
 2. Di drawing, pilih garis muka luar dan garis as yang menggambarkan footing
 3. Jalankan perintah `IVO:FOOTING` atau `IVO:FTG`
 4. Footing digambar langsung — **tidak ada prompt sama sekali**
-5. Pesan keberhasilan **menyebutkan offset yang benar-benar dipakai**, misalnya:
+5. Pesan keberhasilan **menyebutkan offset yang benar-benar dipakai**:
 
 ```
-[IngenevoTools] Footing created — outer 300, inner 150.
+[IngenevoTools] Footing created: 2 room(s) + 0 pocket(s), 24 segment(s) used,
+                3 ignored (2 wrong colour, 1 not straight), 0 outside the ring.
+                Offsets used: outer 300, inner 150.
 ```
 
 <!-- screenshot -->
@@ -40,6 +42,20 @@
 
 > [!NOTE]
 > Kalau salah satu nilai offset di palette tidak valid, perintah menolak berjalan dan menampilkan pesan kesalahan yang sama dengan yang ditampilkan tombol **Create** di palette.
+
+### Kalau tidak ada yang tergambar
+
+Perintah membatalkan diri dan menjelaskan alasannya, bukan diam:
+
+| Pesan | Artinya | Yang harus dilakukan |
+|:------|:--------|:---------------------|
+| `Ring not closed` | Keliling masih berlubang | **Garis yang ujungnya menggantung otomatis dijadikan seleksi aktif** — zoom ke seleksi itu untuk melihat letak celahnya |
+| `Outer and inner lines disagree on which side is inward` | Garis muka luar dan garis as menunjuk arah dalam yang berlawanan | Periksa tepi di koordinat yang disebutkan |
+| `Not enough outer/inner lines to form a footing` | Kurang dari tiga tepi terbentuk | Pastikan seleksi Anda mencakup seluruh keliling footing |
+| `Layer "..." is locked` | Layer tujuan terkunci | Buka kunci layer itu lalu jalankan ulang |
+
+> [!NOTE]
+> Kalau Z garis sumber tidak seragam, footing digambar di elevasi **0** dan Anda diberi tahu.
 
 > [!TIP]
 > Tab **Footing** tidak punya perintah pembukanya sendiri — bukalah palette Structural dengan [IVO:STRUCTURALPALETTE](commands/structure/structuralpalette.md), lalu klik tab Footing.

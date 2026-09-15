@@ -16,7 +16,7 @@
 4. Jika berkas register dengan nama itu **sudah ada**, muncul prompt konfirmasi:
 
 ```
-Register file "A-101.xlsx" already exists. Overwrite? [Yes/No] <No>:
+File 'A-101.xlsx' already exists. Overwrite? [Yes/No] <No>:
 ```
 
 5. Jawab **Yes** untuk menimpa, atau tekan **Enter** untuk membatalkan (default-nya **No**)
