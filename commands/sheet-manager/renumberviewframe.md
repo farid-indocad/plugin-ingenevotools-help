@@ -1,19 +1,18 @@
 # IVO:RENUMBERVIEWFRAME
 
-> Memberi nomor ulang pada viewframe (bingkai tampilan) di layout.
+> Menomori ulang block ViewFrame yang dipilih menurut urutan kiri ke kanan.
 
 ## Cara Akses
 
 - **Ribbon:** Tab Ingenevo Tools → Panel Sheet Manager → Tombol Renumber Viewframe
 - **Command Line:** `IVO:RENUMBERVIEWFRAME`
-- **Alias:** —
+- **Alias:** `IVO:RVF`
 
 ## Cara Penggunaan
 
-1. Jalankan perintah `IVO:RENUMBERVIEWFRAME`
-2. Pilih viewframe yang ingin dinomori ulang atau pilih semua
-3. Tentukan format penomoran yang diinginkan
-4. Viewframe akan dinomori ulang sesuai pengaturan
+1. Pilih block **ViewFrame** yang ingin dinomori ulang (boleh sebelum perintah dijalankan — preselection dihormati)
+2. Jalankan perintah `IVO:RENUMBERVIEWFRAME` atau `IVO:RVF`
+3. Nomor baru ditulis ke atribut ViewFrame **menurut posisinya dari kiri ke kanan**
 
 <!-- screenshot -->
 
@@ -22,5 +21,17 @@
 > [!WARNING]
 > Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
+> [!NOTE]
+> **Urutannya ditentukan posisi di model space, bukan urutan Anda memilihnya.** ViewFrame paling kiri mendapat nomor pertama, tidak peduli mana yang Anda klik lebih dulu.
+
 > [!TIP]
-> Gunakan perintah ini setelah menambah atau menghapus viewframe untuk menjaga konsistensi penomoran. Cocok digunakan bersama [IVO:RENUMBERLAYOUT](commands/sheet-manager/renumberlayout.md).
+> Nama atribut tujuan dan jumlah digit dibaca dari `IVO:SETTINGS` → **Sheet Manager > Viewframe** dan **Sheet Name** — perintah ini tidak menanyakannya.
+
+> [!TIP]
+> Jalankan perintah ini **sebelum** [IVO:CREATELAYOUT](commands/sheet-manager/createlayout.md) atau [IVO:ADDLAYOUT](commands/sheet-manager/addlayout.md), karena nama layout diturunkan dari nomor ViewFrame.
+
+## Lihat Juga
+
+- [IVO:CREATELAYOUT](commands/sheet-manager/createlayout.md) — membangun layout dari ViewFrame
+- [IVO:ADDLAYOUT](commands/sheet-manager/addlayout.md) — menambah layout dari ViewFrame terpilih
+- [IVO:RENUMBERLAYOUT](commands/sheet-manager/renumberlayout.md) — menomori ulang nama layout

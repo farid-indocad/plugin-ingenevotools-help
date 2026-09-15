@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utility → Tombol Commands
+- **Ribbon:** — (tidak ada tombol ribbon)
 - **Command Line:** `IVO:COMMANDS`
 - **Alias:** —
 

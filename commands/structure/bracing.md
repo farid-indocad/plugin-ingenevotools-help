@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Bracing → Tombol Bracing
+- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Bracing
 - **Command Line:** `IVO:BRACING`
 - **Alias:** —
 
@@ -25,6 +25,9 @@ Tipe bracing dapat diatur melalui `IVO:SETTINGS` → **Structure > Bracing**.
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!NOTE]
 > Pengaturan tipe bracing disimpan di Settings dan akan digunakan sebagai default untuk perintah berikutnya.

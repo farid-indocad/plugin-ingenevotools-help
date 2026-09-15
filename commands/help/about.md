@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utility → Tombol About
+- **Ribbon:** Tab Ingenevo Tools → Panel Help → Tombol About
 - **Command Line:** `IVO:ABOUT`
 - **Alias:** —
 

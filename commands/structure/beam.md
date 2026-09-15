@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Framing → Tombol Beam
+- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Beam
 - **Command Line:** `IVO:BEAM`
 - **Alias:** —
 
@@ -19,6 +19,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!TIP]
 > Untuk menggambar beam + column sekaligus, gunakan [IVO:FRAMING](commands/structure/framing.md).

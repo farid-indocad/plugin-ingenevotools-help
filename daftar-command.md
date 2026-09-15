@@ -96,4 +96,8 @@ Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertand
 ---
 
 > [!NOTE]
-> Hampir semua perintah di atas membutuhkan **lisensi aktif**. Pengecualiannya adalah perintah yang tidak menyentuh gambar sama sekali, seperti [IVO:OPENSETTINGSFOLDER](commands/settings/opensettingsfolder.md). Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi Anda.
+> Hampir semua perintah di atas membutuhkan **lisensi aktif**. Persisnya ada **tujuh** yang tidak:
+>
+> [IVO:LICENSE](commands/help/license.md) · [IVO:ABOUT](commands/help/about.md) · [IVO:HELP](commands/help/help.md) · [IVO:COMMANDS](commands/help/commands.md) · [IVO:SETTINGS](commands/settings/settings.md) · [IVO:OPENSETTINGSFOLDER](commands/settings/opensettingsfolder.md) · [IVO:HIDESTRUCTURALPALETTE](commands/structure/hidestructuralpalette.md)
+>
+> Keenam yang pertama tidak menggambar apa pun. Yang ketujuh masuk daftar karena menolak perintah *berhenti memakai sesuatu* hanya akan mengurung pemakainya bersama palette yang tidak bisa ditutup.

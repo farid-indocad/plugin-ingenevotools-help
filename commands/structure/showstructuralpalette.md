@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Structural Palette
+- **Ribbon:** — (tidak ada tombol ribbon)
 - **Command Line:** `IVO:SHOWSTRUCTURALPALETTE`
 - **Alias:** —
 
@@ -18,5 +18,10 @@
 
 ## Tips & Catatan
 
-> [!TIP]
-> Lihat juga: [IVO:HIDESTRUCTURALPALETTE](commands/structure/hidestructuralpalette.md) dan [IVO:STRUCTURALPALETTE](commands/structure/structuralpalette.md).
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
+
+## Lihat Juga
+
+- [IVO:HIDESTRUCTURALPALETTE](commands/structure/hidestructuralpalette.md) — menyembunyikan palette
+- [IVO:STRUCTURALPALETTE](commands/structure/structuralpalette.md) — membuka/menutup palette bergantian

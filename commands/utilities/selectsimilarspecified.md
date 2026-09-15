@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Selection → Tombol Select Similar Specified
+- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Select Similar
 - **Command Line:** `IVO:SELECTSIMILARSPECIFIED`
 - **Alias:** —
 
@@ -23,6 +23,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!TIP]
 > Berbeda dari SELECTSIMILAR bawaan BricsCAD, perintah ini memungkinkan Anda memilih filter properti mana yang digunakan untuk pencocokan.

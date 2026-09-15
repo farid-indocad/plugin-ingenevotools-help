@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Framing → Tombol Framing
+- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Framing
 - **Command Line:** `IVO:FRAMING`
 - **Alias:** —
 
@@ -27,6 +27,9 @@ Tipe column yang digunakan dapat diatur melalui `IVO:SETTINGS` → **Structure >
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!TIP]
 > Jika Anda hanya membutuhkan column tanpa beam, gunakan [IVO:COLUMN](commands/structure/column.md). Jika hanya membutuhkan beam tanpa column, gunakan [IVO:BEAM](commands/structure/beam.md).

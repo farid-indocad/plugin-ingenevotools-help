@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Framing → Tombol Column
+- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Column
 - **Command Line:** `IVO:COLUMN`
 - **Alias:** —
 
@@ -18,6 +18,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!TIP]
 > Tipe column dapat diatur melalui `IVO:SETTINGS` → **Structure > Column**.

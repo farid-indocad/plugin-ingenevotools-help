@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Library → Tombol Detail Library
+- **Ribbon:** Tab Ingenevo Tools → Panel Detail Library → Tombol Detail Library
 - **Command Line:** `IVO:DETAILLIBRARY`
 - **Alias:** —
 
@@ -18,6 +18,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!TIP]
 > Atur folder library dan folder cache thumbnail melalui [IVO:DETAILLIBRARYSETTINGS](commands/detail-library/detaillibrarysettings.md).

@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Outlet Elevation → Tombol Outlet Elevation
+- **Ribbon:** Tab Ingenevo Tools → Panel Civil → Tombol Outlet Elevation
 - **Command Line:** `IVO:OUTLETELEVATION`
 - **Alias:** `IVO:OE`
 
@@ -27,6 +27,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!NOTE]
 > Panjang pipa diukur dari titik-titik yang di-pick secara manual, bukan dari objek gambar. Pastikan pick titik mengikuti jalur pipa yang benar.

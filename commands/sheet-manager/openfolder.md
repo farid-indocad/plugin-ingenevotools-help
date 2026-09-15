@@ -18,6 +18,9 @@
 
 ## Tips & Catatan
 
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
+
 > [!TIP]
 > Perintah ini berguna untuk cepat mengakses folder proyek tanpa harus mencari secara manual di Windows Explorer.
 

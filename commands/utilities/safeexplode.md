@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Safe Explode → Tombol Safe Explode
+- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Safe Explode
 - **Command Line:** `IVO:SAFEEXPLODE`
 - **Alias:** `IVO:SX`
 
@@ -18,6 +18,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!NOTE]
 > Perintah ini lebih aman dari EXPLODE bawaan karena:

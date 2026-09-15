@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Library
+- **Ribbon:** — (tidak ada tombol ribbon)
 - **Command Line:** `IVO:DETAILLIBRARYSETTINGS`
 - **Alias:** —
 
@@ -27,6 +27,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!TIP]
 > Setelah mengubah folder library, buka kembali [IVO:DETAILLIBRARY](commands/detail-library/detaillibrary.md) untuk melihat perubahan.

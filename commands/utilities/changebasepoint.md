@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Change Base Point → Tombol Change Base Point
+- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Change Base Point
 - **Command Line:** `IVO:CHANGEBASEPOINT`
 - **Alias:** —
 
@@ -18,6 +18,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!IMPORTANT]
 > Perintah ini mengubah definisi base point block, bukan memindahkan block. Semua instansi block yang sama dalam gambar akan terpengaruh.

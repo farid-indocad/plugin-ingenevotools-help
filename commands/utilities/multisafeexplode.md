@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Safe Explode → Tombol Multi Safe Explode
+- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Multi Safe Explode
 - **Command Line:** `IVO:MULTISAFEEXPLODE`
 - **Alias:** `IVO:MSX`
 
@@ -18,6 +18,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!WARNING]
 > Perintah ini bersifat rekursif — semua nested block akan di-explode sepenuhnya. Pastikan ini yang Anda inginkan sebelum menjalankan.

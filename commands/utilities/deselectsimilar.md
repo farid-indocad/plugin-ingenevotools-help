@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Selection → Tombol Deselect Similar
+- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Deselect Similar
 - **Command Line:** `IVO:DESELECTSIMILAR`
 - **Alias:** —
 
@@ -18,6 +18,9 @@
 <!-- screenshot -->
 
 ## Tips & Catatan
+
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!TIP]
 > Perintah ini adalah kebalikan dari [IVO:SELECTSIMILARSPECIFIED](commands/utilities/selectsimilarspecified.md) — alih-alih menambah, perintah ini mengurangi entitas dari seleksi.

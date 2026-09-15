@@ -1,35 +1,44 @@
 # IVO:RENUMBERLAYOUT
 
-> Mengatur penomoran halaman layout secara sekuensial; format prefiks/sufiks/digit diatur lewat opsi "Settings" pada command line.
+> Menomori ulang seluruh layout paper space secara berurutan, dengan pratinjau dan konfirmasi.
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Renumber Layout → Tombol Renumber Layout
+- **Ribbon:** Tab Ingenevo Tools → Panel Sheet Manager → Tombol Renumber Layout
 - **Command Line:** `IVO:RENUMBERLAYOUT`
 - **Alias:** —
 
 ## Cara Penggunaan
 
-1. Jalankan perintah `IVO:RENUMBERLAYOUT`
-2. Ikuti prompt di command line untuk mengatur format penomoran:
-   - **Prefix** — teks sebelum nomor (opsional)
-   - **Suffix** — teks setelah nomor (opsional)
-   - **Start Number** — nomor awal
-   - **Digits** — jumlah digit (misalnya 2 → 01, 02, 03...)
-3. Semua layout akan dinomori ulang secara sekuensial
+1. Atur format penomoran lebih dulu di `IVO:SETTINGS` → **Sheet Manager > Sheet Name**
+2. Jalankan perintah `IVO:RENUMBERLAYOUT`
+3. Command line menampilkan **pratinjau** nama lama dan nama barunya
+4. Muncul konfirmasi:
 
-## Opsi / Parameter
+```
+Apply renumbering? [Yes/No] <Yes>:
+```
 
-| Parameter | Deskripsi | Contoh |
-|:----------|:----------|:-------|
-| **Prefix** | Teks sebelum nomor | `Sheet-` |
-| **Suffix** | Teks setelah nomor | ` of 10` |
-| **Start Number** | Nomor awal penomoran | `1` |
-| **Digits** | Jumlah digit minimum | `2` → 01, 02, ... |
+5. Tekan **Enter** untuk menerapkan, atau jawab **No** untuk membatalkan
 
 <!-- screenshot -->
 
 ## Tips & Catatan
 
+> [!WARNING]
+> Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
+
+> [!NOTE]
+> **Perintah ini tidak menanyakan format penomoran di command line.** Prefix, jumlah digit, dan aturan lainnya dibaca dari settings yang tersimpan — sehingga seluruh drawing dalam satu proyek memakai format yang sama tanpa perlu diingat-ingat tiap kali.
+
 > [!TIP]
-> Contoh hasil: dengan prefix `Sheet-`, digits `2`, dan start `1`, layout akan dinamai `Sheet-01`, `Sheet-02`, `Sheet-03`, dst.
+> Bacalah pratinjaunya sebelum menjawab Yes. Itulah kesempatan terakhir melihat nama baru setiap layout sebelum diterapkan.
+
+> [!TIP]
+> Setelah penomoran ulang, jalankan [IVO:SORTLAYOUT](commands/sheet-manager/sortlayout.md) agar urutan tab-nya ikut mengikuti nama baru.
+
+## Lihat Juga
+
+- [IVO:SORTLAYOUT](commands/sheet-manager/sortlayout.md) — mengurutkan tab layout berdasarkan nama
+- [IVO:RENUMBERVIEWFRAME](commands/sheet-manager/renumberviewframe.md) — menomori ulang block ViewFrame di model space
+- [IVO:SETTINGS](commands/settings/settings.md) — tempat format penomoran diatur
