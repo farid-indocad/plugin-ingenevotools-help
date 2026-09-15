@@ -1,61 +1,94 @@
 # FAQ / Troubleshooting
 
-Kumpulan pertanyaan dan masalah umum beserta solusinya.
+Masalah yang benar-benar muncul di lapangan, berikut jalan keluarnya.
 
 ---
 
-## Plugin tidak muncul di Ribbon
+## Tab "Ingenevo Tools" tidak muncul setelah dipasang
 
-**Gejala:** Setelah memuat plugin, tab "Ingenevo Tools" tidak muncul di Ribbon.
+**Kemungkinan terbesar: BricsCAD sedang terbuka saat installer dijalankan.** Pemasangannya berhasil, tapi versi barunya baru aktif setelah BricsCAD **ditutup dan dibuka lagi**.
 
-**Solusi:**
-1. Pastikan Anda memuat file `BricsCadPlugin.App.dll` yang benar (sesuai versi BricsCAD)
-2. Periksa command line BricsCAD untuk pesan error saat loading
-3. Coba restart BricsCAD dan muat ulang plugin
-4. Pastikan versi .NET Framework/SDK yang dibutuhkan sudah terinstal
+1. Tutup BricsCAD sepenuhnya, lalu buka lagi
+2. Kalau masih belum muncul, klik dua kali installer yang sama sekali lagi dan tekan tombol **Reinstall**
+3. Kalau tetap tidak ada, kirim `%LocalAppData%\Ingenevo\install-log.txt` ke tim Ingenevo
 
 ---
 
-## Error: eLockViolation
+## Semua perintah IVO ditolak, padahal tab-nya ada
 
-**Gejala:** Muncul error `eLockViolation` saat menjalankan perintah dari palette.
+Plugin terpasang tapi **lisensi belum diaktifkan**. Ketik [`IVO:LICENSE`](commands/help/license.md) dan aktifkan.
 
-**Solusi:**
-Ini biasanya terjadi ketika database gambar diakses dari konteks modeless (seperti klik tombol di palette) tanpa document lock. Pastikan plugin yang Anda gunakan adalah versi terbaru yang sudah menangani locking secara otomatis.
-
----
-
-## Lisensi expired atau tidak valid
-
-**Gejala:** Beberapa fitur tidak bisa diakses, muncul pesan lisensi kadaluarsa.
-
-**Solusi:**
-1. Jalankan `IVO:LICENSE` untuk mengecek status dan membuka dialog lisensi
-3. Masukkan kode lisensi baru atau perpanjang lisensi yang ada
+Tujuh perintah tetap bisa dijalankan tanpa lisensi — `IVO:LICENSE`, `IVO:ABOUT`, `IVO:HELP`, `IVO:COMMANDS`, `IVO:SETTINGS`, `IVO:OPENSETTINGSFOLDER`, dan `IVO:HIDESTRUCTURALPALETTE`. Kalau ketujuh itu jalan tapi sisanya tidak, inilah penyebabnya.
 
 ---
 
-## Perintah tidak ditemukan
+## Aktivasi ditolak karena batas perangkat
 
-**Gejala:** Ketik perintah `IVO:xxx` tapi BricsCAD menampilkan "Unknown command".
+Seluruh slot lisensi Anda sudah terpakai — biasanya oleh komputer lama yang sudah tidak dipakai lagi.
 
-**Solusi:**
-1. Pastikan plugin sudah dimuat (lihat [Instalasi](instalasi.md))
-2. Periksa penulisan perintah — semua perintah menggunakan prefix `IVO:`
-3. Jalankan `IVO:COMMANDS` untuk melihat daftar perintah yang tersedia
+Daftar mesinnya tidak ditampilkan di jendela lisensi. Yang bisa Anda lakukan:
+
+- Di komputer lama yang masih bisa dinyalakan: buka [`IVO:LICENSE`](commands/help/license.md) → **Remove**
+- Kalau komputernya sudah tidak ada: hubungi tim Ingenevo
+
+> [!WARNING]
+> Menghapus plugin atau memformat komputer **tidak** membebaskan slot lisensi. Selalu tekan **Remove** dulu sebelum meninggalkan sebuah komputer.
 
 ---
 
-## Batch Print PDF gagal
+## Perintah tidak ditemukan ("Unknown command")
 
-**Gejala:** Perintah `IVO:PRINTPDF` tidak menghasilkan file PDF.
+1. Semua perintah berawalan `IVO:` — periksa penulisannya, termasuk tanda titik dua
+2. Jalankan [`IVO:COMMANDS`](commands/help/commands.md) untuk melihat daftar perintah yang benar-benar terdaftar
+3. Kalau `IVO:COMMANDS` sendiri tidak dikenali, plugin-nya belum termuat — lihat [Instalasi](instalasi.md)
 
-**Solusi:**
+---
+
+## Perintah berjalan tapi tidak menanyakan apa-apa
+
+Itu biasanya **memang perilakunya**, bukan kerusakan. Banyak perintah membaca pengaturannya dari [`IVO:SETTINGS`](commands/settings/settings.md) alih-alih bertanya tiap kali — misalnya paper size pada [`IVO:CREATELAYOUT`](commands/sheet-manager/createlayout.md), format penomoran pada [`IVO:RENUMBERLAYOUT`](commands/sheet-manager/renumberlayout.md), dan kedua offset pada [`IVO:FOOTING`](commands/structure/footing.md).
+
+Kalau hasilnya tidak sesuai harapan, periksa [Pengaturan](settings.md) lebih dulu.
+
+---
+
+## Title block tidak terisi setelah IVO:UPDATETITLEBLOCK
+
+Baris Excel dicocokkan ke layout **berdasarkan nama layout**. Sheet yang kosong hampir selalu berarti nama di kolom kunci Excel tidak sama persis dengan nama layout-nya.
+
+Periksa juga:
+
+1. Title block harus **block reference beratribut** — teks biasa dan mtext tidak bisa diisi
+2. Nama sheet Excel yang dibaca diatur di `IVO:SETTINGS` → **Sheet Manager › Drawing Register › Worksheet**
+
+---
+
+## IVO:PRINTPDF tidak menghasilkan PDF
+
 1. Pastikan printer/plotter PDF sudah dikonfigurasi di BricsCAD
-2. Periksa pengaturan page setup di layout yang ingin dicetak
-3. Pastikan folder output PDF bisa ditulis (tidak read-only)
+2. Pastikan folder output bisa ditulis (bukan read-only, bukan share yang terputus)
+3. Jalankan [`IVO:MATCHALLLAYOUTSETTINGS`](commands/utilities/matchalllayoutsettings.md) lebih dulu agar semua layout memakai page setup yang sama
+
+---
+
+## IVO:BLTSCALE sudah dijalankan, tapi "U" tidak mengembalikannya
+
+Memang tidak bisa. [`IVO:BLTSCALE`](commands/utilities/bltscale.md) mengubah **system variable**, dan perubahan system variable tidak masuk riwayat undo.
+
+Jalankan ulang perintah itu dengan nilai yang lama untuk mengembalikannya.
+
+---
+
+## IVO:BOUNDARY atau IVO:FOOTING menolak menggambar
+
+Keduanya melapor **alasannya** di command line, bukan diam. Yang paling sering:
+
+- **`Ring not closed`** — keliling masih berlubang. Garis yang ujungnya menggantung **otomatis dijadikan seleksi aktif**; zoom ke seleksi itu untuk melihat letak celahnya
+- **`wrong colour`** — pada [`IVO:BOUNDARY`](commands/structure/boundary.md), warna garis menentukan jaraknya. Hanya cyan dan kuning yang dibaca
+
+Kalau sebuah gambar terus menolak, jalankan `IVO:BOUNDARYDUMP` pada seleksi yang sama dan kirimkan berkas laporannya ke tim Ingenevo.
 
 ---
 
 > [!TIP]
-> Jika masalah Anda tidak tercantum di sini, hubungi support melalui informasi di halaman [Tentang](about.md).
+> Masalah Anda tidak ada di sini? Hubungi tim Ingenevo lewat informasi di halaman [Tentang](about.md). Lampirkan `%LocalAppData%\Ingenevo\install-log.txt` untuk masalah pemasangan, atau `%AppData%\IngenevoTools\license-log.txt` untuk masalah lisensi.

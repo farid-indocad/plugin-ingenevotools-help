@@ -1,54 +1,62 @@
 # Instalasi
 
-Panduan memasang plugin IngenevoTools di BricsCAD.
+Memasang IngenevoTools butuh **empat langkah** dan tidak butuh hak Administrator.
 
 ## Prasyarat
 
-- **BricsCAD** V20, V21, V22, V23, V24, V25, atau V26
-- Sistem operasi **Windows** (64-bit)
+- **BricsCAD** V20 sampai V26
+- **Windows** 64-bit
 
-## Metode 1: NETLOAD (Direkomendasikan untuk Development)
+## Empat langkah
 
-Metode paling cepat untuk memuat plugin secara manual.
-
-1. Buka BricsCAD
-2. Ketik perintah `NETLOAD` pada command line
-3. Pilih berkas assembly output:
-
-```
-bin\Debug\<Versi>\BricsCadPlugin.App.dll
-```
-
-> [!NOTE]
-> Ganti `<Versi>` dengan versi BricsCAD Anda (misalnya `V23`).
-
-4. Plugin akan langsung aktif. Tab **Ingenevo Tools** akan muncul di Ribbon.
-
-## Metode 2: APPLOAD (Persisten per Sesi)
-
-Plugin akan dimuat otomatis setiap kali BricsCAD dibuka.
-
-1. Ketik perintah `APPLOAD` pada command line BricsCAD
-2. Klik tombol **Add** dan pilih `BricsCadPlugin.App.dll`
-3. Tambahkan ke **Startup Suite** agar plugin dimuat secara otomatis
-
-## Metode 3: Registry DemandLoad (Kebutuhan Produksi)
-
-Untuk distribusi produksi ke banyak komputer.
-
-1. Buka berkas `deploy/registry/register-plugin.reg`
-2. Sesuaikan jalur folder instalasi plugin
-3. Impor file `.reg` ke registri Windows (double-click atau `regedit`)
-
-> [!WARNING]
-> Pastikan path dalam file `.reg` sesuai dengan lokasi instalasi plugin di komputer target.
-
-## Verifikasi Instalasi
-
-Setelah plugin dimuat, verifikasi dengan cara:
-
-1. Periksa tab **Ingenevo Tools** muncul di Ribbon
-2. Ketik `IVO:COMMANDS` untuk melihat daftar perintah
-3. Ketik `IVO:ABOUT` untuk melihat informasi versi plugin
+1. **Buka tautan** yang dikirim tim Ingenevo, lalu **klik dua kali** `IngenevoToolsSetup.exe`
+2. Satu jendela terbuka dan bekerja sendiri. Tunggu beberapa detik sampai ia berkata **"Ingenevo Tools has been installed"**, lalu tekan **Close**
+3. **Buka BricsCAD.** Tab **Ingenevo Tools** muncul sendiri di ribbon
+4. Ketik **`IVO:LICENSE`** dan aktifkan lisensi Anda
 
 <!-- screenshot -->
+
+> [!NOTE]
+> Tidak ada yang perlu dipilih dan tidak ada pertanyaan. Installer **mendeteksi sendiri** versi BricsCAD yang ada di komputer Anda — kalau ada lebih dari satu, semuanya dilayani sekaligus.
+
+> [!IMPORTANT]
+> Langkah 4 bukan opsional. Tanpa lisensi aktif, hampir semua perintah `IVO:` akan ditolak walaupun plugin-nya sudah terpasang dan tab-nya sudah terlihat. Hanya tujuh perintah yang tetap jalan — lihat [Daftar Command](daftar-command.md).
+
+## Kalau BricsCAD sedang terbuka
+
+Pemasangan tetap berhasil, tapi versi barunya **baru aktif setelah BricsCAD ditutup dan dibuka lagi**. Jendela installer akan mengatakan itu.
+
+## Plugin hilang atau berperilaku aneh
+
+Klik dua kali **installer yang sama** sekali lagi. Kalau versi itu memang sudah terpasang, jendelanya menawarkan tombol **Reinstall** — tekan itu.
+
+## Verifikasi
+
+Setelah BricsCAD dibuka:
+
+1. Tab **Ingenevo Tools** terlihat di ribbon
+2. Ketik [`IVO:COMMANDS`](commands/help/commands.md) untuk melihat daftar perintah
+3. Ketik [`IVO:ABOUT`](commands/help/about.md) untuk melihat versi yang terpasang
+
+## Melepas plugin
+
+Dua jalan, keduanya sama saja:
+
+- **Settings › Apps › Ingenevo Tools › Uninstall**
+- atau klik dua kali **`Uninstall Ingenevo Tools.exe`** di `%LocalAppData%\Ingenevo\IngenevoTools\`
+
+Pengaturan dan lisensi Anda **tidak ikut terhapus**.
+
+> [!WARNING]
+> **Kalau Anda tidak akan memakai plugin ini lagi di komputer ini, lepaskan perangkatnya dulu** lewat [`IVO:LICENSE`](commands/help/license.md) → **Remove**, **sebelum** melepas plugin. Menghapus berkasnya **tidak** membebaskan slot lisensi di server — slot itu akan tetap terpakai oleh komputer yang sudah tidak Anda pakai.
+
+## Kalau ada yang gagal
+
+Kirimkan berkas ini ke tim Ingenevo:
+
+```
+%LocalAppData%\Ingenevo\install-log.txt
+```
+
+> [!TIP]
+> Pemasangan bersifat **idempoten** — mengulanginya aman dan tidak merusak apa pun. Kalau ragu, jalankan ulang installer-nya.
