@@ -1,12 +1,12 @@
-﻿# IVO:REPLACEBLOCK
+# IVO:REPLACEBLOCK
 
 > Mengganti instansi block dynamic terpilih dengan block lainnya secara massal.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Block â†’ Button Replace Block
+- **Ribbon:** Ingenevo Tools Tab → Panel Block → Button Replace Block
 - **Command Line:** `IVO:REPLACEBLOCK`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

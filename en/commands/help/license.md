@@ -4,9 +4,9 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel License â†’ Button License
+- **Ribbon:** Ingenevo Tools Tab → Panel License → Button License
 - **Command Line:** `IVO:LICENSE`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

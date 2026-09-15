@@ -1,12 +1,12 @@
-﻿# IVO:SORTLAYOUT
+# IVO:SORTLAYOUT
 
 > Mengurutkan layout tabs secara numerik atau alfabetis.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Layout â†’ Button Sort Layout
+- **Ribbon:** Ingenevo Tools Tab → Panel Layout → Button Sort Layout
 - **Command Line:** `IVO:SORTLAYOUT`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

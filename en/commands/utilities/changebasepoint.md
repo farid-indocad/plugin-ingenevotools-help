@@ -1,12 +1,12 @@
-﻿# IVO:CHANGEBASEPOINT
+# IVO:CHANGEBASEPOINT
 
 > Mengubah titik dasar (base point) referensi block tanpa menggeser posisi koordinat elemen gambar.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Change Base Point â†’ Button Change Base Point
+- **Ribbon:** Ingenevo Tools Tab → Panel Change Base Point → Button Change Base Point
 - **Command Line:** `IVO:CHANGEBASEPOINT`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

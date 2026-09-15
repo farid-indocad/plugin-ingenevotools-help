@@ -1,10 +1,10 @@
-﻿# IVO:SOLID2HATCH
+# IVO:SOLID2HATCH
 
 > Mengonversi objek SOLID (2D filled quad) menjadi hatch pattern SOLID dengan warna dan layer sama.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Solid2Hatch â†’ Button Solid2Hatch
+- **Ribbon:** Ingenevo Tools Tab → Panel Solid2Hatch → Button Solid2Hatch
 - **Command Line:** `IVO:SOLID2HATCH`
 - **Alias:** `IVO:S2H`
 
@@ -24,5 +24,5 @@
 > Perintah ini hanya bekerja pada objek SOLID 2D (bukan 3D SOLID). Objek SOLID 2D biasanya dihasilkan dari perintah SOLID bawaan atau hasil impor dari format lama.
 
 > [!TIP]
-> Konversi ke hatch memudahkan editing â€” hatch lebih mudah dimodifikasi boundary-nya dibandingkan SOLID 2D.
+> Konversi ke hatch memudahkan editing — hatch lebih mudah dimodifikasi boundary-nya dibandingkan SOLID 2D.
 

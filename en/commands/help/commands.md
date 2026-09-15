@@ -1,12 +1,12 @@
-﻿# IVO:COMMANDS
+# IVO:COMMANDS
 
 > Menampilkan daftar seluruh perintah yang tersedia di command line.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Utility â†’ Button Commands
+- **Ribbon:** Ingenevo Tools Tab → Panel Utility → Button Commands
 - **Command Line:** `IVO:COMMANDS`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

@@ -1,12 +1,12 @@
-﻿# IVO:BRACING
+# IVO:BRACING
 
 > Menggambar detail bracing / ikatan angin secara semi-otomatis.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Bracing â†’ Button Bracing
+- **Ribbon:** Ingenevo Tools Tab → Panel Bracing → Button Bracing
 - **Command Line:** `IVO:BRACING`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 
@@ -16,7 +16,7 @@
 
 ## Options / Parameters
 
-Tipe bracing dapat diatur melalui `IVO:SETTINGS` â†’ **Structure > Bracing**.
+Tipe bracing dapat diatur melalui `IVO:SETTINGS` → **Structure > Bracing**.
 
 | Parameter | Deskripsi |
 |:----------|:----------|

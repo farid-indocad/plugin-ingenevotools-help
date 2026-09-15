@@ -1,10 +1,10 @@
-﻿# IVO:OUTLETELEVATION
+# IVO:OUTLETELEVATION
 
 > Menghitung elevasi outlet pipa dengan panjang diukur manual lewat pick titik berurutan, inlet elevation, dan gradient 1:X.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Outlet Elevation â†’ Button Outlet Elevation
+- **Ribbon:** Ingenevo Tools Tab → Panel Outlet Elevation → Button Outlet Elevation
 - **Command Line:** `IVO:OUTLETELEVATION`
 - **Alias:** `IVO:OE`
 

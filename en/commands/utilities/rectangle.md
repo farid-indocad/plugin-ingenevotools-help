@@ -1,12 +1,12 @@
-﻿# IVO:RECTANGLE
+# IVO:RECTANGLE
 
 > Menggambar rectangle kolom dengan snap geometris (snap insert).
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Rectangle â†’ Button Rectangle
+- **Ribbon:** Ingenevo Tools Tab → Panel Rectangle → Button Rectangle
 - **Command Line:** `IVO:RECTANGLE`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

@@ -1,12 +1,12 @@
-﻿# IVO:UPDATETITLEBLOCK
+# IVO:UPDATETITLEBLOCK
 
 > Memperbarui atribut kop gambar (Title Block) secara massal di berbagai layout.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Title Block â†’ Button Update Title Block
+- **Ribbon:** Ingenevo Tools Tab → Panel Title Block → Button Update Title Block
 - **Command Line:** `IVO:UPDATETITLEBLOCK`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

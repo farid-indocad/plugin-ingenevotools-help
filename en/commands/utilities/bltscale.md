@@ -1,10 +1,10 @@
-﻿# IVO:BLTSCALE
+# IVO:BLTSCALE
 
 > Mengatur MSLTSCALE (Model Space) dan PSLTSCALE (semua layout) serentak ke 0 atau 1.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Layout â†’ Button BLTSCALE
+- **Ribbon:** Ingenevo Tools Tab → Panel Layout → Button BLTSCALE
 - **Command Line:** `IVO:BLTSCALE`
 - **Alias:** `IVO:BLTS`
 

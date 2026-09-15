@@ -1,12 +1,12 @@
-﻿# IVO:STRUCTURALPALETTE
+# IVO:STRUCTURALPALETTE
 
 > Toggle visibilitas palette Structural (tab Framing + Bracing) tanpa memulai pick loop; tab terakhir dipertahankan.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Structural Palette â†’ Button Structural Palette
+- **Ribbon:** Ingenevo Tools Tab → Panel Structural Palette → Button Structural Palette
 - **Command Line:** `IVO:STRUCTURALPALETTE`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

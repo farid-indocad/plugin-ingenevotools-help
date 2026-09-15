@@ -1,12 +1,12 @@
-﻿# IVO:ABOUT
+# IVO:ABOUT
 
 > Membuka dialog berisi informasi pembuat, versi plugin, dan hak cipta.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Utility â†’ Button About
+- **Ribbon:** Ingenevo Tools Tab → Panel Utility → Button About
 - **Command Line:** `IVO:ABOUT`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 

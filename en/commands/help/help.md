@@ -1,12 +1,12 @@
-﻿# IVO:HELP
+# IVO:HELP
 
 > Membuka dokumentasi/guide online di browser default.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Utility â†’ Button Help
+- **Ribbon:** Ingenevo Tools Tab → Panel Utility → Button Help
 - **Command Line:** `IVO:HELP`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 
@@ -15,7 +15,7 @@
 
 ## Options / Parameters
 
-URL dokumentasi dapat diatur melalui `IVO:SETTINGS` â†’ **General > Help URL**.
+URL dokumentasi dapat diatur melalui `IVO:SETTINGS` → **General > Help URL**.
 
 | Parameter | Deskripsi |
 |:----------|:----------|
@@ -24,5 +24,5 @@ URL dokumentasi dapat diatur melalui `IVO:SETTINGS` â†’ **General > Help UR
 ## Tips & Notes
 
 > [!TIP]
-> Anda sedang membaca dokumentasi yang dibuka oleh perintah ini! ðŸŽ‰
+> Anda sedang membaca dokumentasi yang dibuka oleh perintah ini! 🎉
 

@@ -1,21 +1,21 @@
-﻿# IVO:SETTINGS
+# IVO:SETTINGS
 
 > Membuka jendela dialog pengaturan umum plugin.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Settings â†’ Button Settings
+- **Ribbon:** Ingenevo Tools Tab → Panel Settings → Button Settings
 - **Command Line:** `IVO:SETTINGS`
-- **Alias:** â€”
+- **Alias:** —
 
 ## How to Use
 
 1. Jalankan perintah `IVO:SETTINGS`
 2. Dialog pengaturan akan terbuka
 3. Atur opsi sesuai kebutuhan:
-   - **General** â€” Help URL, preferensi umum
-   - **Structure > Column** â€” Tipe kolom default
-   - **Structure > Bracing** â€” Tipe bracing default
+   - **General** — Help URL, preferensi umum
+   - **Structure > Column** — Tipe kolom default
+   - **Structure > Bracing** — Tipe bracing default
 4. Klik **OK** untuk menyimpan perubahan
 
 <!-- screenshot -->

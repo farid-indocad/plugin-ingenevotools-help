@@ -1,10 +1,10 @@
-﻿# IVO:MATCHALLLAYOUTSETTINGS
+# IVO:MATCHALLLAYOUTSETTINGS
 
 > Menyalin page setup / plot settings dari layout aktif ke semua layout lain.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab â†’ Panel Layout â†’ Button Match All Layout Settings
+- **Ribbon:** Ingenevo Tools Tab → Panel Layout → Button Match All Layout Settings
 - **Command Line:** `IVO:MATCHALLLAYOUTSETTINGS`
 - **Alias:** `IVO:MALS`
 
