@@ -21,7 +21,7 @@
 
 1. **[Installation](en/installation.md)** — Install the plugin in BricsCAD
 2. **[Getting Started](en/getting-started.md)** — Learn the basic workflow
-3. **[Command List](en/commands/utility/commands.md)** — View all 36 available commands
+3. **[Command List](en/commands/help/commands.md)** — View all 36 available commands
 
 ## Navigation
 

@@ -4,50 +4,54 @@
 - [Pengaturan](settings.md)
 
 - **Print**
-  - [IVO:PRINTPDF](commands/plot/printpdf.md)
+  - [IVO:PRINTPDF](commands/print/printpdf.md)
 
 - **Sheet Manager**
-  - [IVO:UPDATETITLEBLOCK](commands/title-block/updatetitleblock.md)
-  - [IVO:EDITREGISTER](commands/register/editregister.md)
-  - [IVO:SORTLAYOUT](commands/layout/sortlayout.md)
-  - [IVO:RENUMBERLAYOUT](commands/renumber-layout/renumberlayout.md)
+  - [IVO:OPENFOLDER](commands/sheet-manager/openfolder.md)
+  - [IVO:UPDATETITLEBLOCK](commands/sheet-manager/updatetitleblock.md)
+  - [IVO:EDITREGISTER](commands/sheet-manager/editregister.md)
+  - [IVO:EDITCREATELAYOUT](commands/sheet-manager/editcreatelayout.md)
+  - [IVO:ADDLAYOUT](commands/sheet-manager/addlayout.md)
+  - [IVO:SORTLAYOUT](commands/sheet-manager/sortlayout.md)
+  - [IVO:RENUMBERLAYOUT](commands/sheet-manager/renumberlayout.md)
+  - [IVO:RENUMBERVIEWFRAME](commands/sheet-manager/renumberviewframe.md)
 
 - **Utilities**
-  - [IVO:SAFEEXPLODE](commands/safe-explode/safeexplode.md)
-  - [IVO:MULTISAFEEXPLODE](commands/safe-explode/multisafeexplode.md)
-  - [IVO:SOLID2HATCH](commands/solid2hatch/solid2hatch.md)
-  - [IVO:REPLACEBLOCK](commands/block/replaceblock.md)
-  - [IVO:BLTSCALE](commands/layout/bltscale.md)
-  - [IVO:MATCHALLLAYOUTSETTINGS](commands/layout/matchalllayoutsettings.md)
-  - [IVO:CHANGEBASEPOINT](commands/change-base-point/changebasepoint.md)
-  - [IVO:RECTANGLE](commands/rectangle/rectangle.md)
-  - [IVO:SELECTSIMILARSPECIFIED](commands/selection/selectsimilarspecified.md)
-  - [IVO:DESELECTSIMILAR](commands/selection/deselectsimilar.md)
+  - [IVO:SAFEEXPLODE](commands/utilities/safeexplode.md)
+  - [IVO:MULTISAFEEXPLODE](commands/utilities/multisafeexplode.md)
+  - [IVO:SOLID2HATCH](commands/utilities/solid2hatch.md)
+  - [IVO:REPLACEBLOCK](commands/utilities/replaceblock.md)
+  - [IVO:BLTSCALE](commands/utilities/bltscale.md)
+  - [IVO:MATCHALLLAYOUTSETTINGS](commands/utilities/matchalllayoutsettings.md)
+  - [IVO:CHANGEBASEPOINT](commands/utilities/changebasepoint.md)
+  - [IVO:RECTANGLE](commands/utilities/rectangle.md)
+  - [IVO:SELECTSIMILARSPECIFIED](commands/utilities/selectsimilarspecified.md)
+  - [IVO:DESELECTSIMILAR](commands/utilities/deselectsimilar.md)
 
 - **Structure**
-  - [IVO:FRAMING](commands/framing/framing.md)
-  - [IVO:COLUMN](commands/framing/column.md)
-  - [IVO:BEAM](commands/framing/beam.md)
-  - [IVO:BRACING](commands/bracing/bracing.md)
-  - [IVO:STRUCTURALPALETTE](commands/structural-palette/structuralpalette.md)
-  - [IVO:SHOWSTRUCTURALPALETTE](commands/structural-palette/showstructuralpalette.md)
-  - [IVO:HIDESTRUCTURALPALETTE](commands/structural-palette/hidestructuralpalette.md)
+  - [IVO:FRAMING](commands/structure/framing.md)
+  - [IVO:COLUMN](commands/structure/column.md)
+  - [IVO:BEAM](commands/structure/beam.md)
+  - [IVO:BRACING](commands/structure/bracing.md)
+  - [IVO:STRUCTURALPALETTE](commands/structure/structuralpalette.md)
+  - [IVO:SHOWSTRUCTURALPALETTE](commands/structure/showstructuralpalette.md)
+  - [IVO:HIDESTRUCTURALPALETTE](commands/structure/hidestructuralpalette.md)
 
 - **Civil**
-  - [IVO:OUTLETELEVATION](commands/outlet-elevation/outletelevation.md)
+  - [IVO:OUTLETELEVATION](commands/civil/outletelevation.md)
 
 - **Detail Library**
-  - [IVO:DETAILLIBRARY](commands/library/detaillibrary.md)
-  - [IVO:DETAILLIBRARYSETTINGS](commands/library/detaillibrarysettings.md)
+  - [IVO:DETAILLIBRARY](commands/detail-library/detaillibrary.md)
+  - [IVO:DETAILLIBRARYSETTINGS](commands/detail-library/detaillibrarysettings.md)
 
 - **Settings**
-  - [IVO:SETTINGS](commands/settings-cmd/settings.md)
+  - [IVO:SETTINGS](commands/settings/settings.md)
 
 - **Help**
-  - [IVO:LICENSE](commands/license/license.md)
-  - [IVO:ABOUT](commands/utility/about.md)
-  - [IVO:HELP](commands/utility/help.md)
-  - [IVO:COMMANDS](commands/utility/commands.md)
+  - [IVO:LICENSE](commands/help/license.md)
+  - [IVO:ABOUT](commands/help/about.md)
+  - [IVO:HELP](commands/help/help.md)
+  - [IVO:COMMANDS](commands/help/commands.md)
 
 - ---
 - [FAQ](faq.md)

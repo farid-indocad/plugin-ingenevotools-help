@@ -21,7 +21,7 @@
 
 1. **[Instalasi](instalasi.md)** — Pasang plugin di BricsCAD Anda
 2. **[Getting Started](getting-started.md)** — Pelajari alur kerja dasar
-3. **[Daftar Command](commands/utility/commands.md)** — Lihat semua 36 perintah yang tersedia
+3. **[Daftar Command](commands/help/commands.md)** — Lihat semua 36 perintah yang tersedia
 
 ## Navigasi
 
