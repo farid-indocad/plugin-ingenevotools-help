@@ -1,24 +1,34 @@
 # IVO:CHANGEBASEPOINT
 
-> Mengubah titik dasar (base point) referensi block tanpa menggeser posisi koordinat elemen gambar.
+> Changes a block definition's base point while every existing instance stays visually in place.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Change Base Point → Button Change Base Point
+- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → Change Base Point button
 - **Command Line:** `IVO:CHANGEBASEPOINT`
 - **Alias:** —
 
 ## How to Use
 
-1. Jalankan perintah `IVO:CHANGEBASEPOINT`
-2. Pilih block reference yang ingin diubah base point-nya
-3. Klik titik baru sebagai base point
-4. Base point block akan berpindah ke titik baru, tetapi posisi visual elemen gambar tetap sama
+1. Run `IVO:CHANGEBASEPOINT`
+2. Select the block reference whose base point you want to change
+3. Pick the new base point
+4. The base point moves, but the block's geometry stays exactly where it appears on screen
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
-> [!IMPORTANT]
-> Perintah ini mengubah definisi base point block, bukan memindahkan block. Semua instansi block yang sama dalam gambar akan terpengaruh.
+> [!WARNING]
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
+> [!IMPORTANT]
+> This changes the **block definition**, not one instance. Every instance of that block in the drawing is affected.
+
+> [!TIP]
+> Useful when a block was defined with an awkward base point — it makes future insertions snap where you expect, without redrawing anything.
+
+## See Also
+
+- [IVO:REPLACEBLOCK](en/commands/utilities/replaceblock.md) — swap block instances for another block
+- [IVO:INITIALBLOCK](en/commands/utilities/initialblock.md) — normalize objects before defining a block

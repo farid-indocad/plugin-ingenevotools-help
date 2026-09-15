@@ -1,29 +1,36 @@
 # IVO:SAFEEXPLODE
 
-> Meng-explode block reference terpilih satu level dengan validasi (skip layer terkunci).
+> Explodes the selected block references one level, with validation (locked layers are skipped).
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Safe Explode → Button Safe Explode
+- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → Safe Explode button
 - **Command Line:** `IVO:SAFEEXPLODE`
 - **Alias:** `IVO:SX`
 
 ## How to Use
 
-1. Jalankan perintah `IVO:SAFEEXPLODE` atau `IVO:SX`
-2. Pilih satu atau lebih block reference yang ingin di-explode
-3. Tekan **Enter** untuk konfirmasi
-4. Block akan di-explode satu level — sub-block di dalamnya tetap utuh
+1. Run `IVO:SAFEEXPLODE` or `IVO:SX`
+2. Select one or more block references to explode
+3. Press **Enter** to confirm
+4. The blocks are exploded one level — nested blocks inside them stay intact
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
+> [!WARNING]
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
+
 > [!NOTE]
-> Perintah ini lebih aman dari EXPLODE bawaan karena:
-> - Otomatis melewati (skip) block pada layer yang terkunci
-> - Hanya meng-explode satu level, tidak rekursif
+> This is safer than the native EXPLODE because it:
+> - skips blocks on locked layers automatically
+> - explodes one level only, never recursively
 
 > [!TIP]
-> Untuk explode rekursif sampai menjadi objek primitif, gunakan [IVO:MULTISAFEEXPLODE](commands/utilities/multisafeexplode.md).
+> For recursive explosion down to primitive objects, use [IVO:MULTISAFEEXPLODE](en/commands/utilities/multisafeexplode.md).
 
+## See Also
+
+- [IVO:MULTISAFEEXPLODE](en/commands/utilities/multisafeexplode.md) — explode nested blocks recursively
+- [IVO:INITIALBLOCK](en/commands/utilities/initialblock.md) — prepare objects to become a clean block

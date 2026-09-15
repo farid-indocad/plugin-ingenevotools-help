@@ -1,24 +1,30 @@
 # IVO:DETAILLIBRARY
 
-> Membuka palette Detail Library untuk penempatan gambar standard secara cepat.
+> Opens the Detail Library palette for placing standard detail drawings quickly.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Library → Button Detail Library
+- **Ribbon:** Ingenevo Tools Tab → Detail Library Panel → Detail Library button
 - **Command Line:** `IVO:DETAILLIBRARY`
 - **Alias:** —
 
 ## How to Use
 
-1. Jalankan perintah `IVO:DETAILLIBRARY`
-2. Palette Detail Library akan terbuka
-3. Jelajahi folder library untuk menemukan gambar detail yang diinginkan
-4. Klik pada gambar detail untuk menempatkannya ke dalam gambar aktif
+1. Run `IVO:DETAILLIBRARY`
+2. The Detail Library palette opens
+3. Browse the library folders to find the detail you need
+4. Click a detail to place it into the active drawing
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
-> [!TIP]
-> Atur folder library dan folder cache thumbnail melalui [IVO:DETAILLIBRARYSETTINGS](commands/detail-library/detaillibrarysettings.md).
+> [!WARNING]
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
+> [!TIP]
+> Library folders and the thumbnail cache folder can be set under `IVO:SETTINGS` → **Detail Library**, or from the command line via [IVO:DETAILLIBRARYSETTINGS](en/commands/detail-library/detaillibrarysettings.md).
+
+## See Also
+
+- [IVO:DETAILLIBRARYSETTINGS](en/commands/detail-library/detaillibrarysettings.md) — configure folders and cache from the command line

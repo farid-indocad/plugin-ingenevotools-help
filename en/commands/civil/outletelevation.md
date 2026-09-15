@@ -1,33 +1,39 @@
 # IVO:OUTLETELEVATION
 
-> Menghitung elevasi outlet pipa dengan panjang diukur manual lewat pick titik berurutan, inlet elevation, dan gradient 1:X.
+> Calculates a pipe's outlet elevation from a picked run length, an inlet elevation, and a 1:X gradient.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Outlet Elevation → Button Outlet Elevation
+- **Ribbon:** Ingenevo Tools Tab → Civil Panel → Outlet Elevation button
 - **Command Line:** `IVO:OUTLETELEVATION`
 - **Alias:** `IVO:OE`
 
 ## How to Use
 
-1. Jalankan perintah `IVO:OUTLETELEVATION` atau `IVO:OE`
-2. Klik titik-titik berurutan sepanjang jalur pipa untuk mengukur panjang
-3. Masukkan nilai inlet elevation
-4. Masukkan gradient (format 1:X)
-5. Hasil perhitungan elevasi outlet akan ditampilkan
+1. Run `IVO:OUTLETELEVATION` or `IVO:OE`
+2. Click points along the pipe run to measure its length
+3. Enter the inlet elevation
+4. Enter the gradient, in 1:X form
+5. The calculated outlet elevation is reported
 
 ## Options / Parameters
 
-| Parameter | Deskripsi |
-|:----------|:----------|
-| **Titik-titik jalur** | Pick titik berurutan untuk mengukur panjang pipa |
-| **Inlet Elevation** | Elevasi titik masuk (inlet) pipa |
-| **Gradient** | Kemiringan pipa dalam format 1:X |
+| Parameter | Description |
+|:----------|:------------|
+| **Run points** | Picked in sequence to measure the pipe length |
+| **Inlet Elevation** | Elevation at the pipe's inlet |
+| **Gradient** | Pipe slope, written as 1:X |
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
-> [!NOTE]
-> Panjang pipa diukur dari titik-titik yang di-pick secara manual, bukan dari objek gambar. Pastikan pick titik mengikuti jalur pipa yang benar.
+> [!WARNING]
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
+> [!NOTE]
+> The length comes from the points **you pick**, not from any drawing object. Make sure the points follow the real pipe route — the calculation cannot tell that they do not.
+
+## See Also
+
+- [Command List](en/command-list.md) — every IngenevoTools command

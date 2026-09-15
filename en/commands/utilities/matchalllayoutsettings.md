@@ -1,26 +1,40 @@
 # IVO:MATCHALLLAYOUTSETTINGS
 
-> Menyalin page setup / plot settings dari layout aktif ke semua layout lain.
+> Copies the active layout's page setup to every other layout.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Layout → Button Match All Layout Settings
+- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → Match Layout Settings button
 - **Command Line:** `IVO:MATCHALLLAYOUTSETTINGS`
 - **Alias:** `IVO:MALS`
 
 ## How to Use
 
-1. Aktifkan layout yang memiliki page setup / plot settings yang diinginkan
-2. Jalankan perintah `IVO:MATCHALLLAYOUTSETTINGS` atau `IVO:MALS`
-3. Page setup dari layout aktif akan disalin ke semua layout lainnya
+1. **Switch to the layout tab** whose page setup you want to use as the source — this command cannot run from the Model tab
+2. Run `IVO:MATCHALLLAYOUTSETTINGS` or `IVO:MALS`
+3. A Yes/No confirmation appears, naming the source layout
+4. Press **Enter** to apply (default **Yes**), or answer **No** to cancel
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
 > [!WARNING]
-> Perintah ini akan menimpa page setup di semua layout lain. Pastikan layout aktif memiliki pengaturan yang benar sebelum menjalankan perintah.
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
+
+> [!IMPORTANT]
+> This **overwrites the page setup on every other layout**. Make sure the active layout has the right printer, paper size, and scale before answering Yes.
+
+> [!NOTE]
+> Must be run from a **layout tab**, not from **Model**. Model space has no page setup to copy.
 
 > [!TIP]
-> Sangat berguna untuk memastikan semua layout menggunakan printer, ukuran kertas, dan skala yang sama sebelum batch print.
+> All the changes are a **single undo step** — one `U` restores every layout's page setup at once.
 
+> [!TIP]
+> Run this before [IVO:PRINTPDF](en/commands/print/printpdf.md) so all sheets print with the same printer and paper size.
+
+## See Also
+
+- [IVO:PRINTPDF](en/commands/print/printpdf.md) — batch print layouts to PDF
+- [IVO:BLTSCALE](en/commands/utilities/bltscale.md) — unify linetype scaling across layouts

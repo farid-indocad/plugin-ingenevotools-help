@@ -1,28 +1,38 @@
 # IVO:PRINTPDF
 
-> Melakukan cetak massal (batch print) layout sheet gambar terpilih ke format PDF.
+> Batch prints the selected sheet layouts to PDF.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Plot → Button Print PDF
+- **Ribbon:** Ingenevo Tools Tab → Print Panel → Print PDF button
 - **Command Line:** `IVO:PRINTPDF`
 - **Alias:** —
 
 ## How to Use
 
-1. Jalankan perintah `IVO:PRINTPDF`
-2. Pilih layout sheets yang ingin dicetak
-3. Tentukan folder output PDF
-4. Proses batch print akan dimulai
-5. File PDF akan disimpan di folder output yang ditentukan
+1. Run `IVO:PRINTPDF`
+2. Tick the layouts to print, and set their **order** with the up/down buttons
+3. Choose the **printer** and **paper size**, then the **plot style**
+4. Set the output folder, and pick an output mode:
+   - **Single** — all layouts combined into one PDF file
+   - **Multi** — one PDF file per layout
+5. Press **Print**. If a file of that name already exists, you are asked before it is overwritten
+6. When finished, you are offered the option to open the file or its folder
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
+> [!WARNING]
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
+
 > [!IMPORTANT]
-> Pastikan printer/plotter PDF sudah dikonfigurasi di BricsCAD sebelum menjalankan perintah ini.
+> Make sure a PDF printer/plotter is configured in BricsCAD before running this command.
 
 > [!TIP]
-> Gunakan [IVO:MATCHALLLAYOUTSETTINGS](commands/utilities/matchalllayoutsettings.md) terlebih dahulu untuk memastikan semua layout menggunakan page setup yang sama.
+> Run [IVO:MATCHALLLAYOUTSETTINGS](en/commands/utilities/matchalllayoutsettings.md) first to make sure every layout uses the same page setup — otherwise sheets can come out at different sizes or scales.
 
+## See Also
+
+- [IVO:MATCHALLLAYOUTSETTINGS](en/commands/utilities/matchalllayoutsettings.md) — unify page setup before printing
+- [IVO:SORTLAYOUT](en/commands/sheet-manager/sortlayout.md) — order the layout tabs

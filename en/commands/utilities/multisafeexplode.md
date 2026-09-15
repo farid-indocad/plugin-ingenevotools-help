@@ -1,27 +1,33 @@
 # IVO:MULTISAFEEXPLODE
 
-> Meng-explode block bersarang secara rekursif sampai menjadi objek primitif.
+> Recursively explodes nested blocks down to primitive objects.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Safe Explode → Button Multi Safe Explode
+- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → Multi Safe Explode button
 - **Command Line:** `IVO:MULTISAFEEXPLODE`
 - **Alias:** `IVO:MSX`
 
 ## How to Use
 
-1. Jalankan perintah `IVO:MULTISAFEEXPLODE` atau `IVO:MSX`
-2. Pilih satu atau lebih block reference yang ingin di-explode
-3. Tekan **Enter** untuk konfirmasi
-4. Block akan di-explode secara rekursif hingga semua sub-block menjadi objek primitif (LINE, ARC, CIRCLE, dll.)
+1. Run `IVO:MULTISAFEEXPLODE` or `IVO:MSX`
+2. Select one or more block references
+3. Press **Enter** to confirm
+4. The blocks are exploded repeatedly until only primitive objects remain
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
 > [!WARNING]
-> Perintah ini bersifat rekursif — semua nested block akan di-explode sepenuhnya. Pastikan ini yang Anda inginkan sebelum menjalankan.
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
 > [!NOTE]
-> Sama seperti [IVO:SAFEEXPLODE](commands/utilities/safeexplode.md), block pada layer terkunci akan di-skip secara otomatis.
+> Blocks on locked layers are skipped, the same as [IVO:SAFEEXPLODE](en/commands/utilities/safeexplode.md).
 
+> [!IMPORTANT]
+> Recursive explosion is hard to reverse by hand. If you only need to go one level down, use [IVO:SAFEEXPLODE](en/commands/utilities/safeexplode.md) instead.
+
+## See Also
+
+- [IVO:SAFEEXPLODE](en/commands/utilities/safeexplode.md) — explode one level only

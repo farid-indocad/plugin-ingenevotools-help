@@ -1,25 +1,33 @@
 # IVO:OPENFOLDER
 
-> Opens the folder containing the active drawing file in Windows Explorer.
+> Opens the active drawing's folder in Windows Explorer.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Sheet Manager → Button Open Folder
+- **Ribbon:** Ingenevo Tools Tab → Sheet Manager Panel → Open Folder button
 - **Command Line:** `IVO:OPENFOLDER`
 - **Alias:** —
 
 ## How to Use
 
 1. Make sure the active drawing has been saved
-2. Run the command `IVO:OPENFOLDER`
-3. Windows Explorer will open at the folder where the active drawing file is located
+2. Run `IVO:OPENFOLDER`
+3. Windows Explorer opens at the folder containing the active drawing
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
-> [!TIP]
-> This command is useful for quickly accessing the project folder without having to manually browse in Windows Explorer.
+> [!WARNING]
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
 > [!NOTE]
-> If the document has never been saved, this command may not be able to determine the folder location.
+> A drawing that has never been saved has no folder, so the command cannot open one.
+
+> [!TIP]
+> Handy for reaching the project folder — including the drawing's Excel register — without hunting for it in Explorer.
+
+## See Also
+
+- [IVO:EDITREGISTER](en/commands/sheet-manager/editregister.md) — open this drawing's Excel register
+- [IVO:OPENSETTINGSFOLDER](en/commands/settings/opensettingsfolder.md) — open the plugin's settings folder

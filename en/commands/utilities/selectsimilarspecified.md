@@ -1,32 +1,34 @@
 # IVO:SELECTSIMILARSPECIFIED
 
-> Memilih entitas sejenis berdasarkan filter properti yang dipilih (layer, warna, jenis garis, dll.).
+> Selects entities similar to the picked one, filtered by the properties you specify.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Selection → Button Select Similar Specified
+- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → Select Similar button
 - **Command Line:** `IVO:SELECTSIMILARSPECIFIED`
 - **Alias:** —
 
 ## How to Use
 
-1. Pilih satu entitas sebagai referensi
-2. Jalankan perintah `IVO:SELECTSIMILARSPECIFIED`
-3. Pilih filter properti yang ingin dicocokkan:
-   - Layer
-   - Warna (Color)
-   - Jenis garis (Linetype)
-   - Tipe entitas
-   - Dan lainnya
-4. Semua entitas dalam gambar yang cocok dengan filter akan dipilih
+1. Run `IVO:SELECTSIMILARSPECIFIED`
+2. Pick a reference entity
+3. Specify which properties must match (entity type, layer, colour, linetype, and so on)
+4. Every entity matching that filter becomes selected
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
-> [!TIP]
-> Berbeda dari SELECTSIMILAR bawaan BricsCAD, perintah ini memungkinkan Anda memilih filter properti mana yang digunakan untuk pencocokan.
+> [!WARNING]
+> This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
 > [!TIP]
-> Gunakan [IVO:DESELECTSIMILAR](commands/utilities/deselectsimilar.md) untuk mengurangi entitas sejenis dari seleksi yang sudah ada.
+> More precise than the native SELECTSIMILAR, because you decide which properties count as "similar" rather than accepting a fixed set.
 
+> [!TIP]
+> To narrow an existing selection instead of building one, use [IVO:DESELECTSIMILAR](en/commands/utilities/deselectsimilar.md).
+
+## See Also
+
+- [IVO:DESELECTSIMILAR](en/commands/utilities/deselectsimilar.md) — remove similar entities from the selection
+- [IVO:CLEANUP](en/commands/utilities/cleanup.md) — filter and highlight by a saved preset

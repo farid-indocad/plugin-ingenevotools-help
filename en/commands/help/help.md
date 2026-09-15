@@ -1,28 +1,35 @@
 # IVO:HELP
 
-> Membuka dokumentasi/guide online di browser default.
+> Opens this online documentation in your default browser.
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Panel Utility → Button Help
+- **Ribbon:** Ingenevo Tools Tab → Help Panel → Help button
 - **Command Line:** `IVO:HELP`
 - **Alias:** —
 
 ## How to Use
 
-1. Jalankan perintah `IVO:HELP`
-2. Browser default akan terbuka menampilkan situs dokumentasi IngenevoTools
+1. Run `IVO:HELP`
+2. Your default browser opens the IngenevoTools documentation site
 
 ## Options / Parameters
 
-URL dokumentasi dapat diatur melalui `IVO:SETTINGS` → **General > Help URL**.
+The documentation URL is configurable under `IVO:SETTINGS` → **General > Help URL**.
 
-| Parameter | Deskripsi |
-|:----------|:----------|
-| **Help URL** | URL situs dokumentasi yang akan dibuka. Default: `https://farid-indocad.github.io/plugin-ingenevotools-help/` |
+| Parameter | Description |
+|:----------|:------------|
+| **Help URL** | The documentation site this command opens |
 
 ## Tips & Notes
 
-> [!TIP]
-> Anda sedang membaca dokumentasi yang dibuka oleh perintah ini! 🎉
+> [!NOTE]
+> This command runs **without an active license**.
 
+> [!TIP]
+> You are reading the documentation this command opens. 🎉
+
+## See Also
+
+- [Command List](en/command-list.md) — every command in one page
+- [IVO:COMMANDS](en/commands/help/commands.md) — the same list inside BricsCAD
