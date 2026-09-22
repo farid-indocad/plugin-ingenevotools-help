@@ -49,14 +49,3 @@ Your settings and license are **not** removed.
 
 > [!WARNING]
 > **If you will not use the plugin on this machine again, release the device first** via [`IVO:LICENSE`](en/commands/help/license.md) → **Remove**, **before** uninstalling. Deleting the files does **not** free the license slot on the server — it stays claimed by a machine you no longer use.
-
-## If something fails
-
-Send this file to the Ingenevo team:
-
-```
-%LocalAppData%\Ingenevo\install-log.txt
-```
-
-> [!TIP]
-> Installing is **idempotent** — repeating it is safe and breaks nothing. When in doubt, run the installer again.

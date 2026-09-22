@@ -49,14 +49,3 @@ Pengaturan dan lisensi Anda **tidak ikut terhapus**.
 
 > [!WARNING]
 > **Kalau Anda tidak akan memakai plugin ini lagi di komputer ini, lepaskan perangkatnya dulu** lewat [`IVO:LICENSE`](commands/help/license.md) → **Remove**, **sebelum** melepas plugin. Menghapus berkasnya **tidak** membebaskan slot lisensi di server — slot itu akan tetap terpakai oleh komputer yang sudah tidak Anda pakai.
-
-## Kalau ada yang gagal
-
-Kirimkan berkas ini ke tim Ingenevo:
-
-```
-%LocalAppData%\Ingenevo\install-log.txt
-```
-
-> [!TIP]
-> Pemasangan bersifat **idempoten** — mengulanginya aman dan tidak merusak apa pun. Kalau ragu, jalankan ulang installer-nya.
