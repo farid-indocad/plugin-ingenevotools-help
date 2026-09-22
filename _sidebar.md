@@ -65,5 +65,5 @@
 
 - ---
 - [FAQ](faq.md)
-- [Changelog](changelog.md)
+- [Catatan Rilis](release-notes.md)
 - [Tentang](about.md)

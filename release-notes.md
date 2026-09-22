@@ -1,4 +1,4 @@
-# Changelog
+# Catatan Rilis
 
 Perubahan yang terlihat oleh drafter. Rincian teknis pemasangan dan build ada di repository plugin.
 

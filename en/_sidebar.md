@@ -65,5 +65,5 @@
 
 - ---
 - [FAQ](/en/faq.md)
-- [Changelog](/en/changelog.md)
+- [Release Notes](/en/release-notes.md)
 - [About](/en/about.md)

@@ -1,4 +1,4 @@
-# Changelog
+# Release Notes
 
 Changes as a drafter sees them. Installation and build details live in the plugin repository.
 
