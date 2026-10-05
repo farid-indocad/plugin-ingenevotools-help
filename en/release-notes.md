@@ -7,6 +7,37 @@ Changes as a drafter sees them. Installation and build details live in the plugi
 
 ---
 
+## 2.1.0 — refreshed [DATE]
+
+The version number stays 2.1.0; what changed is the installer file. Run the new installer to get the changes below.
+
+### Added
+
+- **14 short aliases from the LISP plugin**: `IVO:CBP`, `IVO:CREG`, `IVO:DSS`, `IVO:EREG`, `IVO:OUG`, `IVO:OPF`, `IVO:PPP`, `IVO:RNL`, `IVO:RV`, `IVO:RBLOCK`, `IVO:SSS`, `IVO:US`, `IVO:SRL`, and `IVO:UTB`. See the [Command List](en/command-list.md).
+- **A Generate Column ribbon button** for [`IVO:GENCOLUMN`](en/commands/structure/gencolumn.md), on the Structure panel. Beams already selected are used straight away.
+
+### Changed
+
+- **[`IVO:SETTINGS`](en/commands/settings/settings.md) now only chooses the profile.** The values inside a profile are put together by the IndoCAD team and shipped with the installer — see [Settings](en/settings.md).
+- **Only the Intrax profile ships.** The **Default** and **IndoCAD** profiles are retired; machines using them are moved to Intrax.
+- **With the Intrax profile, [`IVO:UPDATETITLEBLOCK`](en/commands/sheet-manager/updatetitleblock.md) writes every value in capitals.**
+- **The default register template is now `Templates\register-intrax.xls`**, installed with the plugin. [`IVO:CREATEREGISTER`](en/commands/sheet-manager/createregister.md) now works on any machine.
+- **Detail Library settings now belong to the machine**, not the profile — set them with [`IVO:DETAILLIBRARYSETTINGS`](en/commands/detail-library/detaillibrarysettings.md).
+- **[`IVO:CLEANUP`](en/commands/utilities/cleanup.md) asks for the objects first**, then the preset file and preset.
+- **The plugin is now named `IngenevoTools`**, copyright IndoCAD Pty Ltd — in the installer window and Settings › Apps too.
+- **The installer is now about 15 MB** instead of 42 MB, and the uninstaller in the plugin folder about 80 KB.
+
+### Fixed
+
+- **License trial and activation on BricsCAD V26** no longer fail because the machine cannot be identified.
+- **[`IVO:PRINTPDF`](en/commands/print/printpdf.md)** no longer re-runs the previous command after printing, reports a 0-byte PDF as empty, and names layouts whose plot style could not be put back.
+- **[`IVO:FOOTING`](en/commands/structure/footing.md)** uses the active profile's offsets, even if the Structural palette has never been opened.
+- **[`IVO:GENCOLUMN`](en/commands/structure/gencolumn.md)** places columns at the right ends of mirrored or 3D-rotated beams.
+- **Beam, column, and bracing labels**: a rotated label's frame and wipeout rotate with it, and the wipeout really covers what lies under the text.
+- **An interrupted or failed installation no longer makes the plugin disappear**, and a Reinstall that fails because BricsCAD is open now says so. See [Installation](en/installation.md).
+
+---
+
 ## 2.1.0 — released 28 September 2026
 
 The first minor version after 2.0.0, mostly bringing licensing into line. Existing licenses stay valid — no new license is needed.
