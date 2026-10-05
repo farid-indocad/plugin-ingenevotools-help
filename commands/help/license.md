@@ -34,7 +34,15 @@
 > **Sebelum berhenti memakai plugin di sebuah komputer, tekan Remove lebih dulu.** Menghapus plugin atau memformat komputer **tidak** membebaskan slot lisensi di server — slot itu akan tetap terpakai oleh mesin yang sudah tidak ada.
 
 > [!NOTE]
-> Kalau aktivasi ditolak dengan pesan tentang **batas perangkat**, artinya seluruh slot lisensi Anda sudah terpakai. Daftar mesin yang memakainya tidak ditampilkan di jendela ini — hubungi tim Ingenevo, atau tekan **Remove** di komputer yang sudah tidak dipakai.
+> Kalau aktivasi ditolak karena **batas perangkat**, artinya seluruh slot lisensi Anda sudah terpakai. Jendelanya lalu bertanya **Open the customer portal in your browser now?** — tekan **Yes** untuk membuka **portal pelanggan**, masuk dengan kode yang dikirim ke email Anda, lalu lepaskan mesin yang sudah tidak dipakai. Ini berlaku di **Activate**, **Update**, maupun **Renew**.
+>
+> Portal juga bisa dibuka langsung kapan saja: [https://app-licsvc.azurewebsites.net/portal](https://app-licsvc.azurewebsites.net/portal)
+
+> [!NOTE]
+> Kalau perintah IVO menolak berjalan dengan pesan **Your licence is on hold**, lisensi Anda sedang **ditahan sementara** oleh tim Ingenevo — bukan dicabut. Hubungi tim Ingenevo; setelah tahanannya dilepas, tutup dan buka lagi BricsCAD. Tidak perlu aktivasi ulang, dan tidak ada slot tambahan yang terpakai.
+
+> [!NOTE]
+> Setiap aktivasi dan pemeriksaan ulang lisensi, plugin mengirim **nama komputer, IP lokal, dan nama Windows** ke server lisensi, supaya tiap mesin tampil dengan namanya sendiri di portal pelanggan. IP lokal tidak ditampilkan di portal. Pengiriman ini tidak bisa dimatikan.
 
 > [!TIP]
 > Kalau ada masalah aktivasi, plugin menulis jejak diagnostik di berkas berikut. Tidak ada tombol untuk membukanya — buka sendiri lewat Explorer, dan lampirkan saat menghubungi tim Ingenevo:

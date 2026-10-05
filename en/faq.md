@@ -26,13 +26,19 @@ Seven commands still run without a license — `IVO:LICENSE`, `IVO:ABOUT`, `IVO:
 
 Every slot on your license is in use — usually by an old machine that is no longer in service.
 
-The list of machines is not shown in the license window. What you can do:
+What you can do:
 
+- When the license window asks **Open the customer portal in your browser now?**, press **Yes**. In the **customer portal**, sign in with the code from your email and release the machines you no longer use. You can also open the portal directly at [https://app-licsvc.azurewebsites.net/portal](https://app-licsvc.azurewebsites.net/portal)
 - On the old machine, if it still boots: open [`IVO:LICENSE`](en/commands/help/license.md) → **Remove**
-- If the machine is gone: contact the Ingenevo team
 
 > [!WARNING]
 > Uninstalling the plugin or reimaging a machine does **not** free its license slot. Always press **Remove** before leaving a machine behind.
+
+---
+
+## Commands refused with "Your licence is on hold"
+
+Your license has been **temporarily put on hold** by the Ingenevo team — for example while a payment is pending — not revoked. Contact the Ingenevo team. Once the hold is lifted, close and reopen BricsCAD; the license comes back with the same key and machine, with no re-activation.
 
 ---
 

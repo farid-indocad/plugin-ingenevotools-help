@@ -26,13 +26,19 @@ Tujuh perintah tetap bisa dijalankan tanpa lisensi — `IVO:LICENSE`, `IVO:ABOUT
 
 Seluruh slot lisensi Anda sudah terpakai — biasanya oleh komputer lama yang sudah tidak dipakai lagi.
 
-Daftar mesinnya tidak ditampilkan di jendela lisensi. Yang bisa Anda lakukan:
+Yang bisa Anda lakukan:
 
+- Saat jendela lisensi bertanya **Open the customer portal in your browser now?**, tekan **Yes**. Di **portal pelanggan**, masuk dengan kode dari email lalu lepaskan mesin yang sudah tidak dipakai. Portalnya juga bisa dibuka langsung di [https://app-licsvc.azurewebsites.net/portal](https://app-licsvc.azurewebsites.net/portal)
 - Di komputer lama yang masih bisa dinyalakan: buka [`IVO:LICENSE`](commands/help/license.md) → **Remove**
-- Kalau komputernya sudah tidak ada: hubungi tim Ingenevo
 
 > [!WARNING]
 > Menghapus plugin atau memformat komputer **tidak** membebaskan slot lisensi. Selalu tekan **Remove** dulu sebelum meninggalkan sebuah komputer.
+
+---
+
+## Perintah ditolak dengan pesan "Your licence is on hold"
+
+Lisensi Anda sedang **ditahan sementara** oleh tim Ingenevo — misalnya menunggu pelunasan — bukan dicabut. Hubungi tim Ingenevo. Setelah tahanannya dilepas, tutup dan buka lagi BricsCAD; lisensinya pulih dengan key dan mesin yang sama, tanpa aktivasi ulang.
 
 ---
 
