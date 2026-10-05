@@ -13,7 +13,7 @@ Type [`IVO:LICENSE`](en/commands/help/license.md) and activate. Without it almos
 
 ## 2. Pick a settings profile
 
-Open [`IVO:SETTINGS`](en/commands/settings/settings.md). The installer already ships three office-standard profiles — **Default**, **Intrax**, and **IndoCAD** — so you do not have to build one from scratch.
+Run [`IVO:SETTINGS`](en/commands/settings/settings.md) and make sure the right profile is in use. The installer already ships the **Intrax** office-standard profile, so you do not have to build one yourself — its values are put together by the IndoCAD team.
 
 The profile decides paper size, sheet name prefix, title block name, and the column/beam/bracing types. **The commands that follow read from here and will not ask again**, so a mistake at this step propagates through the whole drawing.
 

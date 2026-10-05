@@ -25,7 +25,7 @@
 > The register file must **already exist**. If it does not, create it first with [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md).
 
 > [!TIP]
-> The register's name and extension are configurable under `IVO:SETTINGS` → **Sheet Manager > Drawing Register**. With the default `Auto` format, the plugin looks for `.xlsx` first, then `.xls`.
+> The register's name and extension come from the [settings profile](en/settings.md), under **Sheet Manager > Drawing Register**. With the `XlsThenXlsx` format in the Intrax profile, the plugin looks for `.xls` first, then `.xlsx`.
 
 > [!NOTE]
 > This command, [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md), and [IVO:UPDATETITLEBLOCK](en/commands/sheet-manager/updatetitleblock.md) share one rule for deciding which file is a drawing's register, so the three can never disagree.

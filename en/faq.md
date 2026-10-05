@@ -52,7 +52,7 @@ Your license has been **temporarily put on hold** by the Ingenevo team — for e
 
 ## A command runs but asks nothing
 
-That is usually **the intended behaviour**, not a fault. Many commands read their configuration from [`IVO:SETTINGS`](en/commands/settings/settings.md) instead of asking each time — paper size for [`IVO:CREATELAYOUT`](en/commands/sheet-manager/createlayout.md), the numbering format for [`IVO:RENUMBERLAYOUT`](en/commands/sheet-manager/renumberlayout.md), and both offsets for [`IVO:FOOTING`](en/commands/structure/footing.md).
+That is usually **the intended behaviour**, not a fault. Many commands read their configuration from the [settings profile](en/settings.md) instead of asking each time — paper size for [`IVO:CREATELAYOUT`](en/commands/sheet-manager/createlayout.md), the numbering format for [`IVO:RENUMBERLAYOUT`](en/commands/sheet-manager/renumberlayout.md), and both offsets for [`IVO:FOOTING`](en/commands/structure/footing.md).
 
 If the result is not what you expected, check the [Settings](en/settings.md) first.
 
@@ -65,7 +65,7 @@ Excel rows are matched to layouts **by layout name**. An empty sheet almost alwa
 Also check:
 
 1. The title block must be a **block reference with attributes** — plain text and mtext cannot be filled
-2. Which worksheet is read is set under `IVO:SETTINGS` → **Sheet Manager › Drawing Register › Worksheet**
+2. Which worksheet is read comes from the [settings profile](en/settings.md), under **Sheet Manager › Drawing Register › Worksheet** (in the Intrax profile: `Intrax`)
 
 ---
 

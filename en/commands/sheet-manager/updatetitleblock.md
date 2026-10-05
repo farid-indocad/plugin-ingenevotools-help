@@ -30,13 +30,13 @@
 > Matching is done by **layout name**. A row whose name matches no layout is not written anywhere.
 
 > [!TIP]
-> The register read here is the same file used by [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md) and [IVO:EDITREGISTER](en/commands/sheet-manager/editregister.md). Which worksheet is read is set under `IVO:SETTINGS` → **Sheet Manager > Drawing Register > Worksheet**.
+> The register read here is the same file used by [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md) and [IVO:EDITREGISTER](en/commands/sheet-manager/editregister.md). Which worksheet is read comes from the [settings profile](en/settings.md), under **Sheet Manager > Drawing Register > Worksheet**.
 
 > [!NOTE]
 > The title block must be a **block reference with attributes**. Plain text and mtext cannot be filled by this command.
 
 > [!TIP]
-> The title block's block name and the column-to-attribute mapping are set under `IVO:SETTINGS` → **Sheet Manager > Title Block**.
+> The title block's block name and the column-to-attribute mapping come from the [settings profile](en/settings.md), under **Sheet Manager > Title Block**.
 
 ## See Also
 

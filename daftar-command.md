@@ -79,7 +79,7 @@ Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertand
 
 | Perintah | Alias | Ribbon | Fungsi |
 |:---------|:------|:------:|:-------|
-| [IVO:SETTINGS](commands/settings/settings.md) | `IVO:US` | ✓ | Buka jendela pengaturan plugin |
+| [IVO:SETTINGS](commands/settings/settings.md) | `IVO:US` | ✓ | Pilih profil pengaturan |
 | [IVO:OPENSETTINGSFOLDER](commands/settings/opensettingsfolder.md) | — | — | Buka folder tempat settings, profil, dan preset disimpan |
 
 ## Help

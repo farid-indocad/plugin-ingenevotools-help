@@ -24,7 +24,7 @@
 > This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
 > [!TIP]
-> The beam type comes from the Structural palette's **Framing** tab, and can also be set under `IVO:SETTINGS` → **Structure > Beam**.
+> The beam type is picked on the Structural palette's **Framing** tab, from the list in the [settings profile](en/settings.md) (**Structure > Beam**).
 
 > [!TIP]
 > To draw beams and columns in one pass, use [IVO:FRAMING](en/commands/structure/framing.md).

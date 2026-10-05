@@ -32,13 +32,16 @@ File 'A-101.xlsx' already exists. Overwrite? [Yes/No] <No>:
 > The drawing must already be saved to disk. A new drawing that has never been saved has no folder, so the command has nowhere to put the register.
 
 > [!TIP]
-> The register's name, extension, and template location are all configurable under `IVO:SETTINGS` → **Sheet Manager > Drawing Register**:
+> The register's name, extension, and template come from the [settings profile](en/settings.md), under **Sheet Manager > Drawing Register**. In the **Intrax** office profile:
 >
-> | Option | What it does |
-> |:-------|:-------------|
-> | **Format** | `Auto` (default) tries `.xlsx` first, then `.xls`. Can be forced to `Xlsx`, `Xls`, or `XlsThenXlsx` |
-> | **Template Path** | Leave empty to use the built-in `dr_default.*` template in the plugin folder, or point at your own via **Browse** |
-> | **Worksheet** | The sheet name [IVO:UPDATETITLEBLOCK](en/commands/sheet-manager/updatetitleblock.md) reads title block data from |
+> | Option | Value in Intrax | What it means |
+> |:-------|:----------------|:--------------|
+> | **Format** | `XlsThenXlsx` | The register is created as `.xls`; when looking for an existing register, `.xls` is tried first, then `.xlsx` |
+> | **Template Path** | `Templates\register-intrax.xls` | The template installed with the plugin, in the `Templates\` folder next to the plugin DLL |
+> | **Worksheet** | `Intrax` | The sheet name [IVO:UPDATETITLEBLOCK](en/commands/sheet-manager/updatetitleblock.md) reads title block data from |
+
+> [!NOTE]
+> The template's extension must match the register format. If it does not — say, an `.xls` template with a format that creates `.xlsx` — the command **refuses** before copying anything, because Excel would reject such a file.
 
 > [!NOTE]
 > If **Template Path** is set but the file cannot be found, the command does **not** quietly fall back to the built-in template — it reports failure. That is deliberate, so a typo in the path is not hidden behind a result that looks correct.

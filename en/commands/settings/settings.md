@@ -1,6 +1,6 @@
 # IVO:SETTINGS
 
-> Opens the plugin settings window.
+> Chooses the settings profile the plugin uses.
 
 ## How to Access
 
@@ -10,40 +10,28 @@
 
 ## How to Use
 
-1. Run `IVO:SETTINGS`
-2. The settings window opens with a group tree on the left:
-
-| Group | What it holds |
-|:------|:--------------|
-| **General** | General preferences, including the Help URL [IVO:HELP](en/commands/help/help.md) opens |
-| **Sheet Manager** | Paper, Sheet Name, Title Block (with Drawing Index and Extraction Rules), Drawing Register, Viewport, Viewframe |
-| **Structure** | The Column, Beam, and Bracing type lists, plus Footing settings |
-| **Detail Library** | Library folders and the thumbnail cache folder |
-| **Member Schedule** | Cleanup rules for [IVO:SCHEDULE](en/commands/structure/schedule.md) |
-
-3. Click a group to see its options — **each option's explanation appears right beside its input field**
-4. Press **OK** or **Apply** to save
+1. Run `IVO:SETTINGS` or `IVO:US`
+2. The **Settings profile** window opens and lists the profiles installed on this machine. The one in use is marked **(in use)**
+3. Pick the profile that fits the drawings you are working on, then press **OK**. **Cancel** closes the window without changing anything
+4. The new profile takes effect immediately, including the type lists in the Structural palette
 
 <!-- screenshot -->
 
 ## Tips & Notes
 
 > [!NOTE]
-> This command **does not require an active license.** Settings hold your own configuration — profiles, column types, title block rules — that you may have spent a long time building. Locking you out of it because a subscription lapsed by a day would be holding your own data hostage.
-
-> [!TIP]
-> Every option's explanation lives inside this window, not on the documentation site. That is deliberate: an explanation copied into two places drifts apart quickly, and the one inside the dialog can never go stale.
-
-> [!TIP]
-> Settings are stored as **profiles**. The installer ships three of them — `Default`, `Intrax`, and `IndoCAD` — so a new drafter starts with the office standard rather than a blank slate.
+> **Values inside a profile cannot be changed here.** Profiles are office standards that the installer overwrites on every install, so edits on a drafter's machine would be lost at the next update. If a value needs to change, ask the IndoCAD team.
 
 > [!NOTE]
-> Changes take effect immediately. There is no need to reload the plugin or restart BricsCAD.
+> This command **does not need an active license**, so you can always see and change which profile is in use.
 
-> [!WARNING]
-> If you edit the settings file by hand, **close this window first.** It holds the whole document in memory and rewrites the file when you press OK or Apply — your hand edits would be overwritten.
+> [!TIP]
+> The installer ships the **Intrax** office profile. The old **Default** and **IndoCAD** profiles are retired, so this list usually holds only Intrax — unless the IndoCAD team has installed another profile on your machine.
+
+> [!NOTE]
+> If switching fails, the window stays open and shows why (`Could not switch to …`). The previous profile stays in use.
 
 ## See Also
 
-- [IVO:OPENSETTINGSFOLDER](en/commands/settings/opensettingsfolder.md) — open the folder holding profiles and presets
+- [IVO:OPENSETTINGSFOLDER](en/commands/settings/opensettingsfolder.md) — open the folder where profiles and presets are stored
 - [Settings](en/settings.md) — how the settings are organised

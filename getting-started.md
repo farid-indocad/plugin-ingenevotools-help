@@ -13,7 +13,7 @@ Ketik [`IVO:LICENSE`](commands/help/license.md) dan aktifkan. Tanpa ini hampir s
 
 ## 2. Pilih profil pengaturan
 
-Buka [`IVO:SETTINGS`](commands/settings/settings.md). Installer sudah menanam tiga profil standar kantor — **Default**, **Intrax**, dan **IndoCAD** — jadi Anda tidak perlu menyusunnya dari nol.
+Jalankan [`IVO:SETTINGS`](commands/settings/settings.md) dan pastikan profil yang dipakai benar. Installer sudah membawa profil standar kantor **Intrax**, jadi Anda tidak perlu menyusunnya sendiri — nilai di dalamnya disusun tim IndoCAD.
 
 Profil menentukan paper size, prefix nama sheet, nama block title block, dan tipe column/beam/bracing. **Perintah-perintah berikutnya membaca dari sini dan tidak akan menanyakannya lagi**, jadi kesalahan di langkah ini akan menyebar ke seluruh gambar.
 

@@ -31,7 +31,7 @@
 > **There is no confirmation, and none is needed** — this command only adds, never deletes. If you press Cancel partway through, the layouts already created are **kept**.
 
 > [!TIP]
-> It does not ask for paper size, prefix, or title block. All of those are read from `IVO:SETTINGS` → **Sheet Manager**.
+> It does not ask for paper size, prefix, or title block. All of those are read from the [settings profile](en/settings.md), under **Sheet Manager**.
 
 > [!IMPORTANT]
 > The **Viewframe types** line is worth reading every time. A ViewFrame type pattern that is too loose does not fail — it swallows another type's frames and produces sheets at the wrong scale. The run looks correct until somebody opens a sheet and reads its viewport. These per-type counts are the only sign on screen.

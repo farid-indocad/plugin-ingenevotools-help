@@ -31,5 +31,8 @@
 > [!WARNING]
 > Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
+> [!NOTE]
+> Setelan ini milik komputer ini, bukan bagian dari profil pengaturan. Ia disimpan di `%AppData%\IngenevoTools\detail-library.xml`, jadi berganti profil tidak mengubahnya.
+
 > [!TIP]
 > Setelah mengubah folder library, buka kembali [IVO:DETAILLIBRARY](commands/detail-library/detaillibrary.md) untuk melihat perubahan.

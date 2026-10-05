@@ -79,7 +79,7 @@ The **Ribbon** column marks whether a command has a button of its own. Commands 
 
 | Command | Alias | Ribbon | What it does |
 |:---------|:------|:------:|:-------|
-| [IVO:SETTINGS](en/commands/settings/settings.md) | `IVO:US` | ✓ | Open the plugin settings window |
+| [IVO:SETTINGS](en/commands/settings/settings.md) | `IVO:US` | ✓ | Choose the settings profile |
 | [IVO:OPENSETTINGSFOLDER](en/commands/settings/opensettingsfolder.md) | — | — | Open the folder holding settings, profiles, and presets |
 
 ## Help

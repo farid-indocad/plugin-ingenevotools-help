@@ -42,9 +42,9 @@ Manage library folders [Add/Remove/Done] <Done>:
 > If the settings file cannot be written — because it is locked or read-only — the command **says so** rather than reporting success. A folder that only ever existed in memory would otherwise vanish at the next restart.
 
 > [!TIP]
-> The same settings are available in the settings window under `IVO:SETTINGS` → **Detail Library**, if you would rather not use the command line.
+> These settings belong to this machine, not to the settings profile. They are stored in `%AppData%\IngenevoTools\detail-library.xml`, so switching profile does not change them.
 
 ## See Also
 
 - [IVO:DETAILLIBRARY](en/commands/detail-library/detaillibrary.md) — open the Detail Library palette
-- [IVO:SETTINGS](en/commands/settings/settings.md) — the plugin settings window
+- [IVO:SETTINGS](en/commands/settings/settings.md) — choose the settings profile

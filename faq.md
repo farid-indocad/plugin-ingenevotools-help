@@ -52,7 +52,7 @@ Lisensi Anda sedang **ditahan sementara** oleh tim Ingenevo — misalnya menungg
 
 ## Perintah berjalan tapi tidak menanyakan apa-apa
 
-Itu biasanya **memang perilakunya**, bukan kerusakan. Banyak perintah membaca pengaturannya dari [`IVO:SETTINGS`](commands/settings/settings.md) alih-alih bertanya tiap kali — misalnya paper size pada [`IVO:CREATELAYOUT`](commands/sheet-manager/createlayout.md), format penomoran pada [`IVO:RENUMBERLAYOUT`](commands/sheet-manager/renumberlayout.md), dan kedua offset pada [`IVO:FOOTING`](commands/structure/footing.md).
+Itu biasanya **memang perilakunya**, bukan kerusakan. Banyak perintah membaca pengaturannya dari [profil pengaturan](settings.md) alih-alih bertanya tiap kali — misalnya paper size pada [`IVO:CREATELAYOUT`](commands/sheet-manager/createlayout.md), format penomoran pada [`IVO:RENUMBERLAYOUT`](commands/sheet-manager/renumberlayout.md), dan kedua offset pada [`IVO:FOOTING`](commands/structure/footing.md).
 
 Kalau hasilnya tidak sesuai harapan, periksa [Pengaturan](settings.md) lebih dulu.
 
@@ -65,7 +65,7 @@ Baris Excel dicocokkan ke layout **berdasarkan nama layout**. Sheet yang kosong 
 Periksa juga:
 
 1. Title block harus **block reference beratribut** — teks biasa dan mtext tidak bisa diisi
-2. Nama sheet Excel yang dibaca diatur di `IVO:SETTINGS` → **Sheet Manager › Drawing Register › Worksheet**
+2. Nama sheet Excel yang dibaca ditentukan oleh [profil pengaturan](settings.md), bagian **Sheet Manager › Drawing Register › Worksheet** (di profil Intrax: `Intrax`)
 
 ---
 

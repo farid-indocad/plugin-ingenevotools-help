@@ -23,7 +23,7 @@
 > Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!TIP]
-> Tipe column dapat diatur melalui `IVO:SETTINGS` → **Structure > Column**.
+> Daftar tipe column berasal dari [profil pengaturan](settings.md), bagian **Structure > Column**.
 
 > [!TIP]
 > Untuk menggambar column + beam sekaligus, gunakan [IVO:FRAMING](commands/structure/framing.md).
