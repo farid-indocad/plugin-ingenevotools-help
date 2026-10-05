@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Sheet Manager → Tombol Create Layout
+- **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Create Layout
 - **Command Line:** `IVO:CREATELAYOUT`
 - **Alias:** `IVO:CRL`
 

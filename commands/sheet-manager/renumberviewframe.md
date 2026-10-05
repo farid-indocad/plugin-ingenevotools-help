@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Sheet Manager → Tombol Renumber Viewframe
+- **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Renumber Viewframe
 - **Command Line:** `IVO:RENUMBERVIEWFRAME`
 - **Alias:** `IVO:RVF`
 

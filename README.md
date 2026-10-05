@@ -18,14 +18,14 @@ Tersedia untuk **BricsCAD V20 sampai V26**.
 
 ## Apa saja isinya
 
-Perintah dikelompokkan persis seperti panel di tab **Ingenevo Tools** pada Ribbon:
+Perintah dikelompokkan persis seperti panel di tab **IngenevoTools** pada Ribbon:
 
 | Panel | Isinya |
 |:------|:-------|
 | **Print** | Cetak massal layout ke PDF, satu berkas gabungan atau satu per sheet |
 | **Sheet Manager** | Bangun layout dari block ViewFrame, kelola register Excel, isi title block massal, urutkan dan nomori ulang sheet |
 | **Utilities** | Safe explode, konversi SOLID ke hatch, ganti block, seleksi lanjutan, dan penyeragaman pengaturan layout |
-| **Structure** | Framing, column, beam, bracing, footing, boundary, dan member schedule |
+| **Structure** | Framing, column, beam, bracing, footing, dan member schedule |
 | **Civil** | Perhitungan elevasi outlet pipa |
 | **Detail Library** | Palette perpustakaan gambar detail standar |
 | **Settings** | Pengaturan plugin berbasis profil |

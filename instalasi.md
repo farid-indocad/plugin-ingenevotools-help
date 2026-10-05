@@ -11,7 +11,7 @@ Memasang IngenevoTools butuh **empat langkah** dan tidak butuh hak Administrator
 
 1. **Buka tautan** yang dikirim tim Ingenevo, lalu **klik dua kali** `IngenevoToolsSetup.exe`
 2. Satu jendela terbuka dan bekerja sendiri. Tunggu beberapa detik sampai ia berkata **"Ingenevo Tools has been installed"**, lalu tekan **Close**
-3. **Buka BricsCAD.** Tab **Ingenevo Tools** muncul sendiri di ribbon
+3. **Buka BricsCAD.** Tab **IngenevoTools** muncul sendiri di ribbon
 4. Ketik **`IVO:LICENSE`** dan aktifkan lisensi Anda
 
 <!-- screenshot -->
@@ -34,7 +34,7 @@ Klik dua kali **installer yang sama** sekali lagi. Kalau versi itu memang sudah 
 
 Setelah BricsCAD dibuka:
 
-1. Tab **Ingenevo Tools** terlihat di ribbon
+1. Tab **IngenevoTools** terlihat di ribbon
 2. Ketik [`IVO:COMMANDS`](commands/help/commands.md) untuk melihat daftar perintah
 3. Ketik [`IVO:ABOUT`](commands/help/about.md) untuk melihat versi yang terpasang
 

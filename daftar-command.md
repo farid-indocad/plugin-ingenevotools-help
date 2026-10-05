@@ -1,6 +1,6 @@
 # Daftar Command
 
-Seluruh perintah IngenevoTools, dikelompokkan mengikuti panel di tab **Ingenevo Tools** pada Ribbon.
+Seluruh perintah IngenevoTools, dikelompokkan mengikuti panel di tab **IngenevoTools** pada Ribbon.
 
 Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertanda **—** hanya bisa dijalankan dari command line — sebagiannya memang sengaja begitu, karena tombol ribbon akan membuang seleksi yang sudah Anda buat.
 
@@ -61,8 +61,6 @@ Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertand
 | [IVO:HIDESTRUCTURALPALETTE](commands/structure/hidestructuralpalette.md) | — | — | Sembunyikan palette Structural |
 | [IVO:GENCOLUMN](commands/structure/gencolumn.md) | `IVO:GC` | — | Tempatkan column di ujung setiap beam terpilih, beam dipertahankan |
 | [IVO:FOOTING](commands/structure/footing.md) | `IVO:FTG` | — | Gambar garis luar footing dari garis muka luar dan garis as |
-| [IVO:BOUNDARY](commands/structure/boundary.md) | `IVO:BND` | — | Susun ulang boundary dari garis cyan dan kuning terpilih |
-| [IVO:BOUNDARYDUMP](commands/structure/boundary.md) | — | — | Laporkan kenapa sebuah boundary gagal, tanpa menggambar apa pun |
 
 ## Civil
 

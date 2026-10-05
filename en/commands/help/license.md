@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Help Panel → License button
+- **Ribbon:** IngenevoTools Tab → Help Panel → License button
 - **Command Line:** `IVO:LICENSE`
 - **Alias:** —
 
@@ -34,7 +34,15 @@
 > **Before you stop using the plugin on a machine, press Remove first.** Uninstalling the plugin or reimaging the machine does **not** free the license slot on the server — that slot stays claimed by a machine that no longer exists.
 
 > [!NOTE]
-> If activation is refused with a **device limit** message, every slot on your license is in use. The list of machines using them is not shown in this window — contact the Ingenevo team, or press **Remove** on a machine you no longer use.
+> If activation is refused because of the **device limit**, every slot on your license is in use. The window then asks **Open the customer portal in your browser now?** — press **Yes** to open the **customer portal**, sign in with the code sent to your email, and release the machines you no longer use. This applies to **Activate**, **Update**, and **Renew** alike.
+>
+> You can also open the portal directly at any time: [https://app-licsvc.azurewebsites.net/portal](https://app-licsvc.azurewebsites.net/portal)
+
+> [!NOTE]
+> If IVO commands refuse to run with the message **Your licence is on hold**, your license has been **temporarily put on hold** by the Ingenevo team — not revoked. Contact the Ingenevo team; once the hold is lifted, close and reopen BricsCAD. No re-activation is needed, and no extra slot is used.
+
+> [!NOTE]
+> On every activation and license re-check, the plugin sends the **computer name, local IP address, and Windows version name** to the license server, so each machine shows up under its own name in the customer portal. The local IP is not shown in the portal. This cannot be turned off.
 
 > [!TIP]
 > When activation goes wrong, the plugin writes a diagnostic trace to the file below. There is no button to open it — open it yourself in Explorer and attach it when you contact the Ingenevo team:

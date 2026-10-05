@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Detail Library Panel → Detail Library button
+- **Ribbon:** IngenevoTools Tab → Detail Library Panel → Detail Library button
 - **Command Line:** `IVO:DETAILLIBRARY`
 - **Alias:** —
 

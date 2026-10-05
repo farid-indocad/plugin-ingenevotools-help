@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → BltScale button
+- **Ribbon:** IngenevoTools Tab → Utilities Panel → BltScale button
 - **Command Line:** `IVO:BLTSCALE`
 - **Alias:** `IVO:BLTS`
 

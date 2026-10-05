@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Schedule
+- **Ribbon:** Tab IngenevoTools → Panel Structure → Tombol Schedule
 - **Command Line:** `IVO:SCHEDULE`
 - **Alias:** —
 

@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Column
+- **Ribbon:** Tab IngenevoTools → Panel Structure → Tombol Column
 - **Command Line:** `IVO:COLUMN`
 - **Alias:** —
 

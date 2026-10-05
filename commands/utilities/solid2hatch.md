@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Solid2Hatch
+- **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Solid2Hatch
 - **Command Line:** `IVO:SOLID2HATCH`
 - **Alias:** `IVO:S2H`
 

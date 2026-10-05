@@ -7,6 +7,64 @@ Changes as a drafter sees them. Installation and build details live in the plugi
 
 ---
 
+## 2.1.0 — released 28 September 2026
+
+The first minor version after 2.0.0, mostly bringing licensing into line. Existing licenses stay valid — no new license is needed.
+
+### Added
+
+- **A full device quota now points you to the customer portal.** When activation is refused because of the device limit, the license window offers to open the [customer portal](https://app-licsvc.azurewebsites.net/portal), where you release machines you no longer use. See [`IVO:LICENSE`](en/commands/help/license.md).
+
+### Changed
+
+- **The plugin sends the computer name, local IP address, and Windows version name to the license server**, so each machine shows up under its own name in the portal. This cannot be turned off.
+
+### Removed
+
+- **`IVO:BOUNDARY`, `IVO:BND`, and `IVO:BOUNDARYDUMP`.** All three were development tools and now answer "Unknown command". The closest command that remains is [`IVO:FOOTING`](en/commands/structure/footing.md).
+
+### Fixed
+
+- **A license on hold now actually holds the plugin**, with the message "Your licence is on hold". Once the hold is lifted, the license comes back by itself when BricsCAD is reopened.
+- **Ribbon buttons in BricsCAD V20 show their icons**, not a question mark.
+- **The first pick of [`IVO:COLUMN`](en/commands/structure/column.md) and [`IVO:FRAMING`](en/commands/structure/framing.md) is no longer ORTHO-locked.** The first point is free, as in `LINE`; ORTHO applies from the second point.
+
+---
+
+## 2.0.0 — refreshed 22 September 2026
+
+### Fixed
+
+- **[`IVO:PRINTPDF`](en/commands/print/printpdf.md) actually produces PDFs.** Before, it reported success without writing a single file. PDFs are now made through BricsCAD's own publish:
+  - the result is reported on the command line, with no window afterwards
+  - the "replace file?" question now comes from BricsCAD itself
+  - a drawing that has never been saved is refused before the window opens
+
+---
+
+## 2.0.0 — refreshed 17 September 2026
+
+Reinstall with the installer to get the office CLEANUP presets — presets are only planted at install time.
+
+### Added
+
+- **Office [`IVO:CLEANUP`](en/commands/utilities/cleanup.md) presets are installed**: eleven files, one per builder (AVIA HOMES, DIXON, JGK, MAKAAN, METRICON, ORBIT HOMES QLD, REMMUS, SIMOND, TEMPO, TICK HOMES, VERONA).
+- **Per-type styles for Column, Beam, and Bracing** in [Settings](en/settings.md): colour (ByLayer, ByBlock, or an index), layer, linetype, linetype scale, and lineweight for what gets drawn, plus colour and text style for its label.
+
+### Changed
+
+- **[`IVO:FRAMING`](en/commands/structure/framing.md), [`IVO:COLUMN`](en/commands/structure/column.md), [`IVO:BEAM`](en/commands/structure/beam.md), and [`IVO:BRACING`](en/commands/structure/bracing.md) no longer pop up the Structural palette.** Open it with [`IVO:STRUCTURALPALETTE`](en/commands/structure/structuralpalette.md).
+
+### Removed
+
+- **The example preset `cleanup-general.xml` is no longer created.** An existing copy is not deleted — remove it yourself from `%AppData%\IngenevoTools\Cleanup\` if you do not need it.
+
+### Fixed
+
+- **`ByLayer` and `ByBlock` colour criteria in CLEANUP presets now work.** Before, neither ever matched anything.
+
+---
+
 ## 2.0.0 — refreshed 15 September 2026
 
 The version number stays 2.0.0; what changed is the installer file.

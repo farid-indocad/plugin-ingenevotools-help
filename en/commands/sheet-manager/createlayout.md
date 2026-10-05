@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Sheet Manager Panel → Create Layout button
+- **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Create Layout button
 - **Command Line:** `IVO:CREATELAYOUT`
 - **Alias:** `IVO:CRL`
 

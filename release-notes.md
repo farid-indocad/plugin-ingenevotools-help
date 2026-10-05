@@ -7,6 +7,64 @@ Perubahan yang terlihat oleh drafter. Rincian teknis pemasangan dan build ada di
 
 ---
 
+## 2.1.0 — rilis 28 September 2026
+
+Versi minor pertama sesudah 2.0.0, terutama penyelarasan lisensi. Lisensi yang beredar tetap berlaku — tidak perlu lisensi baru.
+
+### Ditambahkan
+
+- **Kuota perangkat penuh kini mengarahkan ke portal pelanggan.** Saat aktivasi ditolak karena batas perangkat, jendela lisensi menawarkan membuka [portal pelanggan](https://app-licsvc.azurewebsites.net/portal), tempat Anda melepas mesin yang tidak dipakai lagi. Lihat [`IVO:LICENSE`](commands/help/license.md).
+
+### Diubah
+
+- **Plugin mengirim nama komputer, IP lokal, dan nama Windows ke server lisensi**, supaya tiap mesin tampil dengan namanya sendiri di portal. Tidak bisa dimatikan.
+
+### Dihapus
+
+- **`IVO:BOUNDARY`, `IVO:BND`, dan `IVO:BOUNDARYDUMP`.** Ketiganya alat untuk tahap pengembangan dan kini menjawab "Unknown command". Perintah terdekat yang tetap ada adalah [`IVO:FOOTING`](commands/structure/footing.md).
+
+### Diperbaiki
+
+- **Lisensi yang ditahan kini benar-benar menahan plugin**, dengan pesan "Your licence is on hold". Setelah tahanan dilepas, lisensi pulih sendiri saat BricsCAD dibuka ulang.
+- **Tombol ribbon di BricsCAD V20 menampilkan ikon**, bukan tanda tanya.
+- **Pick pertama [`IVO:COLUMN`](commands/structure/column.md) dan [`IVO:FRAMING`](commands/structure/framing.md) tidak lagi terkunci ORTHO.** Titik pertama bebas seperti pada `LINE`; ORTHO berlaku mulai titik kedua.
+
+---
+
+## 2.0.0 — penyegaran 22 September 2026
+
+### Diperbaiki
+
+- **[`IVO:PRINTPDF`](commands/print/printpdf.md) benar-benar menghasilkan PDF.** Sebelumnya perintah ini melaporkan sukses tanpa satu pun berkas tertulis. Kini PDF dibuat lewat publish bawaan BricsCAD:
+  - hasilnya dilaporkan di command line, tanpa jendela apa pun sesudahnya
+  - pertanyaan "timpa berkas?" kini datang dari BricsCAD sendiri
+  - gambar yang belum pernah disimpan ditolak sebelum jendela terbuka
+
+---
+
+## 2.0.0 — penyegaran 17 September 2026
+
+Pasang ulang dengan installer untuk mendapatkan preset CLEANUP kantor — preset hanya disemai saat pemasangan.
+
+### Ditambahkan
+
+- **Preset [`IVO:CLEANUP`](commands/utilities/cleanup.md) kantor ikut terpasang**: sebelas berkas, satu per builder (AVIA HOMES, DIXON, JGK, MAKAAN, METRICON, ORBIT HOMES QLD, REMMUS, SIMOND, TEMPO, TICK HOMES, VERONA).
+- **Gaya per type untuk Column, Beam, dan Bracing** di [Pengaturan](settings.md): warna (ByLayer, ByBlock, atau indeks), layer, linetype, skala linetype, dan lineweight untuk yang digambar, serta warna dan text style untuk labelnya.
+
+### Diubah
+
+- **[`IVO:FRAMING`](commands/structure/framing.md), [`IVO:COLUMN`](commands/structure/column.md), [`IVO:BEAM`](commands/structure/beam.md), dan [`IVO:BRACING`](commands/structure/bracing.md) tidak lagi memunculkan palette Structural.** Buka palette-nya dengan [`IVO:STRUCTURALPALETTE`](commands/structure/structuralpalette.md).
+
+### Dihapus
+
+- **Preset contoh `cleanup-general.xml` tidak lagi dibuat.** Berkas yang sudah ada tidak dihapus — buang sendiri dari `%AppData%\IngenevoTools\Cleanup\` kalau tidak diperlukan.
+
+### Diperbaiki
+
+- **Kriteria warna `ByLayer` dan `ByBlock` di preset CLEANUP kini berfungsi.** Sebelumnya keduanya tidak pernah cocok dengan objek apa pun.
+
+---
+
 ## 2.0.0 — penyegaran 15 September 2026
 
 Nomor versinya tetap 2.0.0; yang diperbarui adalah berkas installer-nya.

@@ -62,5 +62,4 @@ The command cancels itself and explains why, rather than going quiet:
 
 ## See Also
 
-- [IVO:BOUNDARY](en/commands/structure/boundary.md) — the command this one was forked from, with fixed offsets
 - [IVO:STRUCTURALPALETTE](en/commands/structure/structuralpalette.md) — open the palette where the footing offsets live

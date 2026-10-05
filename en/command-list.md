@@ -1,6 +1,6 @@
 # Command List
 
-Every IngenevoTools command, grouped the way the panels are grouped on the **Ingenevo Tools** ribbon tab.
+Every IngenevoTools command, grouped the way the panels are grouped on the **IngenevoTools** ribbon tab.
 
 The **Ribbon** column marks whether a command has a button of its own. Commands marked **—** can only be run from the command line — some of them deliberately so, because a ribbon button would discard the selection you already made.
 
@@ -61,8 +61,6 @@ The **Ribbon** column marks whether a command has a button of its own. Commands 
 | [IVO:HIDESTRUCTURALPALETTE](en/commands/structure/hidestructuralpalette.md) | — | — | Hide the Structural palette |
 | [IVO:GENCOLUMN](en/commands/structure/gencolumn.md) | `IVO:GC` | — | Place a column at the ends of every selected beam, keeping the beams |
 | [IVO:FOOTING](en/commands/structure/footing.md) | `IVO:FTG` | — | Draw footing outlines from the outer-face and centreline lines |
-| [IVO:BOUNDARY](en/commands/structure/boundary.md) | `IVO:BND` | — | Rebuild a boundary from selected cyan and yellow lines |
-| [IVO:BOUNDARYDUMP](en/commands/structure/boundary.md) | — | — | Report why a boundary came out wrong, without drawing anything |
 
 ## Civil
 

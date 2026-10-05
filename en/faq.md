@@ -4,7 +4,7 @@ Problems that actually come up in practice, and how to get past them.
 
 ---
 
-## The "Ingenevo Tools" tab did not appear after installing
+## The "IngenevoTools" tab did not appear after installing
 
 **Most likely cause: BricsCAD was open while the installer ran.** The install succeeded, but the new version only takes effect after BricsCAD is **closed and reopened**.
 
@@ -26,13 +26,19 @@ Seven commands still run without a license — `IVO:LICENSE`, `IVO:ABOUT`, `IVO:
 
 Every slot on your license is in use — usually by an old machine that is no longer in service.
 
-The list of machines is not shown in the license window. What you can do:
+What you can do:
 
+- When the license window asks **Open the customer portal in your browser now?**, press **Yes**. In the **customer portal**, sign in with the code from your email and release the machines you no longer use. You can also open the portal directly at [https://app-licsvc.azurewebsites.net/portal](https://app-licsvc.azurewebsites.net/portal)
 - On the old machine, if it still boots: open [`IVO:LICENSE`](en/commands/help/license.md) → **Remove**
-- If the machine is gone: contact the Ingenevo team
 
 > [!WARNING]
 > Uninstalling the plugin or reimaging a machine does **not** free its license slot. Always press **Remove** before leaving a machine behind.
+
+---
+
+## Commands refused with "Your licence is on hold"
+
+Your license has been **temporarily put on hold** by the Ingenevo team — for example while a payment is pending — not revoked. Contact the Ingenevo team. Once the hold is lifted, close and reopen BricsCAD; the license comes back with the same key and machine, with no re-activation.
 
 ---
 
@@ -79,14 +85,14 @@ Run the command again with the previous value to restore it.
 
 ---
 
-## IVO:BOUNDARY or IVO:FOOTING refuses to draw
+## IVO:FOOTING refuses to draw
 
-Both **say why** on the command line rather than going quiet. The most common causes:
+[`IVO:FOOTING`](en/commands/structure/footing.md) **says why** on the command line rather than going quiet. The most common causes:
 
 - **`Ring not closed`** — the perimeter still has gaps. The dangling lines are **automatically made the active selection**; zoom to that selection to see where the gaps are
-- **`wrong colour`** — for [`IVO:BOUNDARY`](en/commands/structure/boundary.md), line colour sets the distance. Only cyan and yellow are read
+- **Lines of any other colour are ignored** — only **cyan** (outer face) and **yellow** (centreline) lines are read. The number skipped is reported in the message as `wrong colour`
 
-If a drawing keeps refusing, run `IVO:BOUNDARYDUMP` on the same selection and send the report file to the Ingenevo team.
+The full list of messages is on the [`IVO:FOOTING`](en/commands/structure/footing.md) page. If a drawing keeps refusing, send the drawing file to the Ingenevo team.
 
 ---
 

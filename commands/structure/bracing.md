@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Bracing
+- **Ribbon:** Tab IngenevoTools → Panel Structure → Tombol Bracing
 - **Command Line:** `IVO:BRACING`
 - **Alias:** —
 

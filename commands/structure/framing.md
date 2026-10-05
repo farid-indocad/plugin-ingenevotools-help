@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Framing
+- **Ribbon:** Tab IngenevoTools → Panel Structure → Tombol Framing
 - **Command Line:** `IVO:FRAMING`
 - **Alias:** —
 

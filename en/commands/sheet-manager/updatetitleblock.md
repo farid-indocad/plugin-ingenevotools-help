@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Sheet Manager Panel → Update Title Block button
+- **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Update Title Block button
 - **Command Line:** `IVO:UPDATETITLEBLOCK`
 - **Alias:** —
 

@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Settings Panel → Settings button
+- **Ribbon:** IngenevoTools Tab → Settings Panel → Settings button
 - **Command Line:** `IVO:SETTINGS`
 - **Alias:** —
 

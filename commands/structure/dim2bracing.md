@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Structure → Tombol Dim to Bracing
+- **Ribbon:** Tab IngenevoTools → Panel Structure → Tombol Dim to Bracing
 - **Command Line:** `IVO:DIM2BRACING`
 - **Alias:** `IVO:D2B`
 

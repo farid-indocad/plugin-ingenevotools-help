@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Sheet Manager → Tombol Renumber Layout
+- **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Renumber Layout
 - **Command Line:** `IVO:RENUMBERLAYOUT`
 - **Alias:** —
 

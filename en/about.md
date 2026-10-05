@@ -8,7 +8,7 @@ The full command list is in the [Command List](en/command-list.md).
 
 ## Version
 
-Plugin version at the time this documentation was written: **2.0.0**
+Plugin version at the time this documentation was written: **2.1.0**
 
 > [!TIP]
 > Do not rely on the number above — **the version actually installed on your machine** is always available via [`IVO:ABOUT`](en/commands/help/about.md) inside BricsCAD.

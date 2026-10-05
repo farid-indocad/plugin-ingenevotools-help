@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Sheet Manager Panel → Sort Layout button
+- **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Sort Layout button
 - **Command Line:** `IVO:SORTLAYOUT`
 - **Alias:** —
 
