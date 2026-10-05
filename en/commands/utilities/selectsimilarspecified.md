@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Utilities Panel → Select Similar button
 - **Command Line:** `IVO:SELECTSIMILARSPECIFIED`
-- **Alias:** —
+- **Alias:** `IVO:SSS`
 
 ## How to Use
 

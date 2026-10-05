@@ -63,7 +63,7 @@ Baris Excel dicocokkan ke layout **berdasarkan namanya**. Kalau ada title block 
 > **Seleksi dulu, perintah kemudian.** Sebagian besar perintah menghormati objek yang sudah Anda pilih sebelum mengetiknya, jadi Anda tidak perlu memilih dua kali.
 
 > [!TIP]
-> **Pakai alias.** `IVO:SX` untuk Safe Explode, `IVO:MSX` untuk Multi Safe Explode, `IVO:CRL` untuk Create Layout. Semuanya tercantum di [Daftar Command](daftar-command.md).
+> **Pakai alias.** `IVO:SX` untuk Safe Explode, `IVO:MSX` untuk Multi Safe Explode, `IVO:CRL` untuk Create Layout, `IVO:PPP` untuk Print PDF. Semuanya tercantum di [Daftar Command](daftar-command.md).
 
 > [!TIP]
 > **Ketik `IVO:` lalu biarkan autocomplete BricsCAD bekerja.** Kalau lupa nama perintah, [`IVO:COMMANDS`](commands/help/commands.md) menampilkan seluruh daftarnya tanpa perlu membuka browser.

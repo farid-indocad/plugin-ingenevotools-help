@@ -13,21 +13,21 @@ The **Ribbon** column marks whether a command has a button of its own. Commands 
 
 | Command | Alias | Ribbon | What it does |
 |:---------|:------|:------:|:-------|
-| [IVO:PRINTPDF](en/commands/print/printpdf.md) | — | ✓ | Batch print layouts to PDF |
+| [IVO:PRINTPDF](en/commands/print/printpdf.md) | `IVO:PPP` | ✓ | Batch print layouts to PDF |
 
 ## Sheet Manager
 
 | Command | Alias | Ribbon | What it does |
 |:---------|:------|:------:|:-------|
-| [IVO:OPENFOLDER](en/commands/sheet-manager/openfolder.md) | — | ✓ | Open the active drawing's folder |
-| [IVO:UPDATETITLEBLOCK](en/commands/sheet-manager/updatetitleblock.md) | — | ✓ | Batch update title blocks from Excel |
-| [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md) | — | ✓ | Create an Excel register for the active drawing from the template |
-| [IVO:EDITREGISTER](en/commands/sheet-manager/editregister.md) | — | ✓ | Open the active drawing's Excel register |
+| [IVO:OPENFOLDER](en/commands/sheet-manager/openfolder.md) | `IVO:OPF` | ✓ | Open the active drawing's folder |
+| [IVO:UPDATETITLEBLOCK](en/commands/sheet-manager/updatetitleblock.md) | `IVO:UTB` | ✓ | Batch update title blocks from Excel |
+| [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md) | `IVO:CREG` | ✓ | Create an Excel register for the active drawing from the template |
+| [IVO:EDITREGISTER](en/commands/sheet-manager/editregister.md) | `IVO:EREG` | ✓ | Open the active drawing's Excel register |
 | [IVO:CREATELAYOUT](en/commands/sheet-manager/createlayout.md) | `IVO:CRL` | ✓ | Replace **all** layouts with new ones from the ViewFrame blocks |
 | [IVO:ADDLAYOUT](en/commands/sheet-manager/addlayout.md) | `IVO:ADL` | ✓ | Add layouts for the selected ViewFrames, keeping existing ones |
-| [IVO:SORTLAYOUT](en/commands/sheet-manager/sortlayout.md) | — | ✓ | Sort layout tabs by name |
-| [IVO:RENUMBERLAYOUT](en/commands/sheet-manager/renumberlayout.md) | — | ✓ | Sequential layout renumbering |
-| [IVO:RENUMBERVIEWFRAME](en/commands/sheet-manager/renumberviewframe.md) | `IVO:RVF` | ✓ | Renumber selected ViewFrame blocks left to right |
+| [IVO:SORTLAYOUT](en/commands/sheet-manager/sortlayout.md) | `IVO:SRL` | ✓ | Sort layout tabs by name |
+| [IVO:RENUMBERLAYOUT](en/commands/sheet-manager/renumberlayout.md) | `IVO:RNL` | ✓ | Sequential layout renumbering |
+| [IVO:RENUMBERVIEWFRAME](en/commands/sheet-manager/renumberviewframe.md) | `IVO:RVF`, `IVO:RV` | ✓ | Renumber selected ViewFrame blocks left to right |
 
 ## Utilities
 
@@ -38,13 +38,13 @@ The **Ribbon** column marks whether a command has a button of its own. Commands 
 | [IVO:CLEANUP](en/commands/utilities/cleanup.md) | — | ✓ | Filter and highlight objects matching a cleanup preset |
 | [IVO:SOLID2HATCH](en/commands/utilities/solid2hatch.md) | `IVO:S2H` | ✓ | Convert SOLID objects to hatches |
 | [IVO:INITIALBLOCK](en/commands/utilities/initialblock.md) | `IVO:IBLOCK` | ✓ | Normalize a selection to layer 0 / ByBlock and open the BLOCK dialog |
-| [IVO:REPLACEBLOCK](en/commands/utilities/replaceblock.md) | — | ✓ | Replace block instances |
+| [IVO:REPLACEBLOCK](en/commands/utilities/replaceblock.md) | `IVO:RBLOCK` | ✓ | Replace block instances |
 | [IVO:BLTSCALE](en/commands/utilities/bltscale.md) | `IVO:BLTS` | ✓ | Set MSLTSCALE/PSLTSCALE on all layouts |
 | [IVO:MATCHALLLAYOUTSETTINGS](en/commands/utilities/matchalllayoutsettings.md) | `IVO:MALS` | ✓ | Copy page setup to all layouts |
-| [IVO:CHANGEBASEPOINT](en/commands/utilities/changebasepoint.md) | — | ✓ | Change a block's base point |
+| [IVO:CHANGEBASEPOINT](en/commands/utilities/changebasepoint.md) | `IVO:CBP` | ✓ | Change a block's base point |
 | [IVO:RECTANGLE](en/commands/utilities/rectangle.md) | — | — | Draw a rectangle column with corner snap |
-| [IVO:SELECTSIMILARSPECIFIED](en/commands/utilities/selectsimilarspecified.md) | — | ✓ | Select similar entities by filter |
-| [IVO:DESELECTSIMILAR](en/commands/utilities/deselectsimilar.md) | — | ✓ | Deselect similar entities |
+| [IVO:SELECTSIMILARSPECIFIED](en/commands/utilities/selectsimilarspecified.md) | `IVO:SSS` | ✓ | Select similar entities by filter |
+| [IVO:DESELECTSIMILAR](en/commands/utilities/deselectsimilar.md) | `IVO:DSS` | ✓ | Deselect similar entities |
 
 ## Structure
 
@@ -59,7 +59,7 @@ The **Ribbon** column marks whether a command has a button of its own. Commands 
 | [IVO:STRUCTURALPALETTE](en/commands/structure/structuralpalette.md) | — | ✓ | Toggle the Structural palette |
 | [IVO:SHOWSTRUCTURALPALETTE](en/commands/structure/showstructuralpalette.md) | — | — | Show the Structural palette |
 | [IVO:HIDESTRUCTURALPALETTE](en/commands/structure/hidestructuralpalette.md) | — | — | Hide the Structural palette |
-| [IVO:GENCOLUMN](en/commands/structure/gencolumn.md) | `IVO:GC` | — | Place a column at the ends of every selected beam, keeping the beams |
+| [IVO:GENCOLUMN](en/commands/structure/gencolumn.md) | `IVO:GC` | ✓ | Place a column at the ends of every selected beam, keeping the beams |
 | [IVO:FOOTING](en/commands/structure/footing.md) | `IVO:FTG` | — | Draw footing outlines from the outer-face and centreline lines |
 
 ## Civil
@@ -79,7 +79,7 @@ The **Ribbon** column marks whether a command has a button of its own. Commands 
 
 | Command | Alias | Ribbon | What it does |
 |:---------|:------|:------:|:-------|
-| [IVO:SETTINGS](en/commands/settings/settings.md) | — | ✓ | Open the plugin settings window |
+| [IVO:SETTINGS](en/commands/settings/settings.md) | `IVO:US` | ✓ | Open the plugin settings window |
 | [IVO:OPENSETTINGSFOLDER](en/commands/settings/opensettingsfolder.md) | — | — | Open the folder holding settings, profiles, and presets |
 
 ## Help
@@ -87,7 +87,7 @@ The **Ribbon** column marks whether a command has a button of its own. Commands 
 | Command | Alias | Ribbon | What it does |
 |:---------|:------|:------:|:-------|
 | [IVO:LICENSE](en/commands/help/license.md) | — | ✓ | License management |
-| [IVO:HELP](en/commands/help/help.md) | — | ✓ | Open this online documentation |
+| [IVO:HELP](en/commands/help/help.md) | `IVO:OUG` | ✓ | Open this online documentation |
 | [IVO:ABOUT](en/commands/help/about.md) | — | ✓ | Show plugin information |
 | [IVO:COMMANDS](en/commands/help/commands.md) | — | — | Show the command list on the command line |
 

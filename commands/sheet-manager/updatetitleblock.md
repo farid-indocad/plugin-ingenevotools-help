@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Update Title Block
 - **Command Line:** `IVO:UPDATETITLEBLOCK`
-- **Alias:** —
+- **Alias:** `IVO:UTB`
 
 ## Cara Penggunaan
 

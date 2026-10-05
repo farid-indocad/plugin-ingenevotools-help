@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Renumber Viewframe button
 - **Command Line:** `IVO:RENUMBERVIEWFRAME`
-- **Alias:** `IVO:RVF`
+- **Alias:** `IVO:RVF`, `IVO:RV`
 
 ## How to Use
 

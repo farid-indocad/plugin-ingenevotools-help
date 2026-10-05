@@ -63,7 +63,7 @@ Excel rows are matched to layouts **by name**. If a title block comes out empty,
 > **Select first, then run the command.** Most commands honour objects you selected before typing, so you do not have to select twice.
 
 > [!TIP]
-> **Use the aliases.** `IVO:SX` for Safe Explode, `IVO:MSX` for Multi Safe Explode, `IVO:CRL` for Create Layout. They are all listed in the [Command List](en/command-list.md).
+> **Use the aliases.** `IVO:SX` for Safe Explode, `IVO:MSX` for Multi Safe Explode, `IVO:CRL` for Create Layout, `IVO:PPP` for Print PDF. They are all listed in the [Command List](en/command-list.md).
 
 > [!TIP]
 > **Type `IVO:` and let BricsCAD's autocomplete do the rest.** If you forget a command name, [`IVO:COMMANDS`](en/commands/help/commands.md) prints the whole list without opening a browser.

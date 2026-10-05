@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Update Title Block button
 - **Command Line:** `IVO:UPDATETITLEBLOCK`
-- **Alias:** —
+- **Alias:** `IVO:UTB`
 
 ## How to Use
 

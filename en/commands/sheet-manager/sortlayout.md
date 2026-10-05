@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Sort Layout button
 - **Command Line:** `IVO:SORTLAYOUT`
-- **Alias:** —
+- **Alias:** `IVO:SRL`
 
 ## How to Use
 

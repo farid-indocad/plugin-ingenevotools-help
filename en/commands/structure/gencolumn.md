@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** — (no ribbon button, deliberately)
+- **Ribbon:** IngenevoTools Tab → Structure Panel → Generate Column button
 - **Command Line:** `IVO:GENCOLUMN`
 - **Alias:** `IVO:GC`
 
@@ -36,7 +36,7 @@
 > The column type used is the one active on the Structural palette's **Framing** tab — the same one [IVO:COLUMN](en/commands/structure/column.md) uses. This command never asks.
 
 > [!NOTE]
-> **This command deliberately has no ribbon button.** A ribbon button dispatches through a path that drops the pre-selection, and this whole command is built around a selection you made first. The button would make it unusable.
+> **The Generate Column ribbon button keeps your selection** — beams you selected before clicking it are used straight away. The Structural palette deliberately has no button for this command, because a palette button drops the selection you already made.
 
 > [!TIP]
 > Points that already have a column do not get a second one — they are reported separately as `already had one`. Running this twice over the same beams is therefore safe.

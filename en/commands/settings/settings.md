@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Settings Panel → Settings button
 - **Command Line:** `IVO:SETTINGS`
-- **Alias:** —
+- **Alias:** `IVO:US`
 
 ## How to Use
 

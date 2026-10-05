@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Edit Register button
 - **Command Line:** `IVO:EDITREGISTER`
-- **Alias:** —
+- **Alias:** `IVO:EREG`
 
 ## How to Use
 

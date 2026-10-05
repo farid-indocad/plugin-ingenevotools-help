@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Edit Register
 - **Command Line:** `IVO:EDITREGISTER`
-- **Alias:** —
+- **Alias:** `IVO:EREG`
 
 ## Cara Penggunaan
 

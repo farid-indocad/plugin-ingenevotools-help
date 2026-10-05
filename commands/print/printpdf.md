@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Print → Tombol Print PDF
 - **Command Line:** `IVO:PRINTPDF`
-- **Alias:** —
+- **Alias:** `IVO:PPP`
 
 ## Cara Penggunaan
 

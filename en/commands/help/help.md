@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Help Panel → Help button
 - **Command Line:** `IVO:HELP`
-- **Alias:** —
+- **Alias:** `IVO:OUG`
 
 ## How to Use
 

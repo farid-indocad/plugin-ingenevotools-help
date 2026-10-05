@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Renumber Layout button
 - **Command Line:** `IVO:RENUMBERLAYOUT`
-- **Alias:** —
+- **Alias:** `IVO:RNL`
 
 ## How to Use
 

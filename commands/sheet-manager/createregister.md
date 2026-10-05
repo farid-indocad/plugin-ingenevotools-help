@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Create Register
 - **Command Line:** `IVO:CREATEREGISTER`
-- **Alias:** —
+- **Alias:** `IVO:CREG`
 
 ## Cara Penggunaan
 
