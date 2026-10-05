@@ -33,18 +33,15 @@
 > This is one of the few commands that needs **neither an active license nor an open drawing**. It only opens a folder; it does nothing to the drawing.
 
 > [!TIP]
-> If the folder does not exist yet, the command **creates it first** — so it works even if you have never pressed Save in the Settings window.
+> If the folder does not exist yet, the command **creates it first** — so it works even on a machine that has never saved any settings.
 
 > [!WARNING]
-> **Close the Settings window before hand-editing any XML file here.** That window holds the whole document in memory and rewrites the file when you press OK or Apply — your hand edits will be overwritten without warning.
-
-> [!NOTE]
-> Comments **you** write in the settings file do not survive. Every save rebuilds the whole document, so anything that did not come from the running configuration is lost. Comments written by the plugin itself are refreshed on each save.
+> **Do not hand-edit the office profiles in `Profiles\`.** The installer overwrites them every time it runs, so your edits are lost at the next update. Ask the IndoCAD team for the change.
 
 > [!TIP]
-> Most settings are safer to change through [IVO:SETTINGS](en/commands/settings/settings.md), which shows each option's explanation right beside its input field.
+> You will mostly need this folder to drop in your own [IVO:CLEANUP](en/commands/utilities/cleanup.md) preset variants, or to fetch a file the IndoCAD team asks for when you report a problem.
 
 ## See Also
 
-- [IVO:SETTINGS](en/commands/settings/settings.md) — the plugin settings window
+- [IVO:SETTINGS](en/commands/settings/settings.md) — choose the settings profile
 - [IVO:OPENFOLDER](en/commands/sheet-manager/openfolder.md) — opens the active drawing's folder

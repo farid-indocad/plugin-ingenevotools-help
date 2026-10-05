@@ -13,7 +13,7 @@ Ketik [`IVO:LICENSE`](commands/help/license.md) dan aktifkan. Tanpa ini hampir s
 
 ## 2. Pilih profil pengaturan
 
-Buka [`IVO:SETTINGS`](commands/settings/settings.md). Installer sudah menanam tiga profil standar kantor — **Default**, **Intrax**, dan **IndoCAD** — jadi Anda tidak perlu menyusunnya dari nol.
+Jalankan [`IVO:SETTINGS`](commands/settings/settings.md) dan pastikan profil yang dipakai benar. Installer sudah membawa profil standar kantor **Intrax**, jadi Anda tidak perlu menyusunnya sendiri — nilai di dalamnya disusun tim IndoCAD.
 
 Profil menentukan paper size, prefix nama sheet, nama block title block, dan tipe column/beam/bracing. **Perintah-perintah berikutnya membaca dari sini dan tidak akan menanyakannya lagi**, jadi kesalahan di langkah ini akan menyebar ke seluruh gambar.
 
@@ -63,7 +63,7 @@ Baris Excel dicocokkan ke layout **berdasarkan namanya**. Kalau ada title block 
 > **Seleksi dulu, perintah kemudian.** Sebagian besar perintah menghormati objek yang sudah Anda pilih sebelum mengetiknya, jadi Anda tidak perlu memilih dua kali.
 
 > [!TIP]
-> **Pakai alias.** `IVO:SX` untuk Safe Explode, `IVO:MSX` untuk Multi Safe Explode, `IVO:CRL` untuk Create Layout. Semuanya tercantum di [Daftar Command](daftar-command.md).
+> **Pakai alias.** `IVO:SX` untuk Safe Explode, `IVO:MSX` untuk Multi Safe Explode, `IVO:CRL` untuk Create Layout, `IVO:PPP` untuk Print PDF. Semuanya tercantum di [Daftar Command](daftar-command.md).
 
 > [!TIP]
 > **Ketik `IVO:` lalu biarkan autocomplete BricsCAD bekerja.** Kalau lupa nama perintah, [`IVO:COMMANDS`](commands/help/commands.md) menampilkan seluruh daftarnya tanpa perlu membuka browser.

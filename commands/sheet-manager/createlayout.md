@@ -37,7 +37,7 @@ Delete all existing layouts and continue? [Yes/No] <Yes>:
 > **Kalau Anda menekan Cancel di tengah jalan, layout lama sudah terlanjur terhapus.** Seluruh perintah ini adalah **satu langkah undo**, jadi ketik `U` sekali untuk memulihkan semuanya. Command line akan mengingatkan Anda soal ini saat pembatalan terjadi — tidak ada tanda lain di layar yang menyiratkannya.
 
 > [!TIP]
-> Perintah ini **tidak menanyakan** template maupun paper size. Semua nilai itu dibaca dari `IVO:SETTINGS` → **Sheet Manager** sebelum prompt muncul, dan itulah sebabnya prompt konfirmasi menyebutkan nilainya — yang Anda lihat di prompt persis yang akan dipakai.
+> Perintah ini **tidak menanyakan** template maupun paper size. Semua nilai itu dibaca dari [profil pengaturan](settings.md), bagian **Sheet Manager**, sebelum prompt muncul, dan itulah sebabnya prompt konfirmasi menyebutkan nilainya — yang Anda lihat di prompt persis yang akan dipakai.
 
 > [!NOTE]
 > Layout "additional" adalah layout **kosong tanpa viewport**, dan jumlahnya diatur di settings. Yang menentukan layout mana yang kosong adalah **posisinya dalam urutan pembuatan**, bukan namanya — penamaannya tetap berurutan seperti layout lain.

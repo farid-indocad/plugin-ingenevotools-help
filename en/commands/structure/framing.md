@@ -18,7 +18,7 @@
 
 ## Options / Parameters
 
-The column and beam types come from the Structural palette's **Framing** tab, and can also be set under `IVO:SETTINGS` → **Structure**.
+The column and beam types are picked on the Structural palette's **Framing** tab, from the lists in the [settings profile](en/settings.md) (**Structure**).
 
 <!-- screenshot -->
 

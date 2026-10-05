@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Renumber Viewframe
 - **Command Line:** `IVO:RENUMBERVIEWFRAME`
-- **Alias:** `IVO:RVF`
+- **Alias:** `IVO:RVF`, `IVO:RV`
 
 ## Cara Penggunaan
 
@@ -25,7 +25,7 @@
 > **Urutannya ditentukan posisi di model space, bukan urutan Anda memilihnya.** ViewFrame paling kiri mendapat nomor pertama, tidak peduli mana yang Anda klik lebih dulu.
 
 > [!TIP]
-> Nama atribut tujuan dan jumlah digit dibaca dari `IVO:SETTINGS` → **Sheet Manager > Viewframe** dan **Sheet Name** — perintah ini tidak menanyakannya.
+> Nama atribut tujuan dan jumlah digit dibaca dari [profil pengaturan](settings.md), bagian **Sheet Manager > Viewframe** dan **Sheet Name** — perintah ini tidak menanyakannya.
 
 > [!TIP]
 > Jalankan perintah ini **sebelum** [IVO:CREATELAYOUT](commands/sheet-manager/createlayout.md) atau [IVO:ADDLAYOUT](commands/sheet-manager/addlayout.md), karena nama layout diturunkan dari nomor ViewFrame.

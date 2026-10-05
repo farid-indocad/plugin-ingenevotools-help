@@ -1,56 +1,48 @@
 # Pengaturan
 
-Halaman ini menjelaskan **bagaimana pengaturan IngenevoTools disusun** — bukan mendaftar satu per satu opsinya.
+Halaman ini menjelaskan **bagaimana pengaturan IngenevoTools disusun**, dan bagian mana yang bisa Anda pilih sendiri.
 
 > [!IMPORTANT]
-> Penjelasan setiap opsi hidup **di dalam jendela Settings**, tampil tepat di sebelah kolom isiannya. Itu disengaja: penjelasan yang disalin ke dua tempat akan cepat berselisih, dan yang ada di dalam dialog tidak pernah bisa basi. Halaman ini tidak menyalinnya.
+> **Nilai pengaturan ditentukan oleh profil kantor, bukan diisi drafter.** Profil disusun tim IndoCAD dan dibawa installer. Yang Anda pilih lewat [`IVO:SETTINGS`](commands/settings/settings.md) hanyalah **profil mana** yang dipakai. Kalau sebuah nilai perlu diubah — paper size, prefix nama sheet, tipe column, dan seterusnya — minta perubahannya ke tim IndoCAD.
 
-Buka dengan [`IVO:SETTINGS`](commands/settings/settings.md).
+## Apa yang ditentukan profil
 
-## Struktur pohon pengaturan
-
-| Grup | Isinya |
-|:-----|:-------|
+| Bagian | Isinya |
+|:-------|:-------|
 | **General** | Preferensi umum, termasuk Help URL yang dibuka [`IVO:HELP`](commands/help/help.md) |
 | **Sheet Manager** | Paper · Sheet Name · Title Block (berikut Drawing Index dan Extraction Rules) · Drawing Register · Viewport · Viewframe |
-| **Structure** | Daftar tipe Column, Beam, dan Bracing, serta pengaturan Footing |
-| **Detail Library** | Folder library dan folder cache thumbnail |
+| **Structure** | Daftar tipe Column, Beam, dan Bracing beserta gaya gambarnya, serta pengaturan Footing |
 | **Member Schedule** | Aturan pembersihan tabel untuk [`IVO:SCHEDULE`](commands/structure/schedule.md) |
 
-<!-- screenshot -->
+Setelan **Detail Library** tidak ikut profil — ia milik komputer Anda sendiri dan diatur lewat [`IVO:DETAILLIBRARYSETTINGS`](commands/detail-library/detaillibrarysettings.md).
 
 ## Profil
 
 Pengaturan disimpan sebagai **profil** — satu berkas XML per profil, dan satu penunjuk yang menentukan mana yang sedang aktif.
 
-Installer menanam tiga profil bawaan: **Default**, **Intrax**, dan **IndoCAD**. Drafter baru karena itu langsung punya pengaturan standar kantor tanpa menyusunnya sendiri.
+Installer membawa satu profil kantor: **Intrax**. Profil lama **Default** dan **IndoCAD** sudah pensiun — installer menghapus keduanya, dan komputer yang masih memakainya dipindahkan ke Intrax.
 
-Berganti profil dilakukan dari dalam jendela Settings, dan **mengganti seluruh set nilai sekaligus** — bukan menggabungkannya.
+Untuk berganti profil, jalankan [`IVO:SETTINGS`](commands/settings/settings.md), pilih profilnya, lalu tekan **OK**. Berganti profil **mengganti seluruh set nilai sekaligus** dan berlaku langsung, tanpa perlu memuat ulang plugin atau menutup BricsCAD.
 
 ## Di mana berkasnya
 
 ```
 %AppData%\IngenevoTools\
-  Profiles\      ← satu berkas per profil
-  Schedule\      ← tabel lookup Member Schedule
-  Cleanup\       ← preset IVO:CLEANUP
+  Profiles\           ← satu berkas per profil
+  Schedule\           ← tabel lookup Member Schedule
+  Cleanup\            ← preset IVO:CLEANUP
+  detail-library.xml  ← setelan Detail Library komputer ini
 ```
 
 Buka lewat [`IVO:OPENSETTINGSFOLDER`](commands/settings/opensettingsfolder.md).
 
 > [!WARNING]
-> **Tutup dulu jendela Settings sebelum mengedit berkas ini dengan tangan.** Jendela itu memegang seluruh isinya di memori dan menulis ulang berkasnya saat Anda menekan OK atau Apply — suntingan tangan Anda akan tertimpa tanpa peringatan.
-
-> [!NOTE]
-> Komentar yang **Anda** tulis sendiri di dalam berkas tidak bertahan. Setiap penyimpanan membangun ulang seluruh dokumen dari konfigurasi yang sedang berjalan. Komentar yang ditulis plugin sendiri diperbarui tiap kali menyimpan, jadi tidak pernah basi.
+> **Jangan mengedit profil kantor dengan tangan.** Installer menimpa profil yang dibawanya **setiap kali dipasang**, jadi suntingan Anda hilang di pembaruan berikutnya. Minta perubahannya ke tim IndoCAD agar ikut paket berikutnya.
 
 ## Hal yang perlu diketahui
 
 > [!NOTE]
-> [`IVO:SETTINGS`](commands/settings/settings.md) **tidak membutuhkan lisensi aktif.** Isinya konfigurasi milik Anda sendiri, yang mungkin sudah lama Anda susun — mengunci aksesnya saat langganan lewat sehari sama saja menyandera data Anda.
-
-> [!NOTE]
-> Perubahan berlaku **langsung**, tanpa perlu memuat ulang plugin atau menutup BricsCAD.
+> [`IVO:SETTINGS`](commands/settings/settings.md) **tidak membutuhkan lisensi aktif**, jadi Anda selalu bisa melihat dan mengganti profil yang dipakai.
 
 > [!TIP]
-> Banyak perintah tidak menanyakan apa pun karena jawabannya sudah ada di sini — paper size, prefix nama sheet, nama block title block, tipe column. Kalau sebuah perintah menghasilkan sesuatu yang tidak Anda harapkan, periksa pengaturannya lebih dulu sebelum mencurigai perintahnya.
+> Banyak perintah tidak menanyakan apa pun karena jawabannya sudah ada di profil — paper size, prefix nama sheet, nama block title block, tipe column. Kalau sebuah perintah menghasilkan sesuatu yang tidak Anda harapkan, periksa dulu **profil mana yang sedang aktif** sebelum mencurigai perintahnya.

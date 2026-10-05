@@ -31,7 +31,7 @@
 > **Tidak ada konfirmasi, dan itu memang tidak diperlukan** — perintah ini hanya menambah, tidak pernah menghapus. Kalau Anda menekan Cancel di tengah jalan, layout yang sudah terbuat **dipertahankan**.
 
 > [!TIP]
-> Perintah ini tidak menanyakan paper size, prefix, maupun title block. Semuanya dibaca dari `IVO:SETTINGS` → **Sheet Manager**.
+> Perintah ini tidak menanyakan paper size, prefix, maupun title block. Semuanya dibaca dari [profil pengaturan](settings.md), bagian **Sheet Manager**.
 
 > [!IMPORTANT]
 > Baris **Viewframe types** layak dibaca setiap kali. Pola tipe ViewFrame yang terlalu longgar tidak menghasilkan error — ia menelan frame milik tipe lain dan menghasilkan sheet pada skala yang salah. Hasilnya terlihat benar sampai ada yang membuka satu sheet dan membaca viewport-nya. Angka per tipe inilah satu-satunya tanda di layar.

@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Create Register
 - **Command Line:** `IVO:CREATEREGISTER`
-- **Alias:** —
+- **Alias:** `IVO:CREG`
 
 ## Cara Penggunaan
 
@@ -32,13 +32,16 @@ File 'A-101.xlsx' already exists. Overwrite? [Yes/No] <No>:
 > Drawing harus sudah disimpan ke disk. Drawing baru yang belum pernah di-save tidak punya lokasi folder, jadi perintah tidak tahu harus menaruh register di mana.
 
 > [!TIP]
-> Nama, ekstensi, dan lokasi template register semuanya bisa diatur lewat `IVO:SETTINGS` → **Sheet Manager > Drawing Register**:
+> Nama, ekstensi, dan template register ditentukan oleh [profil pengaturan](settings.md), bagian **Sheet Manager > Drawing Register**. Pada profil kantor **Intrax**:
 >
-> | Opsi | Fungsi |
-> |:-----|:-------|
-> | **Format** | `Auto` (default) mencoba `.xlsx` dulu lalu `.xls`. Bisa dipaksa ke `Xlsx`, `Xls`, atau `XlsThenXlsx` |
-> | **Template Path** | Kosongkan untuk memakai template bawaan `dr_default.*` di folder plugin, atau tunjuk berkas template sendiri lewat tombol **Browse** |
-> | **Worksheet** | Nama sheet yang dibaca [IVO:UPDATETITLEBLOCK](commands/sheet-manager/updatetitleblock.md) untuk mengambil data title block |
+> | Opsi | Nilai di Intrax | Artinya |
+> |:-----|:----------------|:--------|
+> | **Format** | `XlsThenXlsx` | Register dibuat sebagai `.xls`; saat mencari register yang sudah ada, `.xls` dicoba dulu lalu `.xlsx` |
+> | **Template Path** | `Templates\register-intrax.xls` | Template yang ikut terpasang bersama plugin, di folder `Templates\` di sebelah DLL plugin |
+> | **Worksheet** | `Intrax` | Nama sheet yang dibaca [IVO:UPDATETITLEBLOCK](commands/sheet-manager/updatetitleblock.md) untuk mengambil data title block |
+
+> [!NOTE]
+> Ekstensi template harus cocok dengan format register. Kalau tidak — misalnya template `.xls` dengan format yang membuat `.xlsx` — perintah **menolak** sebelum menyalin apa pun, karena berkas seperti itu akan ditolak Excel.
 
 > [!NOTE]
 > Kalau **Template Path** diisi tapi berkasnya tidak ditemukan, perintah **tidak** diam-diam jatuh kembali ke template bawaan — ia melapor gagal. Ini disengaja, supaya salah ketik pada path tidak tersembunyi di balik hasil yang kelihatan benar.

@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Print → Tombol Print PDF
 - **Command Line:** `IVO:PRINTPDF`
-- **Alias:** —
+- **Alias:** `IVO:PPP`
 
 ## Cara Penggunaan
 
@@ -30,6 +30,8 @@
 
 > [!NOTE]
 > **Setelah mencetak tidak ada jendela apa pun**, berhasil maupun gagal. Kalau tidak ada PDF yang terbentuk, command line menulis `No PDF was produced.` beserta alasannya dan lokasi berkas jejak `%AppData%\IngenevoTools\printpdf-log.txt`. Lampirkan berkas itu saat melapor masalah cetak.
+>
+> PDF yang terbentuk tapi berukuran **0 byte** disebut terpisah sebagai `created but empty (0 bytes)` — berkasnya ada di folder, tapi isinya kosong.
 
 > [!NOTE]
 > Kalau berkas dengan nama yang sama sudah ada, **BricsCAD sendiri** yang bertanya apakah berkas itu akan ditimpa. Kalau Anda menjawab **No**, berkas itu memang tidak ditulis, dan command line melaporkannya sebagai tidak dibuat — itu wajar, bukan kerusakan.
@@ -38,7 +40,7 @@
 > Pada mode **Single-sheet**, nama tiap berkas diturunkan dari nama layout. Kalau ada karakter yang tidak boleh dipakai di nama berkas, Anda ditanya **Adjust file names?** sebelum mencetak.
 
 > [!NOTE]
-> Plot style yang dipilih hanya dipakai untuk cetakan ini — plot style tiap layout dikembalikan seperti semula sesudahnya. Ukuran kertas selalu mengikuti page setup layout masing-masing.
+> Plot style yang dipilih hanya dipakai untuk cetakan ini — plot style tiap layout dikembalikan seperti semula sesudahnya. Kalau ada layout yang plot style-nya **gagal dikembalikan**, layout itu disebutkan di command line walaupun PDF-nya berhasil, supaya Anda bisa memeriksanya. Ukuran kertas selalu mengikuti page setup layout masing-masing.
 
 > [!TIP]
 > Gunakan [IVO:MATCHALLLAYOUTSETTINGS](commands/utilities/matchalllayoutsettings.md) terlebih dahulu untuk memastikan semua layout menggunakan page setup yang sama.

@@ -37,7 +37,7 @@ Delete all existing layouts and continue? [Yes/No] <Yes>:
 > **If you press Cancel partway through, the old layouts are already gone.** The whole command is a **single undo step**, so typing `U` once restores them all. The command line says so when you cancel — nothing else on screen would suggest it.
 
 > [!TIP]
-> This command **does not ask** for a template or paper size. Those values are read from `IVO:SETTINGS` → **Sheet Manager** before the prompt appears, which is why the prompt states them — what you see in the prompt is exactly what will be used.
+> This command **does not ask** for a template or paper size. Those values are read from the [settings profile](en/settings.md), under **Sheet Manager**, before the prompt appears, which is why the prompt states them — what you see in the prompt is exactly what will be used.
 
 > [!NOTE]
 > "Additional" layouts are **blank layouts with no viewport**, and their count is set in settings. What makes a layout blank is its **position in the creation order**, not its name — naming stays sequential like every other layout.

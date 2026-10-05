@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** — (tidak ada tombol ribbon, disengaja)
+- **Ribbon:** Tab IngenevoTools → Panel Structure → Tombol Generate Column
 - **Command Line:** `IVO:GENCOLUMN`
 - **Alias:** `IVO:GC`
 
@@ -36,7 +36,7 @@
 > Tipe column yang dipakai adalah tipe yang aktif di palette Structural tab **Framing** — sama dengan yang dipakai [IVO:COLUMN](commands/structure/column.md). Perintah ini tidak menanyakannya.
 
 > [!NOTE]
-> **Perintah ini sengaja tidak diberi tombol ribbon.** Tombol ribbon menjalankan perintah lewat jalur yang membuang preselection, padahal seluruh perintah ini dibangun di atas seleksi yang Anda buat lebih dulu. Tombol itu justru akan membuatnya tidak bisa dipakai.
+> **Tombol ribbon Generate Column mempertahankan seleksi Anda** — beam yang Anda pilih sebelum mengklik tombol langsung dipakai. Palette Structural sengaja tidak punya tombol untuk perintah ini, karena tombol palette membuang seleksi yang sudah dibuat.
 
 > [!TIP]
 > Titik yang sudah punya column tidak akan mendapat column kedua — jumlahnya dilaporkan terpisah sebagai `already had one`. Jadi menjalankan perintah ini dua kali pada beam yang sama aman.

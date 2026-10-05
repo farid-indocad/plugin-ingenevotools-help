@@ -27,7 +27,7 @@
 > Perintah ini membutuhkan **lisensi aktif**. Jalankan [IVO:LICENSE](commands/help/license.md) untuk mengaktifkan lisensi.
 
 > [!NOTE]
-> Tipe bracing yang dipakai adalah tipe yang sedang aktif di palette Structural tab **Bracing** — perintah ini tidak menanyakannya. Atur tipenya lebih dulu lewat [IVO:BRACING](commands/structure/bracing.md) atau `IVO:SETTINGS` → **Structure > Bracing**.
+> Tipe bracing yang dipakai adalah tipe yang sedang aktif di palette Structural tab **Bracing** — perintah ini tidak menanyakannya. Pilih tipenya lebih dulu di palette tersebut — lihat [IVO:BRACING](commands/structure/bracing.md).
 
 > [!NOTE]
 > Dimension yang **dihitung sebagai skipped** adalah yang bukan tipe aligned/linear — misalnya angular, radial, atau diameter. Dimension itu dibiarkan utuh, tidak dihapus.

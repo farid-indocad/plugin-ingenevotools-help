@@ -13,21 +13,21 @@ Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertand
 
 | Perintah | Alias | Ribbon | Fungsi |
 |:---------|:------|:------:|:-------|
-| [IVO:PRINTPDF](commands/print/printpdf.md) | — | ✓ | Cetak massal layout ke PDF |
+| [IVO:PRINTPDF](commands/print/printpdf.md) | `IVO:PPP` | ✓ | Cetak massal layout ke PDF |
 
 ## Sheet Manager
 
 | Perintah | Alias | Ribbon | Fungsi |
 |:---------|:------|:------:|:-------|
-| [IVO:OPENFOLDER](commands/sheet-manager/openfolder.md) | — | ✓ | Buka folder drawing yang sedang aktif |
-| [IVO:UPDATETITLEBLOCK](commands/sheet-manager/updatetitleblock.md) | — | ✓ | Update title block massal dari Excel |
-| [IVO:CREATEREGISTER](commands/sheet-manager/createregister.md) | — | ✓ | Buat register Excel untuk drawing aktif dari template |
-| [IVO:EDITREGISTER](commands/sheet-manager/editregister.md) | — | ✓ | Buka register Excel milik drawing aktif |
+| [IVO:OPENFOLDER](commands/sheet-manager/openfolder.md) | `IVO:OPF` | ✓ | Buka folder drawing yang sedang aktif |
+| [IVO:UPDATETITLEBLOCK](commands/sheet-manager/updatetitleblock.md) | `IVO:UTB` | ✓ | Update title block massal dari Excel |
+| [IVO:CREATEREGISTER](commands/sheet-manager/createregister.md) | `IVO:CREG` | ✓ | Buat register Excel untuk drawing aktif dari template |
+| [IVO:EDITREGISTER](commands/sheet-manager/editregister.md) | `IVO:EREG` | ✓ | Buka register Excel milik drawing aktif |
 | [IVO:CREATELAYOUT](commands/sheet-manager/createlayout.md) | `IVO:CRL` | ✓ | Ganti **semua** layout dengan yang baru dari block ViewFrame |
 | [IVO:ADDLAYOUT](commands/sheet-manager/addlayout.md) | `IVO:ADL` | ✓ | Tambah layout untuk ViewFrame terpilih, layout lama dipertahankan |
-| [IVO:SORTLAYOUT](commands/sheet-manager/sortlayout.md) | — | ✓ | Urutkan tab layout berdasarkan nama |
-| [IVO:RENUMBERLAYOUT](commands/sheet-manager/renumberlayout.md) | — | ✓ | Penomoran ulang layout secara berurutan |
-| [IVO:RENUMBERVIEWFRAME](commands/sheet-manager/renumberviewframe.md) | `IVO:RVF` | ✓ | Nomori ulang block ViewFrame terpilih dari kiri ke kanan |
+| [IVO:SORTLAYOUT](commands/sheet-manager/sortlayout.md) | `IVO:SRL` | ✓ | Urutkan tab layout berdasarkan nama |
+| [IVO:RENUMBERLAYOUT](commands/sheet-manager/renumberlayout.md) | `IVO:RNL` | ✓ | Penomoran ulang layout secara berurutan |
+| [IVO:RENUMBERVIEWFRAME](commands/sheet-manager/renumberviewframe.md) | `IVO:RVF`, `IVO:RV` | ✓ | Nomori ulang block ViewFrame terpilih dari kiri ke kanan |
 
 ## Utilities
 
@@ -38,13 +38,13 @@ Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertand
 | [IVO:CLEANUP](commands/utilities/cleanup.md) | — | ✓ | Saring dan highlight objek yang cocok dengan preset |
 | [IVO:SOLID2HATCH](commands/utilities/solid2hatch.md) | `IVO:S2H` | ✓ | Ubah objek SOLID menjadi hatch |
 | [IVO:INITIALBLOCK](commands/utilities/initialblock.md) | `IVO:IBLOCK` | ✓ | Normalkan seleksi ke Layer 0 / ByBlock lalu buka dialog BLOCK |
-| [IVO:REPLACEBLOCK](commands/utilities/replaceblock.md) | — | ✓ | Ganti instance block dengan block lain |
+| [IVO:REPLACEBLOCK](commands/utilities/replaceblock.md) | `IVO:RBLOCK` | ✓ | Ganti instance block dengan block lain |
 | [IVO:BLTSCALE](commands/utilities/bltscale.md) | `IVO:BLTS` | ✓ | Atur MSLTSCALE/PSLTSCALE di semua layout |
 | [IVO:MATCHALLLAYOUTSETTINGS](commands/utilities/matchalllayoutsettings.md) | `IVO:MALS` | ✓ | Salin page setup ke seluruh layout |
-| [IVO:CHANGEBASEPOINT](commands/utilities/changebasepoint.md) | — | ✓ | Ubah titik dasar block |
+| [IVO:CHANGEBASEPOINT](commands/utilities/changebasepoint.md) | `IVO:CBP` | ✓ | Ubah titik dasar block |
 | [IVO:RECTANGLE](commands/utilities/rectangle.md) | — | — | Gambar rectangle column dengan snap |
-| [IVO:SELECTSIMILARSPECIFIED](commands/utilities/selectsimilarspecified.md) | — | ✓ | Seleksi objek sejenis berdasarkan filter |
-| [IVO:DESELECTSIMILAR](commands/utilities/deselectsimilar.md) | — | ✓ | Batalkan seleksi objek sejenis |
+| [IVO:SELECTSIMILARSPECIFIED](commands/utilities/selectsimilarspecified.md) | `IVO:SSS` | ✓ | Seleksi objek sejenis berdasarkan filter |
+| [IVO:DESELECTSIMILAR](commands/utilities/deselectsimilar.md) | `IVO:DSS` | ✓ | Batalkan seleksi objek sejenis |
 
 ## Structure
 
@@ -59,7 +59,7 @@ Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertand
 | [IVO:STRUCTURALPALETTE](commands/structure/structuralpalette.md) | — | ✓ | Buka/tutup palette Structural |
 | [IVO:SHOWSTRUCTURALPALETTE](commands/structure/showstructuralpalette.md) | — | — | Tampilkan palette Structural |
 | [IVO:HIDESTRUCTURALPALETTE](commands/structure/hidestructuralpalette.md) | — | — | Sembunyikan palette Structural |
-| [IVO:GENCOLUMN](commands/structure/gencolumn.md) | `IVO:GC` | — | Tempatkan column di ujung setiap beam terpilih, beam dipertahankan |
+| [IVO:GENCOLUMN](commands/structure/gencolumn.md) | `IVO:GC` | ✓ | Tempatkan column di ujung setiap beam terpilih, beam dipertahankan |
 | [IVO:FOOTING](commands/structure/footing.md) | `IVO:FTG` | — | Gambar garis luar footing dari garis muka luar dan garis as |
 
 ## Civil
@@ -79,7 +79,7 @@ Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertand
 
 | Perintah | Alias | Ribbon | Fungsi |
 |:---------|:------|:------:|:-------|
-| [IVO:SETTINGS](commands/settings/settings.md) | — | ✓ | Buka jendela pengaturan plugin |
+| [IVO:SETTINGS](commands/settings/settings.md) | `IVO:US` | ✓ | Pilih profil pengaturan |
 | [IVO:OPENSETTINGSFOLDER](commands/settings/opensettingsfolder.md) | — | — | Buka folder tempat settings, profil, dan preset disimpan |
 
 ## Help
@@ -87,7 +87,7 @@ Kolom **Ribbon** menandai apakah perintah punya tombol sendiri. Perintah bertand
 | Perintah | Alias | Ribbon | Fungsi |
 |:---------|:------|:------:|:-------|
 | [IVO:LICENSE](commands/help/license.md) | — | ✓ | Manajemen lisensi |
-| [IVO:HELP](commands/help/help.md) | — | ✓ | Buka dokumentasi online ini |
+| [IVO:HELP](commands/help/help.md) | `IVO:OUG` | ✓ | Buka dokumentasi online ini |
 | [IVO:ABOUT](commands/help/about.md) | — | ✓ | Tampilkan informasi plugin |
 | [IVO:COMMANDS](commands/help/commands.md) | — | — | Tampilkan daftar perintah di command line |
 

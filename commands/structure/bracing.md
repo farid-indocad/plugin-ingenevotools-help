@@ -16,7 +16,7 @@
 
 ## Opsi / Parameter
 
-Tipe bracing dapat diatur melalui `IVO:SETTINGS` → **Structure > Bracing**.
+Daftar tipe bracing berasal dari [profil pengaturan](settings.md), bagian **Structure > Bracing**.
 
 | Parameter | Deskripsi |
 |:----------|:----------|

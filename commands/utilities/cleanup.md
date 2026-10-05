@@ -10,8 +10,8 @@
 
 ## Cara Penggunaan
 
-1. Pilih objek yang ingin disaring (boleh sebelum perintah dijalankan — preselection dihormati)
-2. Jalankan perintah `IVO:CLEANUP`
+1. Jalankan perintah `IVO:CLEANUP`
+2. **Pilih objek yang ingin disaring.** Seleksi yang sudah dibuat sebelum perintah dijalankan langsung dipakai, dan langkah ini dilewati
 3. Pilih **berkas preset** dari menu bernomor di command line:
 
 ```

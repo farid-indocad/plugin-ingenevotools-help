@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Update Title Block button
 - **Command Line:** `IVO:UPDATETITLEBLOCK`
-- **Alias:** —
+- **Alias:** `IVO:UTB`
 
 ## How to Use
 
@@ -30,13 +30,16 @@
 > Matching is done by **layout name**. A row whose name matches no layout is not written anywhere.
 
 > [!TIP]
-> The register read here is the same file used by [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md) and [IVO:EDITREGISTER](en/commands/sheet-manager/editregister.md). Which worksheet is read is set under `IVO:SETTINGS` → **Sheet Manager > Drawing Register > Worksheet**.
+> The register read here is the same file used by [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md) and [IVO:EDITREGISTER](en/commands/sheet-manager/editregister.md). Which worksheet is read comes from the [settings profile](en/settings.md), under **Sheet Manager > Drawing Register > Worksheet**.
 
 > [!NOTE]
 > The title block must be a **block reference with attributes**. Plain text and mtext cannot be filled by this command.
 
 > [!TIP]
-> The title block's block name and the column-to-attribute mapping are set under `IVO:SETTINGS` → **Sheet Manager > Title Block**.
+> The title block's block name and the column-to-attribute mapping come from the [settings profile](en/settings.md), under **Sheet Manager > Title Block**.
+
+> [!NOTE]
+> **With the Intrax profile, every value is written in capitals** — values from the register, values the plugin works out (such as the project number and revision), and the drawing index contents. This is the profile's **Uppercase values** option. Drawing index column headings are left as they are.
 
 ## See Also
 

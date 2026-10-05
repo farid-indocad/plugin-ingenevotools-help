@@ -1,47 +1,35 @@
 # IVO:SETTINGS
 
-> Membuka jendela pengaturan plugin.
+> Memilih profil pengaturan yang dipakai plugin.
 
 ## Cara Akses
 
 - **Ribbon:** Tab IngenevoTools → Panel Settings → Tombol Settings
 - **Command Line:** `IVO:SETTINGS`
-- **Alias:** —
+- **Alias:** `IVO:US`
 
 ## Cara Penggunaan
 
-1. Jalankan perintah `IVO:SETTINGS`
-2. Jendela pengaturan terbuka dengan pohon grup di sebelah kiri:
-
-| Grup | Isinya |
-|:-----|:-------|
-| **General** | Preferensi umum, termasuk Help URL yang dibuka [IVO:HELP](commands/help/help.md) |
-| **Sheet Manager** | Paper, Sheet Name, Title Block (berikut Drawing Index dan Extraction Rules), Drawing Register, Viewport, Viewframe |
-| **Structure** | Daftar tipe Column, Beam, dan Bracing, serta pengaturan Footing |
-| **Detail Library** | Folder library dan cache thumbnail |
-| **Member Schedule** | Pengaturan pembersihan tabel [IVO:SCHEDULE](commands/structure/schedule.md) |
-
-3. Klik grup untuk melihat opsinya — **penjelasan tiap opsi tampil tepat di sebelah kolom isiannya**
-4. Tekan **OK** atau **Apply** untuk menyimpan
+1. Jalankan perintah `IVO:SETTINGS` atau `IVO:US`
+2. Jendela **Settings profile** terbuka dan menampilkan profil yang terpasang di komputer ini. Profil yang sedang dipakai ditandai **(in use)**
+3. Pilih profil yang sesuai dengan gambar yang sedang Anda kerjakan, lalu tekan **OK**. **Cancel** menutup jendela tanpa mengubah apa pun
+4. Profil baru berlaku langsung, termasuk daftar tipe di palette Structural
 
 <!-- screenshot -->
 
 ## Tips & Catatan
 
 > [!NOTE]
-> Perintah ini **tidak membutuhkan lisensi aktif.** Isi Settings adalah konfigurasi milik Anda sendiri — profil, tipe column, aturan title block — yang mungkin sudah lama Anda susun. Mengunci aksesnya saat langganan lewat sehari sama saja menyandera data Anda sendiri.
-
-> [!TIP]
-> Penjelasan setiap opsi hidup di dalam jendela ini, bukan di situs dokumentasi. Itu disengaja: penjelasan yang disalin ke dua tempat cepat berselisih, dan yang di dalam dialog tidak pernah bisa basi.
-
-> [!TIP]
-> Pengaturan disimpan sebagai **profil**. Installer menanam tiga profil bawaan — `Default`, `Intrax`, dan `IndoCAD` — jadi drafter baru langsung punya pengaturan standar kantor tanpa menyusunnya sendiri.
+> **Nilai di dalam profil tidak bisa diubah dari sini.** Profil adalah standar kantor yang ditimpa installer setiap pemasangan, jadi suntingan di komputer drafter akan hilang di pembaruan berikutnya. Kalau sebuah nilai perlu diubah, minta ke tim IndoCAD.
 
 > [!NOTE]
-> Perubahan berlaku langsung, tanpa perlu memuat ulang plugin atau menutup BricsCAD.
+> Perintah ini **tidak membutuhkan lisensi aktif**, jadi Anda selalu bisa melihat dan mengganti profil yang dipakai.
 
-> [!WARNING]
-> Kalau Anda mengedit berkas settings dengan tangan, **tutup dulu jendela ini.** Jendela Settings memegang seluruh isinya di memori dan menulis ulang berkasnya saat Anda menekan OK atau Apply — suntingan tangan Anda akan tertimpa.
+> [!TIP]
+> Installer membawa profil kantor **Intrax**. Profil lama **Default** dan **IndoCAD** sudah pensiun, jadi biasanya daftar ini hanya berisi Intrax — kecuali tim IndoCAD memasang profil lain di komputer Anda.
+
+> [!NOTE]
+> Kalau berganti profil gagal, jendela tetap terbuka dan menampilkan alasannya (`Could not switch to …`). Profil yang lama tetap dipakai.
 
 ## Lihat Juga
 

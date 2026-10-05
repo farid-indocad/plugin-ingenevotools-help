@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Utilities Panel → Change Base Point button
 - **Command Line:** `IVO:CHANGEBASEPOINT`
-- **Alias:** —
+- **Alias:** `IVO:CBP`
 
 ## How to Use
 

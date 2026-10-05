@@ -18,7 +18,7 @@
 
 ## Opsi / Parameter
 
-Tipe column yang digunakan dapat diatur melalui `IVO:SETTINGS` → **Structure > Column**.
+Daftar tipe column berasal dari [profil pengaturan](settings.md), bagian **Structure > Column**.
 
 | Parameter | Deskripsi |
 |:----------|:----------|

@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Deselect Similar
 - **Command Line:** `IVO:DESELECTSIMILAR`
-- **Alias:** —
+- **Alias:** `IVO:DSS`
 
 ## Cara Penggunaan
 

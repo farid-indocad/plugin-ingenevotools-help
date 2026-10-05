@@ -7,6 +7,37 @@ Perubahan yang terlihat oleh drafter. Rincian teknis pemasangan dan build ada di
 
 ---
 
+## 2.1.0 — penyegaran [TANGGAL]
+
+Nomor versinya tetap 2.1.0; yang diperbarui adalah berkas installer-nya. Jalankan installer yang baru untuk mendapatkan perubahan di bawah.
+
+### Ditambahkan
+
+- **14 alias pendek dari plugin LISP**: `IVO:CBP`, `IVO:CREG`, `IVO:DSS`, `IVO:EREG`, `IVO:OUG`, `IVO:OPF`, `IVO:PPP`, `IVO:RNL`, `IVO:RV`, `IVO:RBLOCK`, `IVO:SSS`, `IVO:US`, `IVO:SRL`, dan `IVO:UTB`. Lihat [Daftar Command](daftar-command.md).
+- **Tombol ribbon Generate Column** untuk [`IVO:GENCOLUMN`](commands/structure/gencolumn.md), di panel Structure. Beam yang sudah dipilih langsung dipakai.
+
+### Diubah
+
+- **[`IVO:SETTINGS`](commands/settings/settings.md) kini hanya memilih profil.** Nilai di dalam profil disusun tim IndoCAD dan dibawa installer — lihat [Pengaturan](settings.md).
+- **Hanya profil Intrax yang dibawa installer.** Profil **Default** dan **IndoCAD** pensiun; komputer yang memakainya dipindahkan ke Intrax.
+- **Dengan profil Intrax, [`IVO:UPDATETITLEBLOCK`](commands/sheet-manager/updatetitleblock.md) menulis semua nilai dalam huruf kapital.**
+- **Template register bawaan kini `Templates\register-intrax.xls`**, ikut terpasang bersama plugin. [`IVO:CREATEREGISTER`](commands/sheet-manager/createregister.md) kini jalan di komputer mana pun.
+- **Setelan Detail Library kini milik komputer**, bukan bagian profil — diatur lewat [`IVO:DETAILLIBRARYSETTINGS`](commands/detail-library/detaillibrarysettings.md).
+- **[`IVO:CLEANUP`](commands/utilities/cleanup.md) meminta seleksi objek lebih dulu**, baru berkas preset dan preset.
+- **Nama plugin kini `IngenevoTools`**, dengan hak cipta IndoCAD Pty Ltd — juga di jendela installer dan di Settings › Apps.
+- **Installer kini sekitar 15 MB**, bukan 42 MB, dan uninstaller di folder plugin sekitar 80 KB.
+
+### Diperbaiki
+
+- **Trial dan aktivasi lisensi di BricsCAD V26** tidak lagi gagal karena komputer tidak bisa dikenali.
+- **[`IVO:PRINTPDF`](commands/print/printpdf.md)** tidak lagi menjalankan ulang perintah sebelumnya sesudah mencetak, menyebut PDF 0 byte sebagai kosong, dan memberi tahu layout yang plot style-nya gagal dikembalikan.
+- **[`IVO:FOOTING`](commands/structure/footing.md)** memakai offset dari profil aktif, juga kalau palette Structural belum pernah dibuka.
+- **[`IVO:GENCOLUMN`](commands/structure/gencolumn.md)** menaruh column di ujung yang benar pada beam yang dicerminkan atau diputar 3D.
+- **Label beam, column, dan bracing**: frame dan wipeout label yang diputar ikut berputar, dan wipeout benar-benar menutupi yang ada di bawah teksnya.
+- **Pemasangan yang terputus atau gagal tidak lagi membuat plugin hilang**, dan Reinstall yang gagal karena BricsCAD masih terbuka kini mengatakannya. Lihat [Instalasi](instalasi.md).
+
+---
+
 ## 2.1.0 — rilis 28 September 2026
 
 Versi minor pertama sesudah 2.0.0, terutama penyelarasan lisensi. Lisensi yang beredar tetap berlaku — tidak perlu lisensi baru.

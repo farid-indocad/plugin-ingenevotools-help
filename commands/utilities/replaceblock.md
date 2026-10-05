@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Replace Block
 - **Command Line:** `IVO:REPLACEBLOCK`
-- **Alias:** —
+- **Alias:** `IVO:RBLOCK`
 
 ## Cara Penggunaan
 

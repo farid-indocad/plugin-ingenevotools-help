@@ -6,11 +6,11 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Renumber Layout
 - **Command Line:** `IVO:RENUMBERLAYOUT`
-- **Alias:** —
+- **Alias:** `IVO:RNL`
 
 ## Cara Penggunaan
 
-1. Atur format penomoran lebih dulu di `IVO:SETTINGS` → **Sheet Manager > Sheet Name**
+1. Pastikan profil yang aktif benar — format penomoran diambil dari [profil pengaturan](settings.md), bagian **Sheet Manager > Sheet Name**
 2. Jalankan perintah `IVO:RENUMBERLAYOUT`
 3. Command line menampilkan **pratinjau** nama lama dan nama barunya
 4. Muncul konfirmasi:
@@ -41,4 +41,4 @@ Apply renumbering? [Yes/No] <Yes>:
 
 - [IVO:SORTLAYOUT](commands/sheet-manager/sortlayout.md) — mengurutkan tab layout berdasarkan nama
 - [IVO:RENUMBERVIEWFRAME](commands/sheet-manager/renumberviewframe.md) — menomori ulang block ViewFrame di model space
-- [IVO:SETTINGS](commands/settings/settings.md) — tempat format penomoran diatur
+- [Pengaturan](settings.md) — profil tempat format penomoran ditentukan

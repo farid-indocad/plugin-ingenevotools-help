@@ -2,7 +2,7 @@
 
 ## Deskripsi
 
-**Ingenevo Tools** adalah plugin BricsCAD untuk produktivitas drafting dan engineering: penggambaran struktur, pembangunan sheet dari block ViewFrame, pengisian title block massal dari Excel, cetak massal ke PDF, dan sejumlah utilitas gambar.
+**IngenevoTools** adalah plugin BricsCAD untuk produktivitas drafting dan engineering: penggambaran struktur, pembangunan sheet dari block ViewFrame, pengisian title block massal dari Excel, cetak massal ke PDF, dan sejumlah utilitas gambar.
 
 Daftar lengkap perintahnya ada di [Daftar Command](daftar-command.md).
 
@@ -40,14 +40,14 @@ Versi plugin saat dokumentasi ini ditulis: **2.1.0**
 
 ## Hak Cipta
 
-Copyright © 2026 Ingenevo. Seluruh hak dilindungi.
+Copyright © 2026 IndoCAD Pty Ltd. Seluruh hak dilindungi.
 
-Ingenevo Tools adalah perangkat lunak proprietary. Tidak ada izin yang diberikan untuk menyalin, memodifikasi, atau mendistribusikan ulang tanpa persetujuan tertulis dari Ingenevo.
+IngenevoTools adalah perangkat lunak proprietary. Tidak ada izin yang diberikan untuk menyalin, memodifikasi, atau mendistribusikan ulang tanpa persetujuan tertulis dari IndoCAD Pty Ltd.
 
 ## Kontak Support
 
 1. Periksa halaman [FAQ](faq.md) lebih dulu — sebagian besar masalah lapangan ada di sana
-2. Hubungi tim Ingenevo lewat informasi di atas, dengan melampirkan berkas log yang relevan:
+2. Hubungi tim IndoCAD lewat informasi di atas, dengan melampirkan berkas log yang relevan:
 
 | Masalah | Berkas yang dilampirkan |
 |:--------|:------------------------|

@@ -27,7 +27,7 @@
 > This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
 > [!NOTE]
-> The bracing type used is whichever is active on the Structural palette's **Bracing** tab — this command never asks. Set it first via [IVO:BRACING](en/commands/structure/bracing.md) or `IVO:SETTINGS` → **Structure > Bracing**.
+> The bracing type used is whichever is active on the Structural palette's **Bracing** tab — this command never asks. Pick it on that palette first — see [IVO:BRACING](en/commands/structure/bracing.md).
 
 > [!NOTE]
 > Dimensions counted as **skipped** are those that are not aligned or linear — angular, radial, or diameter, for instance. Those are left intact, not erased.

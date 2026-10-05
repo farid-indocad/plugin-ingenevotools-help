@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Help → Tombol Help
 - **Command Line:** `IVO:HELP`
-- **Alias:** —
+- **Alias:** `IVO:OUG`
 
 ## Cara Penggunaan
 
@@ -15,7 +15,7 @@
 
 ## Opsi / Parameter
 
-URL dokumentasi dapat diatur melalui `IVO:SETTINGS` → **General > Help URL**.
+URL dokumentasi ditentukan oleh [profil pengaturan](settings.md), bagian **General > Help URL**.
 
 | Parameter | Deskripsi |
 |:----------|:----------|

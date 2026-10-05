@@ -10,7 +10,7 @@ Masalah yang benar-benar muncul di lapangan, berikut jalan keluarnya.
 
 1. Tutup BricsCAD sepenuhnya, lalu buka lagi
 2. Kalau masih belum muncul, klik dua kali installer yang sama sekali lagi dan tekan tombol **Reinstall**
-3. Kalau tetap tidak ada, kirim `%LocalAppData%\Ingenevo\install-log.txt` ke tim Ingenevo
+3. Kalau tetap tidak ada, kirim `%LocalAppData%\Ingenevo\install-log.txt` ke tim IndoCAD
 
 ---
 
@@ -38,7 +38,7 @@ Yang bisa Anda lakukan:
 
 ## Perintah ditolak dengan pesan "Your licence is on hold"
 
-Lisensi Anda sedang **ditahan sementara** oleh tim Ingenevo — misalnya menunggu pelunasan — bukan dicabut. Hubungi tim Ingenevo. Setelah tahanannya dilepas, tutup dan buka lagi BricsCAD; lisensinya pulih dengan key dan mesin yang sama, tanpa aktivasi ulang.
+Lisensi Anda sedang **ditahan sementara** oleh tim IndoCAD — misalnya menunggu pelunasan — bukan dicabut. Hubungi tim IndoCAD. Setelah tahanannya dilepas, tutup dan buka lagi BricsCAD; lisensinya pulih dengan key dan mesin yang sama, tanpa aktivasi ulang.
 
 ---
 
@@ -52,7 +52,7 @@ Lisensi Anda sedang **ditahan sementara** oleh tim Ingenevo — misalnya menungg
 
 ## Perintah berjalan tapi tidak menanyakan apa-apa
 
-Itu biasanya **memang perilakunya**, bukan kerusakan. Banyak perintah membaca pengaturannya dari [`IVO:SETTINGS`](commands/settings/settings.md) alih-alih bertanya tiap kali — misalnya paper size pada [`IVO:CREATELAYOUT`](commands/sheet-manager/createlayout.md), format penomoran pada [`IVO:RENUMBERLAYOUT`](commands/sheet-manager/renumberlayout.md), dan kedua offset pada [`IVO:FOOTING`](commands/structure/footing.md).
+Itu biasanya **memang perilakunya**, bukan kerusakan. Banyak perintah membaca pengaturannya dari [profil pengaturan](settings.md) alih-alih bertanya tiap kali — misalnya paper size pada [`IVO:CREATELAYOUT`](commands/sheet-manager/createlayout.md), format penomoran pada [`IVO:RENUMBERLAYOUT`](commands/sheet-manager/renumberlayout.md), dan kedua offset pada [`IVO:FOOTING`](commands/structure/footing.md).
 
 Kalau hasilnya tidak sesuai harapan, periksa [Pengaturan](settings.md) lebih dulu.
 
@@ -65,7 +65,7 @@ Baris Excel dicocokkan ke layout **berdasarkan nama layout**. Sheet yang kosong 
 Periksa juga:
 
 1. Title block harus **block reference beratribut** — teks biasa dan mtext tidak bisa diisi
-2. Nama sheet Excel yang dibaca diatur di `IVO:SETTINGS` → **Sheet Manager › Drawing Register › Worksheet**
+2. Nama sheet Excel yang dibaca ditentukan oleh [profil pengaturan](settings.md), bagian **Sheet Manager › Drawing Register › Worksheet** (di profil Intrax: `Intrax`)
 
 ---
 
@@ -92,9 +92,9 @@ Jalankan ulang perintah itu dengan nilai yang lama untuk mengembalikannya.
 - **`Ring not closed`** — keliling masih berlubang. Garis yang ujungnya menggantung **otomatis dijadikan seleksi aktif**; zoom ke seleksi itu untuk melihat letak celahnya
 - **Garis berwarna lain diabaikan** — hanya garis **cyan** (muka luar) dan **kuning** (as) yang dibaca. Jumlah garis yang dilewati disebutkan di pesan sebagai `wrong colour`
 
-Daftar pesan lengkapnya ada di halaman [`IVO:FOOTING`](commands/structure/footing.md). Kalau sebuah gambar terus menolak, kirimkan berkas drawing-nya ke tim Ingenevo.
+Daftar pesan lengkapnya ada di halaman [`IVO:FOOTING`](commands/structure/footing.md). Kalau sebuah gambar terus menolak, kirimkan berkas drawing-nya ke tim IndoCAD.
 
 ---
 
 > [!TIP]
-> Masalah Anda tidak ada di sini? Hubungi tim Ingenevo lewat informasi di halaman [Tentang](about.md). Lampirkan `%LocalAppData%\Ingenevo\install-log.txt` untuk masalah pemasangan, atau `%AppData%\IngenevoTools\license-log.txt` untuk masalah lisensi.
+> Masalah Anda tidak ada di sini? Hubungi tim IndoCAD lewat informasi di halaman [Tentang](about.md). Lampirkan `%LocalAppData%\Ingenevo\install-log.txt` untuk masalah pemasangan, atau `%AppData%\IngenevoTools\license-log.txt` untuk masalah lisensi.

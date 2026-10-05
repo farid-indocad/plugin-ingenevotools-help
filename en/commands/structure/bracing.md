@@ -16,7 +16,7 @@
 
 ## Options / Parameters
 
-The bracing type comes from the Structural palette's **Bracing** tab, and can also be set under `IVO:SETTINGS` → **Structure > Bracing**.
+The bracing type is picked on the Structural palette's **Bracing** tab, from the list in the [settings profile](en/settings.md) (**Structure > Bracing**).
 
 <!-- screenshot -->
 

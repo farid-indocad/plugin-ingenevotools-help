@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Help Panel → Help button
 - **Command Line:** `IVO:HELP`
-- **Alias:** —
+- **Alias:** `IVO:OUG`
 
 ## How to Use
 
@@ -15,7 +15,7 @@
 
 ## Options / Parameters
 
-The documentation URL is configurable under `IVO:SETTINGS` → **General > Help URL**.
+The documentation URL comes from the [settings profile](en/settings.md), under **General > Help URL**.
 
 | Parameter | Description |
 |:----------|:------------|

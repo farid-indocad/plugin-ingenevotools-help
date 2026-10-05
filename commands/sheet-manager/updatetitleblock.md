@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Update Title Block
 - **Command Line:** `IVO:UPDATETITLEBLOCK`
-- **Alias:** —
+- **Alias:** `IVO:UTB`
 
 ## Cara Penggunaan
 
@@ -30,13 +30,16 @@
 > Pencocokan dilakukan lewat **nama layout**. Baris yang namanya tidak cocok dengan layout mana pun tidak akan tertulis ke mana-mana.
 
 > [!TIP]
-> Berkas register yang dibaca adalah berkas yang sama dengan yang dipakai [IVO:CREATEREGISTER](commands/sheet-manager/createregister.md) dan [IVO:EDITREGISTER](commands/sheet-manager/editregister.md). Nama sheet yang dibaca diatur di `IVO:SETTINGS` → **Sheet Manager > Drawing Register > Worksheet**.
+> Berkas register yang dibaca adalah berkas yang sama dengan yang dipakai [IVO:CREATEREGISTER](commands/sheet-manager/createregister.md) dan [IVO:EDITREGISTER](commands/sheet-manager/editregister.md). Nama sheet yang dibaca ditentukan oleh [profil pengaturan](settings.md), bagian **Sheet Manager > Drawing Register > Worksheet**.
 
 > [!NOTE]
 > Title block harus berupa **block reference beratribut**. Teks biasa dan mtext tidak bisa diisi oleh perintah ini.
 
 > [!TIP]
-> Nama block title block dan pemetaan kolom ke atribut diatur di `IVO:SETTINGS` → **Sheet Manager > Title Block**.
+> Nama block title block dan pemetaan kolom ke atribut ditentukan oleh [profil pengaturan](settings.md), bagian **Sheet Manager > Title Block**.
+
+> [!NOTE]
+> **Dengan profil Intrax, semua nilai ditulis dalam huruf kapital** — nilai dari register, nilai yang dihitung plugin (misalnya nomor proyek dan revisi), dan isi drawing index. Ini opsi **Uppercase values** di profil. Judul kolom drawing index tidak diubah.
 
 ## Lihat Juga
 

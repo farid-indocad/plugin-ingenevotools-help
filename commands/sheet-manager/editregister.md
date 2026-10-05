@@ -6,7 +6,7 @@
 
 - **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Edit Register
 - **Command Line:** `IVO:EDITREGISTER`
-- **Alias:** —
+- **Alias:** `IVO:EREG`
 
 ## Cara Penggunaan
 
@@ -25,7 +25,7 @@
 > Berkas register harus **sudah ada**. Kalau belum, buat lebih dulu dengan [IVO:CREATEREGISTER](commands/sheet-manager/createregister.md).
 
 > [!TIP]
-> Nama dan ekstensi berkas register diatur di `IVO:SETTINGS` → **Sheet Manager > Drawing Register**. Dengan format `Auto` (bawaan), plugin mencari `.xlsx` lebih dulu lalu `.xls`.
+> Nama dan ekstensi berkas register ditentukan oleh [profil pengaturan](settings.md), bagian **Sheet Manager > Drawing Register**. Dengan format `XlsThenXlsx` di profil Intrax, plugin mencari `.xls` lebih dulu lalu `.xlsx`.
 
 > [!NOTE]
 > Perintah ini, [IVO:CREATEREGISTER](commands/sheet-manager/createregister.md), dan [IVO:UPDATETITLEBLOCK](commands/sheet-manager/updatetitleblock.md) memakai satu aturan yang sama untuk menentukan berkas register milik sebuah drawing — ketiganya tidak mungkin menunjuk berkas yang berbeda.

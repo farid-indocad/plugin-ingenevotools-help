@@ -13,7 +13,7 @@ Type [`IVO:LICENSE`](en/commands/help/license.md) and activate. Without it almos
 
 ## 2. Pick a settings profile
 
-Open [`IVO:SETTINGS`](en/commands/settings/settings.md). The installer already ships three office-standard profiles — **Default**, **Intrax**, and **IndoCAD** — so you do not have to build one from scratch.
+Run [`IVO:SETTINGS`](en/commands/settings/settings.md) and make sure the right profile is in use. The installer already ships the **Intrax** office-standard profile, so you do not have to build one yourself — its values are put together by the IndoCAD team.
 
 The profile decides paper size, sheet name prefix, title block name, and the column/beam/bracing types. **The commands that follow read from here and will not ask again**, so a mistake at this step propagates through the whole drawing.
 
@@ -63,7 +63,7 @@ Excel rows are matched to layouts **by name**. If a title block comes out empty,
 > **Select first, then run the command.** Most commands honour objects you selected before typing, so you do not have to select twice.
 
 > [!TIP]
-> **Use the aliases.** `IVO:SX` for Safe Explode, `IVO:MSX` for Multi Safe Explode, `IVO:CRL` for Create Layout. They are all listed in the [Command List](en/command-list.md).
+> **Use the aliases.** `IVO:SX` for Safe Explode, `IVO:MSX` for Multi Safe Explode, `IVO:CRL` for Create Layout, `IVO:PPP` for Print PDF. They are all listed in the [Command List](en/command-list.md).
 
 > [!TIP]
 > **Type `IVO:` and let BricsCAD's autocomplete do the rest.** If you forget a command name, [`IVO:COMMANDS`](en/commands/help/commands.md) prints the whole list without opening a browser.

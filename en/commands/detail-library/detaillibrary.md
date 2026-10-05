@@ -23,7 +23,7 @@
 > This command requires an **active license**. Run [IVO:LICENSE](en/commands/help/license.md) to activate yours.
 
 > [!TIP]
-> Library folders and the thumbnail cache folder can be set under `IVO:SETTINGS` → **Detail Library**, or from the command line via [IVO:DETAILLIBRARYSETTINGS](en/commands/detail-library/detaillibrarysettings.md).
+> Library folders and the thumbnail cache folder are set with [IVO:DETAILLIBRARYSETTINGS](en/commands/detail-library/detaillibrarysettings.md).
 
 ## See Also
 

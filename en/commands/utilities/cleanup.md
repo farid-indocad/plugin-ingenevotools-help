@@ -10,8 +10,8 @@
 
 ## How to Use
 
-1. Select the objects you want to filter (a selection made before running the command is honoured)
-2. Run `IVO:CLEANUP`
+1. Run `IVO:CLEANUP`
+2. **Select the objects you want to filter.** A selection made before running the command is used straight away, and this step is skipped
 3. Pick a **preset file** from the numbered command-line menu:
 
 ```

@@ -6,7 +6,7 @@
 
 - **Ribbon:** IngenevoTools Tab → Sheet Manager Panel → Open Folder button
 - **Command Line:** `IVO:OPENFOLDER`
-- **Alias:** —
+- **Alias:** `IVO:OPF`
 
 ## How to Use
 
