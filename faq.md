@@ -10,7 +10,7 @@ Masalah yang benar-benar muncul di lapangan, berikut jalan keluarnya.
 
 1. Tutup BricsCAD sepenuhnya, lalu buka lagi
 2. Kalau masih belum muncul, klik dua kali installer yang sama sekali lagi dan tekan tombol **Reinstall**
-3. Kalau tetap tidak ada, kirim `%LocalAppData%\Ingenevo\install-log.txt` ke tim Ingenevo
+3. Kalau tetap tidak ada, kirim `%LocalAppData%\Ingenevo\install-log.txt` ke tim IndoCAD
 
 ---
 
@@ -38,7 +38,7 @@ Yang bisa Anda lakukan:
 
 ## Perintah ditolak dengan pesan "Your licence is on hold"
 
-Lisensi Anda sedang **ditahan sementara** oleh tim Ingenevo — misalnya menunggu pelunasan — bukan dicabut. Hubungi tim Ingenevo. Setelah tahanannya dilepas, tutup dan buka lagi BricsCAD; lisensinya pulih dengan key dan mesin yang sama, tanpa aktivasi ulang.
+Lisensi Anda sedang **ditahan sementara** oleh tim IndoCAD — misalnya menunggu pelunasan — bukan dicabut. Hubungi tim IndoCAD. Setelah tahanannya dilepas, tutup dan buka lagi BricsCAD; lisensinya pulih dengan key dan mesin yang sama, tanpa aktivasi ulang.
 
 ---
 
@@ -92,9 +92,9 @@ Jalankan ulang perintah itu dengan nilai yang lama untuk mengembalikannya.
 - **`Ring not closed`** — keliling masih berlubang. Garis yang ujungnya menggantung **otomatis dijadikan seleksi aktif**; zoom ke seleksi itu untuk melihat letak celahnya
 - **Garis berwarna lain diabaikan** — hanya garis **cyan** (muka luar) dan **kuning** (as) yang dibaca. Jumlah garis yang dilewati disebutkan di pesan sebagai `wrong colour`
 
-Daftar pesan lengkapnya ada di halaman [`IVO:FOOTING`](commands/structure/footing.md). Kalau sebuah gambar terus menolak, kirimkan berkas drawing-nya ke tim Ingenevo.
+Daftar pesan lengkapnya ada di halaman [`IVO:FOOTING`](commands/structure/footing.md). Kalau sebuah gambar terus menolak, kirimkan berkas drawing-nya ke tim IndoCAD.
 
 ---
 
 > [!TIP]
-> Masalah Anda tidak ada di sini? Hubungi tim Ingenevo lewat informasi di halaman [Tentang](about.md). Lampirkan `%LocalAppData%\Ingenevo\install-log.txt` untuk masalah pemasangan, atau `%AppData%\IngenevoTools\license-log.txt` untuk masalah lisensi.
+> Masalah Anda tidak ada di sini? Hubungi tim IndoCAD lewat informasi di halaman [Tentang](about.md). Lampirkan `%LocalAppData%\Ingenevo\install-log.txt` untuk masalah pemasangan, atau `%AppData%\IngenevoTools\license-log.txt` untuk masalah lisensi.

@@ -9,8 +9,8 @@ Installing IngenevoTools takes **four steps** and does not need Administrator ri
 
 ## Four steps
 
-1. **Open the link** sent by the Ingenevo team, then **double-click** `IngenevoToolsSetup.exe`
-2. A single window opens and works on its own. Wait a few seconds until it says **"Ingenevo Tools has been installed"**, then press **Close**
+1. **Open the link** sent by the IndoCAD team, then **double-click** `IngenevoToolsSetup.exe`
+2. A single window opens and works on its own. Wait a few seconds until it says **"IngenevoTools has been installed."**, then press **Close**
 3. **Open BricsCAD.** The **IngenevoTools** tab appears on the ribbon by itself
 4. Type **`IVO:LICENSE`** and activate your license
 
@@ -30,6 +30,11 @@ The install still succeeds, but the new version only takes effect after BricsCAD
 
 Double-click **the same installer** again. If that version is already installed, the window offers a **Reinstall** button — press it.
 
+If Reinstall fails, the window names the BricsCAD version that could not be installed. The most common cause is BricsCAD still being open — close BricsCAD completely, then run the installer once more.
+
+> [!NOTE]
+> The installer window **cannot be closed while it is working**. That is deliberate: an installation cut off halfway used to make the plugin disappear. Even if an installation fails, the version that was installed before stays intact.
+
 ## Verifying
 
 Once BricsCAD is open:
@@ -42,7 +47,7 @@ Once BricsCAD is open:
 
 Two ways, both equivalent:
 
-- **Settings › Apps › Ingenevo Tools › Uninstall**
+- **Settings › Apps › IngenevoTools › Uninstall**
 - or double-click **`Uninstall Ingenevo Tools.exe`** in `%LocalAppData%\Ingenevo\IngenevoTools\`
 
 Your settings and license are **not** removed.

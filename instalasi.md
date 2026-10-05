@@ -9,8 +9,8 @@ Memasang IngenevoTools butuh **empat langkah** dan tidak butuh hak Administrator
 
 ## Empat langkah
 
-1. **Buka tautan** yang dikirim tim Ingenevo, lalu **klik dua kali** `IngenevoToolsSetup.exe`
-2. Satu jendela terbuka dan bekerja sendiri. Tunggu beberapa detik sampai ia berkata **"Ingenevo Tools has been installed"**, lalu tekan **Close**
+1. **Buka tautan** yang dikirim tim IndoCAD, lalu **klik dua kali** `IngenevoToolsSetup.exe`
+2. Satu jendela terbuka dan bekerja sendiri. Tunggu beberapa detik sampai ia berkata **"IngenevoTools has been installed."**, lalu tekan **Close**
 3. **Buka BricsCAD.** Tab **IngenevoTools** muncul sendiri di ribbon
 4. Ketik **`IVO:LICENSE`** dan aktifkan lisensi Anda
 
@@ -30,6 +30,11 @@ Pemasangan tetap berhasil, tapi versi barunya **baru aktif setelah BricsCAD ditu
 
 Klik dua kali **installer yang sama** sekali lagi. Kalau versi itu memang sudah terpasang, jendelanya menawarkan tombol **Reinstall** — tekan itu.
 
+Kalau Reinstall gagal, jendelanya menyebut versi BricsCAD yang gagal dipasang. Penyebab paling umum adalah BricsCAD yang masih terbuka — tutup BricsCAD sepenuhnya, lalu jalankan installer sekali lagi.
+
+> [!NOTE]
+> Jendela installer **tidak bisa ditutup selama sedang bekerja**. Itu disengaja: pemasangan yang terputus di tengah jalan dulu bisa membuat plugin hilang. Kalaupun pemasangan gagal, versi yang sudah terpasang sebelumnya tetap utuh.
+
 ## Verifikasi
 
 Setelah BricsCAD dibuka:
@@ -42,7 +47,7 @@ Setelah BricsCAD dibuka:
 
 Dua jalan, keduanya sama saja:
 
-- **Settings › Apps › Ingenevo Tools › Uninstall**
+- **Settings › Apps › IngenevoTools › Uninstall**
 - atau klik dua kali **`Uninstall Ingenevo Tools.exe`** di `%LocalAppData%\Ingenevo\IngenevoTools\`
 
 Pengaturan dan lisensi Anda **tidak ikut terhapus**.

@@ -39,13 +39,13 @@
 > Portal juga bisa dibuka langsung kapan saja: [https://app-licsvc.azurewebsites.net/portal](https://app-licsvc.azurewebsites.net/portal)
 
 > [!NOTE]
-> Kalau perintah IVO menolak berjalan dengan pesan **Your licence is on hold**, lisensi Anda sedang **ditahan sementara** oleh tim Ingenevo — bukan dicabut. Hubungi tim Ingenevo; setelah tahanannya dilepas, tutup dan buka lagi BricsCAD. Tidak perlu aktivasi ulang, dan tidak ada slot tambahan yang terpakai.
+> Kalau perintah IVO menolak berjalan dengan pesan **Your licence is on hold**, lisensi Anda sedang **ditahan sementara** oleh tim IndoCAD — bukan dicabut. Hubungi tim IndoCAD; setelah tahanannya dilepas, tutup dan buka lagi BricsCAD. Tidak perlu aktivasi ulang, dan tidak ada slot tambahan yang terpakai.
 
 > [!NOTE]
 > Setiap aktivasi dan pemeriksaan ulang lisensi, plugin mengirim **nama komputer, IP lokal, dan nama Windows** ke server lisensi, supaya tiap mesin tampil dengan namanya sendiri di portal pelanggan. IP lokal tidak ditampilkan di portal. Pengiriman ini tidak bisa dimatikan.
 
 > [!TIP]
-> Kalau ada masalah aktivasi, plugin menulis jejak diagnostik di berkas berikut. Tidak ada tombol untuk membukanya — buka sendiri lewat Explorer, dan lampirkan saat menghubungi tim Ingenevo:
+> Kalau ada masalah aktivasi, plugin menulis jejak diagnostik di berkas berikut. Tidak ada tombol untuk membukanya — buka sendiri lewat Explorer, dan lampirkan saat menghubungi tim IndoCAD:
 >
 > ```
 > %AppData%\IngenevoTools\license-log.txt

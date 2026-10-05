@@ -10,7 +10,7 @@ Problems that actually come up in practice, and how to get past them.
 
 1. Close BricsCAD completely, then open it again
 2. If it is still missing, double-click the same installer again and press **Reinstall**
-3. If it still does not appear, send `%LocalAppData%\Ingenevo\install-log.txt` to the Ingenevo team
+3. If it still does not appear, send `%LocalAppData%\Ingenevo\install-log.txt` to the IndoCAD team
 
 ---
 
@@ -38,7 +38,7 @@ What you can do:
 
 ## Commands refused with "Your licence is on hold"
 
-Your license has been **temporarily put on hold** by the Ingenevo team — for example while a payment is pending — not revoked. Contact the Ingenevo team. Once the hold is lifted, close and reopen BricsCAD; the license comes back with the same key and machine, with no re-activation.
+Your license has been **temporarily put on hold** by the IndoCAD team — for example while a payment is pending — not revoked. Contact the IndoCAD team. Once the hold is lifted, close and reopen BricsCAD; the license comes back with the same key and machine, with no re-activation.
 
 ---
 
@@ -92,9 +92,9 @@ Run the command again with the previous value to restore it.
 - **`Ring not closed`** — the perimeter still has gaps. The dangling lines are **automatically made the active selection**; zoom to that selection to see where the gaps are
 - **Lines of any other colour are ignored** — only **cyan** (outer face) and **yellow** (centreline) lines are read. The number skipped is reported in the message as `wrong colour`
 
-The full list of messages is on the [`IVO:FOOTING`](en/commands/structure/footing.md) page. If a drawing keeps refusing, send the drawing file to the Ingenevo team.
+The full list of messages is on the [`IVO:FOOTING`](en/commands/structure/footing.md) page. If a drawing keeps refusing, send the drawing file to the IndoCAD team.
 
 ---
 
 > [!TIP]
-> Not listed here? Contact the Ingenevo team using the details on the [About](en/about.md) page. Attach `%LocalAppData%\Ingenevo\install-log.txt` for installation problems, or `%AppData%\IngenevoTools\license-log.txt` for licensing ones.
+> Not listed here? Contact the IndoCAD team using the details on the [About](en/about.md) page. Attach `%LocalAppData%\Ingenevo\install-log.txt` for installation problems, or `%AppData%\IngenevoTools\license-log.txt` for licensing ones.
