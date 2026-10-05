@@ -38,6 +38,9 @@
 > [!TIP]
 > The title block's block name and the column-to-attribute mapping come from the [settings profile](en/settings.md), under **Sheet Manager > Title Block**.
 
+> [!NOTE]
+> **With the Intrax profile, every value is written in capitals** — values from the register, values the plugin works out (such as the project number and revision), and the drawing index contents. This is the profile's **Uppercase values** option. Drawing index column headings are left as they are.
+
 ## See Also
 
 - [IVO:CREATEREGISTER](en/commands/sheet-manager/createregister.md) — create the Excel register

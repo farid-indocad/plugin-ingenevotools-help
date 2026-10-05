@@ -38,6 +38,9 @@
 > [!TIP]
 > Nama block title block dan pemetaan kolom ke atribut ditentukan oleh [profil pengaturan](settings.md), bagian **Sheet Manager > Title Block**.
 
+> [!NOTE]
+> **Dengan profil Intrax, semua nilai ditulis dalam huruf kapital** — nilai dari register, nilai yang dihitung plugin (misalnya nomor proyek dan revisi), dan isi drawing index. Ini opsi **Uppercase values** di profil. Judul kolom drawing index tidak diubah.
+
 ## Lihat Juga
 
 - [IVO:CREATEREGISTER](commands/sheet-manager/createregister.md) — membuat berkas register Excel
