@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Deselect Similar
+- **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Deselect Similar
 - **Command Line:** `IVO:DESELECTSIMILAR`
 - **Alias:** —
 

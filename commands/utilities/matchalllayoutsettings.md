@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Match Layout Settings
+- **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Match Layout Settings
 - **Command Line:** `IVO:MATCHALLLAYOUTSETTINGS`
 - **Alias:** `IVO:MALS`
 

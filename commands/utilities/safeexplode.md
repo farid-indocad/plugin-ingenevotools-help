@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Safe Explode
+- **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Safe Explode
 - **Command Line:** `IVO:SAFEEXPLODE`
 - **Alias:** `IVO:SX`
 

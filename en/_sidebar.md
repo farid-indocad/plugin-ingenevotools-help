@@ -40,7 +40,6 @@
   - [IVO:BRACING](/en/commands/structure/bracing.md)
   - [IVO:DIM2BRACING](/en/commands/structure/dim2bracing.md)
   - [IVO:FOOTING](/en/commands/structure/footing.md)
-  - [IVO:BOUNDARY](/en/commands/structure/boundary.md)
   - [IVO:SCHEDULE](/en/commands/structure/schedule.md)
   - [IVO:STRUCTURALPALETTE](/en/commands/structure/structuralpalette.md)
   - [IVO:SHOWSTRUCTURALPALETTE](/en/commands/structure/showstructuralpalette.md)

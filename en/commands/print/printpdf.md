@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Print Panel → Print PDF button
+- **Ribbon:** IngenevoTools Tab → Print Panel → Print PDF button
 - **Command Line:** `IVO:PRINTPDF`
 - **Alias:** —
 

@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → Initial Block button
+- **Ribbon:** IngenevoTools Tab → Utilities Panel → Initial Block button
 - **Command Line:** `IVO:INITIALBLOCK`
 - **Alias:** `IVO:IBLOCK`
 

@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Select Similar
+- **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Select Similar
 - **Command Line:** `IVO:SELECTSIMILARSPECIFIED`
 - **Alias:** —
 

@@ -4,7 +4,7 @@ Masalah yang benar-benar muncul di lapangan, berikut jalan keluarnya.
 
 ---
 
-## Tab "Ingenevo Tools" tidak muncul setelah dipasang
+## Tab "IngenevoTools" tidak muncul setelah dipasang
 
 **Kemungkinan terbesar: BricsCAD sedang terbuka saat installer dijalankan.** Pemasangannya berhasil, tapi versi barunya baru aktif setelah BricsCAD **ditutup dan dibuka lagi**.
 
@@ -79,14 +79,14 @@ Jalankan ulang perintah itu dengan nilai yang lama untuk mengembalikannya.
 
 ---
 
-## IVO:BOUNDARY atau IVO:FOOTING menolak menggambar
+## IVO:FOOTING menolak menggambar
 
-Keduanya melapor **alasannya** di command line, bukan diam. Yang paling sering:
+[`IVO:FOOTING`](commands/structure/footing.md) melapor **alasannya** di command line, bukan diam. Yang paling sering:
 
 - **`Ring not closed`** — keliling masih berlubang. Garis yang ujungnya menggantung **otomatis dijadikan seleksi aktif**; zoom ke seleksi itu untuk melihat letak celahnya
-- **`wrong colour`** — pada [`IVO:BOUNDARY`](commands/structure/boundary.md), warna garis menentukan jaraknya. Hanya cyan dan kuning yang dibaca
+- **Garis berwarna lain diabaikan** — hanya garis **cyan** (muka luar) dan **kuning** (as) yang dibaca. Jumlah garis yang dilewati disebutkan di pesan sebagai `wrong colour`
 
-Kalau sebuah gambar terus menolak, jalankan `IVO:BOUNDARYDUMP` pada seleksi yang sama dan kirimkan berkas laporannya ke tim Ingenevo.
+Daftar pesan lengkapnya ada di halaman [`IVO:FOOTING`](commands/structure/footing.md). Kalau sebuah gambar terus menolak, kirimkan berkas drawing-nya ke tim Ingenevo.
 
 ---
 

@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Sheet Manager → Tombol Add Layout
+- **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Add Layout
 - **Command Line:** `IVO:ADDLAYOUT`
 - **Alias:** `IVO:ADL`
 

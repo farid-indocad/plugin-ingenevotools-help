@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Structure Panel → Column button
+- **Ribbon:** IngenevoTools Tab → Structure Panel → Column button
 - **Command Line:** `IVO:COLUMN`
 - **Alias:** —
 

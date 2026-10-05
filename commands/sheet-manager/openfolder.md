@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Sheet Manager → Tombol Open Folder
+- **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Open Folder
 - **Command Line:** `IVO:OPENFOLDER`
 - **Alias:** —
 

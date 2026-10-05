@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Structure Panel → Structural Palette button
+- **Ribbon:** IngenevoTools Tab → Structure Panel → Structural Palette button
 - **Command Line:** `IVO:STRUCTURALPALETTE`
 - **Alias:** —
 

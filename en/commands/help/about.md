@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Help Panel → About button
+- **Ribbon:** IngenevoTools Tab → Help Panel → About button
 - **Command Line:** `IVO:ABOUT`
 - **Alias:** —
 

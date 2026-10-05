@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Help → Tombol License
+- **Ribbon:** Tab IngenevoTools → Panel Help → Tombol License
 - **Command Line:** `IVO:LICENSE`
 - **Alias:** —
 

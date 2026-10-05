@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Structure Panel → Beam button
+- **Ribbon:** IngenevoTools Tab → Structure Panel → Beam button
 - **Command Line:** `IVO:BEAM`
 - **Alias:** —
 

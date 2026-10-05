@@ -62,5 +62,4 @@ Perintah membatalkan diri dan menjelaskan alasannya, bukan diam:
 
 ## Lihat Juga
 
-- [IVO:BOUNDARY](commands/structure/boundary.md) — perintah asal yang menurunkan IVO:FOOTING, dengan offset tetap
 - [IVO:STRUCTURALPALETTE](commands/structure/structuralpalette.md) — membuka palette tempat offset footing diatur

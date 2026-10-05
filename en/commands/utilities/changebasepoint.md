@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → Change Base Point button
+- **Ribbon:** IngenevoTools Tab → Utilities Panel → Change Base Point button
 - **Command Line:** `IVO:CHANGEBASEPOINT`
 - **Alias:** —
 

@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Replace Block
+- **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Replace Block
 - **Command Line:** `IVO:REPLACEBLOCK`
 - **Alias:** —
 

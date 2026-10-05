@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Utilities Panel → Multi Safe Explode button
+- **Ribbon:** IngenevoTools Tab → Utilities Panel → Multi Safe Explode button
 - **Command Line:** `IVO:MULTISAFEEXPLODE`
 - **Alias:** `IVO:MSX`
 

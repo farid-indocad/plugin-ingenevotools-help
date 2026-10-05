@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Civil → Tombol Outlet Elevation
+- **Ribbon:** Tab IngenevoTools → Panel Civil → Tombol Outlet Elevation
 - **Command Line:** `IVO:OUTLETELEVATION`
 - **Alias:** `IVO:OE`
 

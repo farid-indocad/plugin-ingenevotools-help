@@ -4,7 +4,7 @@ Problems that actually come up in practice, and how to get past them.
 
 ---
 
-## The "Ingenevo Tools" tab did not appear after installing
+## The "IngenevoTools" tab did not appear after installing
 
 **Most likely cause: BricsCAD was open while the installer ran.** The install succeeded, but the new version only takes effect after BricsCAD is **closed and reopened**.
 
@@ -79,14 +79,14 @@ Run the command again with the previous value to restore it.
 
 ---
 
-## IVO:BOUNDARY or IVO:FOOTING refuses to draw
+## IVO:FOOTING refuses to draw
 
-Both **say why** on the command line rather than going quiet. The most common causes:
+[`IVO:FOOTING`](en/commands/structure/footing.md) **says why** on the command line rather than going quiet. The most common causes:
 
 - **`Ring not closed`** — the perimeter still has gaps. The dangling lines are **automatically made the active selection**; zoom to that selection to see where the gaps are
-- **`wrong colour`** — for [`IVO:BOUNDARY`](en/commands/structure/boundary.md), line colour sets the distance. Only cyan and yellow are read
+- **Lines of any other colour are ignored** — only **cyan** (outer face) and **yellow** (centreline) lines are read. The number skipped is reported in the message as `wrong colour`
 
-If a drawing keeps refusing, run `IVO:BOUNDARYDUMP` on the same selection and send the report file to the Ingenevo team.
+The full list of messages is on the [`IVO:FOOTING`](en/commands/structure/footing.md) page. If a drawing keeps refusing, send the drawing file to the Ingenevo team.
 
 ---
 

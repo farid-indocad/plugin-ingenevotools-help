@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Sheet Manager → Tombol Edit Register
+- **Ribbon:** Tab IngenevoTools → Panel Sheet Manager → Tombol Edit Register
 - **Command Line:** `IVO:EDITREGISTER`
 - **Alias:** —
 

@@ -4,7 +4,7 @@
 
 ## How to Access
 
-- **Ribbon:** Ingenevo Tools Tab → Help Panel → Help button
+- **Ribbon:** IngenevoTools Tab → Help Panel → Help button
 - **Command Line:** `IVO:HELP`
 - **Alias:** —
 

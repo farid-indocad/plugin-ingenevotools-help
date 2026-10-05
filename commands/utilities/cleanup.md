@@ -4,7 +4,7 @@
 
 ## Cara Akses
 
-- **Ribbon:** Tab Ingenevo Tools → Panel Utilities → Tombol Cleanup
+- **Ribbon:** Tab IngenevoTools → Panel Utilities → Tombol Cleanup
 - **Command Line:** `IVO:CLEANUP`
 - **Alias:** —
 

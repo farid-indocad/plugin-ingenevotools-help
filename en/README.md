@@ -18,14 +18,14 @@ Available for **BricsCAD V20 through V26**.
 
 ## What's inside
 
-Commands are grouped exactly as the panels are on the **Ingenevo Tools** ribbon tab:
+Commands are grouped exactly as the panels are on the **IngenevoTools** ribbon tab:
 
 | Panel | What it covers |
 |:------|:---------------|
 | **Print** | Batch print layouts to PDF, as one combined file or one per sheet |
 | **Sheet Manager** | Build layouts from ViewFrame blocks, manage the Excel register, fill title blocks in bulk, sort and renumber sheets |
 | **Utilities** | Safe explode, SOLID to hatch, block replacement, advanced selection, and layout setting unification |
-| **Structure** | Framing, columns, beams, bracing, footings, boundaries, and member schedules |
+| **Structure** | Framing, columns, beams, bracing, footings, and member schedules |
 | **Civil** | Pipe outlet elevation calculation |
 | **Detail Library** | A palette of standard detail drawings |
 | **Settings** | Profile-based plugin configuration |
