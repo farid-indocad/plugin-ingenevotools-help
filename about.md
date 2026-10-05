@@ -8,7 +8,7 @@ Daftar lengkap perintahnya ada di [Daftar Command](daftar-command.md).
 
 ## Versi
 
-Versi plugin saat dokumentasi ini ditulis: **2.0.0**
+Versi plugin saat dokumentasi ini ditulis: **2.1.0**
 
 > [!TIP]
 > Jangan berpegang pada angka di atas — **versi yang benar-benar terpasang di komputer Anda** selalu bisa dilihat lewat [`IVO:ABOUT`](commands/help/about.md) di dalam BricsCAD.
