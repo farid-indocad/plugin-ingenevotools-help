@@ -42,7 +42,7 @@
 > If IVO commands refuse to run with the message **Your licence is on hold**, your license has been **temporarily put on hold** by the Ingenevo team — not revoked. Contact the Ingenevo team; once the hold is lifted, close and reopen BricsCAD. No re-activation is needed, and no extra slot is used.
 
 > [!NOTE]
-> On every activation and license re-check, the plugin sends the **computer name, local IP address, and Windows version name** to the license server, so each machine shows up under its own name in the customer portal. The local IP is not shown in the portal. This cannot be turned off.
+> On every activation and license re-check, the plugin sends the **computer name, local IP address, and Windows version name** to the license server, so each machine shows up under its own name in the customer portal. The local IP is not shown in the portal. The same details are also sent when you press **Start 14-Day Trial**; machines that start a trial are visible only to the Ingenevo team, and their computer name and IP address are deleted one year after the trial ends. This cannot be turned off.
 
 > [!TIP]
 > When activation goes wrong, the plugin writes a diagnostic trace to the file below. There is no button to open it — open it yourself in Explorer and attach it when you contact the Ingenevo team:
