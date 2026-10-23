@@ -42,7 +42,7 @@
 > Kalau perintah IVO menolak berjalan dengan pesan **Your licence is on hold**, lisensi Anda sedang **ditahan sementara** oleh tim Ingenevo — bukan dicabut. Hubungi tim Ingenevo; setelah tahanannya dilepas, tutup dan buka lagi BricsCAD. Tidak perlu aktivasi ulang, dan tidak ada slot tambahan yang terpakai.
 
 > [!NOTE]
-> Setiap aktivasi dan pemeriksaan ulang lisensi, plugin mengirim **nama komputer, IP lokal, dan nama Windows** ke server lisensi, supaya tiap mesin tampil dengan namanya sendiri di portal pelanggan. IP lokal tidak ditampilkan di portal. Pengiriman ini tidak bisa dimatikan.
+> Setiap aktivasi dan pemeriksaan ulang lisensi, plugin mengirim **nama komputer, IP lokal, dan nama Windows** ke server lisensi, supaya tiap mesin tampil dengan namanya sendiri di portal pelanggan. IP lokal tidak ditampilkan di portal. Data yang sama juga dikirim saat Anda menekan **Start 14-Day Trial**; mesin yang memulai trial hanya terlihat oleh tim Ingenevo, dan nama komputer serta IP-nya dihapus setahun setelah trial berakhir. Pengiriman ini tidak bisa dimatikan.
 
 > [!TIP]
 > Kalau ada masalah aktivasi, plugin menulis jejak diagnostik di berkas berikut. Tidak ada tombol untuk membukanya — buka sendiri lewat Explorer, dan lampirkan saat menghubungi tim Ingenevo:
